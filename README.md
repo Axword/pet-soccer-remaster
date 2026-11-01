@@ -8,7 +8,10 @@ Oryginalne 12 drużyn pozostaje dostępne.
 Problemy, crashe i uwagi zgłaszaj w
 [GitHub Issues](https://github.com/Axword/pet-soccer-remaster/issues).
 
-[Pobierz wersję beta](https://github.com/Axword/pet-soccer-remaster/releases/tag/v0.1.0-beta.1)
+[**⬇ Pobierz instalator Windows — beta (65 MB)**](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.1/PetSoccer-Remaster-GMW-Setup.exe)
+
+[Pliki moda ZIP (92 MB)](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.1/PetSoccer-GMW-ModFiles-beta.zip)
+· [Wydanie beta i sumy kontrolne](https://github.com/Axword/pet-soccer-remaster/releases/tag/v0.1.0-beta.1)
 · [Strona projektu](https://axword.pl/mods)
 · [Wesprzyj autora](https://buycoffee.to/axword)
 
