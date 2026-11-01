@@ -1,0 +1,209 @@
+{
+  "scope": "Original mod source only; no original game binaries/classes/JRE or private saves.",
+  "files": [
+    {
+      "source_component": "hd-native/bitmap_font_aliases.h",
+      "published": "src/native/bitmap_font_aliases.h",
+      "source_sha256": "41b7d1b4acbf5a790e362e7c2e0f0e9d8cb154ce262e42afacedd8f7041c1cf7",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/mapper_async.h",
+      "published": "src/native/mapper_async.h",
+      "source_sha256": "b08de62daf04b2a251c7d83b97b8b0fe4b5422861e954246f8755f4ca8b1263e",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/display_native.cpp",
+      "published": "src/native/display_native.cpp",
+      "source_sha256": "3dcefb045cfdc3208b87357d29a4dd47e19aff8368b9111a668a4d58d0521018",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/gothic_audio.h",
+      "published": "src/native/gothic_audio.h",
+      "source_sha256": "d57b3b3bf99311913b7c8437728cd66afcaebc644d1877719275f53aeda13d59",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/hud_cache.h",
+      "published": "src/native/hud_cache.h",
+      "source_sha256": "ca58d9343d99d0cc07eb80f316f40b8a1a2645f975ee29a02658195a25d9fac5",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/modern.cpp",
+      "published": "src/native/modern.cpp",
+      "source_sha256": "291cb1a8cef2bc994ad5e8391433edbe482d8296ac196d42196af3f2e485d30d",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/commentator_visual.cpp",
+      "published": "src/native/commentator_visual.cpp",
+      "source_sha256": "4e5bd13ba392ba125c3dbbd4cd4e6f6a6b76f96d61db2f3384d865e5fc2091bc",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/content_data.h",
+      "published": "src/native/content_data.h",
+      "source_sha256": "dc36307e9bb8dd2f5e8a44a49ec72d4db88b90b40ceb4ac233d23c525a0a8343",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "remaster/hotfix-20261031/maps/ground_neutral_decor.cpp",
+      "published": "src/native/ext/hotfix-20261031/maps/ground_neutral_decor.cpp",
+      "source_sha256": "8e82c9fb585269e819c670a18d9f0e55459d4743fdba6f47647a5c5ab2ab147c",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/content.cpp",
+      "published": "src/native/content.cpp",
+      "source_sha256": "6a24959d232abfdea459afc72c484d70a42bff8b3b856115e9eedc37491548ce",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/pad_controls.cpp",
+      "published": "src/native/pad_controls.cpp",
+      "source_sha256": "ec46f18b0871d9f7330996daeab9910081fb1fea2a390ac2ff5b64b6c6bdbb99",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "remaster/physics/physics_math.h",
+      "published": "src/native/ext/physics/physics_math.h",
+      "source_sha256": "d64f810bca27684ddb2a9edb00a8f0dd1ffae79cd8128416515e257cd701e6cd",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "remaster/physics/physics.cpp",
+      "published": "src/native/ext/physics/physics.cpp",
+      "source_sha256": "0b44cda3c2654b4fa1d0e9e4d690877d318c2d3faed566327ee621b5d45d2017",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/review_runtime.cpp",
+      "published": "src/native/review_runtime.cpp",
+      "source_sha256": "2822f2ceebd45d2154ec3008b138cfd83d77c8c7de97577f765162c33c6763b4",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/cxsupport.cpp",
+      "published": "src/native/cxsupport.cpp",
+      "source_sha256": "dbee69922116cb1a282d0498d0cc8865cb344ddf77a3a794940ed06a70ff3b25",
+      "include_paths_relocated": true
+    },
+    {
+      "source_component": "hd-native/PetSoccer.manifest",
+      "published": "src/native/PetSoccer.manifest",
+      "source_sha256": "cdc4111a0bcddc1c40979649c8e730c8d421d2cbff937de00fc1914522bae4f0"
+    },
+    {
+      "source_component": "remaster/performance-20261031/java-audit/dead_diagnostics_patch.py",
+      "published": "src/patches/dead_diagnostics.py",
+      "import_safe_extraction": true,
+      "source_sha256": "05c98e02d9717cd1050dfb4a3c5e178e2715673badfa65d99854dd148bfc7eac"
+    },
+    {
+      "source_component": "remaster/performance-20261031/java-audit/attacker_status_patch.py",
+      "published": "src/patches/attacker_status.py",
+      "import_safe_extraction": true,
+      "source_sha256": "7794a6711ba4e007c07e34479b9af0ac1a2e62483776483e040333a4a286592e"
+    },
+    {
+      "source_component": "remaster/hotfix-20261031/restart/console_guard.py",
+      "published": "src/patches/console_guard.py",
+      "import_safe_extraction": true,
+      "source_sha256": "20b29f7ebd8686e4e6cd8be2e4dd66b1cc51c9d9524d0a38a49c69d5d405f8c4"
+    },
+    {
+      "source_component": "remaster/hotfix-20261031/revision2/audio-performance/audio_class_patch.py",
+      "published": "src/patches/commentary.py",
+      "import_safe_extraction": true,
+      "source_sha256": "c8f0737b513a753d79b39a08ae7aa2b8482cd0c2de205d8a98ab809cf74e75fb"
+    },
+    {
+      "source_component": "remaster/physics/apply_physics.py",
+      "published": "src/patches/physics.py",
+      "import_safe_extraction": true,
+      "source_sha256": "0fbb96de0a00c2d4e78faa4340f2a9d7b464295a89ae476e8de89007817fa222"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/implementation/timing/timing_patch.py",
+      "published": "src/patches/timing.py",
+      "import_safe_extraction": true,
+      "source_sha256": "8e0a1856f9b97c4f896a1013eaeaae54fe25f342044da89781dfb63f3308056d"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/implementation/timing/source-methods.json",
+      "published": "src/patches/timing-source-methods.json",
+      "source_sha256": "59ccc233f095005aa1941cff25e19bd8180460b4fdcf5f2ce2b0439a45a5dddc"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/implementation/bracket/bracket_patch.py",
+      "published": "src/patches/bracket.py",
+      "import_safe_extraction": true,
+      "source_sha256": "8f9db188789281dade5c5dfc8f61997a0bab765a5c8342745a7c333aa8885d48"
+    },
+    {
+      "source_component": "remaster/installer-gmw/profile/profile_patch.py",
+      "published": "src/patches/gmw_profile.py",
+      "import_safe_extraction": true,
+      "source_sha256": "d4c341b9403cb667cd9fc370c6e816bc6244b7ac218dea000a9865e05ce0ef61"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/review/timing/proposed/dropdown_patch.py",
+      "published": "src/patches/duration_dropdown.py",
+      "import_safe_extraction": true,
+      "source_sha256": "00bcc0cb2eab4c11712d19ddd7e2043a7ca4f2fe00e32f9ab6d742e8340c93fe"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/implementation/bracket/src/CXKnockout.java",
+      "published": "src/java/CXKnockout.java",
+      "source_sha256": "088e9f76d457f1a9bd5d7d61a6ab079fd540095b2b09ba210bee19d8c3dc9bd2"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/implementation/bracket/src/CXKnockoutMenu.java",
+      "published": "src/java/CXKnockoutMenu.java",
+      "source_sha256": "87e6e13724b4cb05765daa4e531746b40926e589db39f3eb4d89c027fb6f763e"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/implementation/bracket/src/CXKnockoutSetup.java",
+      "published": "src/java/CXKnockoutSetup.java",
+      "source_sha256": "49e330dfff618fe15e88133a02be2c9105212f048509170631ef243be9fc8d74"
+    },
+    {
+      "source_component": "remaster/installer-gmw/profile/src/CXGMWProfile.java",
+      "published": "src/java/CXGMWProfile.java",
+      "source_sha256": "d30af58e966e0a3f3a682ea89ea0ed0674166b4bdb361e820d03d727436d6568"
+    },
+    {
+      "source_component": "remaster/installer-gmw/review/save/BuildCleanSave.java",
+      "published": "tests/java/BuildCleanSave.java",
+      "source_sha256": "e6c9ea9d4650316b86da00bbe3467be1711f324fdf7f9663516906bb7b2f27cc"
+    },
+    {
+      "source_component": "remaster/installer-gmw/review/save/SaveStubs.java",
+      "published": "tests/java/SaveStubs.java",
+      "source_sha256": "bc9701c081a1bcaa61a829419f28d5ed3c19fde3435c81ebd48846103cd55927"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/review/rules/src/RulesProbe.java",
+      "published": "tests/java/RulesProbe.java",
+      "source_sha256": "af82fb9e14058d657925ed73ce24258cb2e3a5aad5bea4f9b32bea828fc156d8"
+    },
+    {
+      "source_component": "remaster/tournament-20261031/review/rules/src/RulesStubs.java",
+      "published": "tests/java/RulesStubs.java",
+      "source_sha256": "81f81a36c3d7188ce67057d37c8d0aa8793c9bd39a26f4aae18de33ceb6adaaf"
+    },
+    {
+      "source_component": "remaster/physics/test_math.cpp",
+      "published": "tests/native/test_math.cpp",
+      "source_sha256": "2518bfd049201311719fb5175eebf20161d068a7e4605227635d0025042411d6"
+    },
+    {
+      "source_component": "remaster/physics/physics_math.h",
+      "published": "tests/native/physics_math.h",
+      "source_sha256": "d64f810bca27684ddb2a9edb00a8f0dd1ffae79cd8128416515e257cd701e6cd"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "recipe": "face_forward.py",
+    "original_source_sha256": "9142033e1ec2d3c49073137e5017b6049bd1564e7be408779e5ded8dea82344d",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "inspect_3da.py",
+    "original_source_sha256": "7a24de2fa8cfde1e329d67738f8b5cb7e8fddf43f0d67d9f2a3e8c597ee2bc15",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "meme_mesh.py",
+    "original_source_sha256": "7136d368d84950e774df9db99daa290caf06b2feea7a8b817ed7b993309a3e48",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/build_gothic.py",
+    "original_source_sha256": "88107572634f90ddf89e263c08f09767d69feeb629ca43ba1388e4c469dab936",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 1
+  },
+  {
+    "recipe": "remaster/factions/build_minecraft.py",
+    "original_source_sha256": "816477fcf77f7cf0316c72896b6fe58a6626c595e7669c7fdc81fbce0594e517",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/build_steve.py",
+    "original_source_sha256": "e295d8015c0b753ad61cb344287a0641fe72e0caa816bf86271b3d78a7d8c146",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/build_witcher_source.py",
+    "original_source_sha256": "29196a2aaaf037cbd1f6082b5c0486272e263f9eea53aaa17f137d39fafbe068",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/export_native_character.py",
+    "original_source_sha256": "93961d2b80ef0ce60c437b10dca642cf98fbacf4a1cc8ecb4bd03a57b8f93dd4",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/export_skinned_character.py",
+    "original_source_sha256": "d5533767917a8a13c5879a1de35347d5a173df10f2bce2d6953a9a7bae180f0c",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/face_forward.py",
+    "original_source_sha256": "9142033e1ec2d3c49073137e5017b6049bd1564e7be408779e5ded8dea82344d",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/finalize_witcher_faces.py",
+    "original_source_sha256": "343c1cfaf1a0cfbb3b19f8a9fa5b2531987b5a500cff79795d0878e39ad55d06",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/inspect_3da.py",
+    "original_source_sha256": "7a24de2fa8cfde1e329d67738f8b5cb7e8fddf43f0d67d9f2a3e8c597ee2bc15",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/factions/meme_mesh.py",
+    "original_source_sha256": "7a1c37efa4122ddf6ded92faee562d71d476aeea30e71f74de5026515b02d1b6",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/hotfix-20261031/revision2/gothic-witcher/npc_definitions.py",
+    "original_source_sha256": "f5db1a5eb9094f0a73e7ddfac05785b6fa966c5c2e770c06d8d7e069f3e055fa",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 1
+  },
+  {
+    "recipe": "remaster/hotfix-20261031/revision2/gothic-witcher/probe_gothic.py",
+    "original_source_sha256": "669f62b69bcea70f2500f8e5df8b0625ad259a5089b08da9e0a7908a5983da3b",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 1
+  },
+  {
+    "recipe": "remaster/hotfix-20261031/revision2/gothic-witcher/repair_animation.py",
+    "original_source_sha256": "ff33171d9ea527a0fc27c9f05aef66049226fd28778c7a9f8baae16fe6455e1f",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/hotfix-20261031/revision2/lol-minecraft/upscale_minecraft.py",
+    "original_source_sha256": "cc49d834e269ba788a6602c2b859eb3abac3c6d43d8e526bd04c9f6e7dd3551e",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/hotfix-20261031/scale/scale_models.py",
+    "original_source_sha256": "88ec7fbd553eb020820d37291a11217725b7189d784e86fdde3d94e529dcbdb7",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/maps/build_arenas.py",
+    "original_source_sha256": "13386c0a314103b9c18c8e5009d2eef1277b740930ccc3cc3582db80170a087d",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/maps/extract_oldcamp.py",
+    "original_source_sha256": "539ba547917267320d31bb2ba5024d2f4cad1779291876ec7e348326d17ee152",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 1
+  },
+  {
+    "recipe": "remaster/maps/gothic_world.py",
+    "original_source_sha256": "16756c02a5574800dc8f013928603d4b2059704e809319251f2a79a7dfe0f5c0",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 1
+  },
+  {
+    "recipe": "remaster/maps/inspect_coordinates.py",
+    "original_source_sha256": "6f3d19b45dcb8a0a26a6a3f52d58a2a65d3f4e92d49db4f22ff72bb567c30b7d",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/maps/inspect_map.py",
+    "original_source_sha256": "e02c3135e47c7aaacd08e8f3e351e42c4e59e92822d84c88beef755d54596b56",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  },
+  {
+    "recipe": "remaster/maps/refine_arenas.py",
+    "original_source_sha256": "170a73929e69000cf9cbf575828e1b1fbac2d727bc09a012d2123d43763d7437",
+    "sandbox_guard_added": true,
+    "absolute_input_paths_parameterized": 0
+  }
+]

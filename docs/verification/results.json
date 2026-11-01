@@ -1,0 +1,78 @@
+{
+  "backend_sha256": "76bf1c84a66394a2242dd3258632ceda726750a0771b942f5fbc65dc0d0a841c",
+  "checks": 14,
+  "cases": [
+    {
+      "case": "100_deterministic_codec_roundtrips_and_wrong_base_refusals",
+      "passed": true
+    },
+    {
+      "case": "native_roundtrip",
+      "passed": true,
+      "output": "INSTALL_OK files=2"
+    },
+    {
+      "case": "bad_magic",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Unsupported delta stream"
+    },
+    {
+      "case": "truncated_stream",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Delta lacks end command"
+    },
+    {
+      "case": "trailing_data",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Delta stream length mismatch"
+    },
+    {
+      "case": "oversized_target",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Invalid delta file size"
+    },
+    {
+      "case": "copy_outside_base",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Delta copy exceeds original file"
+    },
+    {
+      "case": "zero_length_command",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Delta output exceeds declared bounds"
+    },
+    {
+      "case": "unknown_command",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Unknown delta command"
+    },
+    {
+      "case": "wrong_reconstructed_hash",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Patched game file verification failed"
+    },
+    {
+      "case": "duplicate_patch_destination",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Duplicate delta destination"
+    },
+    {
+      "case": "traversal_destination",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Traversal path refused"
+    },
+    {
+      "case": "delta_outside_dedicated_folder",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Delta must be inside the package delta directory"
+    },
+    {
+      "case": "wrong_original_hash",
+      "passed": true,
+      "output": "INSTALLER_ERROR: Delta destination is not an original allowlisted file"
+    }
+  ],
+  "all_passed": true,
+  "game_or_UI_started": false,
+  "local_workspace_paths_redacted": true
+}

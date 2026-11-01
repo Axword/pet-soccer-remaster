@@ -1,0 +1,4736 @@
+{
+  "menu": [
+    {
+      "species": 2,
+      "name": "&TeamChickens&",
+      "abbr": "&TeamChickensAbr&",
+      "logo": "data/menu/logos/T_Logo_Chickena.png"
+    },
+    {
+      "species": 4,
+      "name": "&TeamFrogs&",
+      "abbr": "&TeamFrogsAbr&",
+      "logo": "data/menu/logos/T_Logo_Frogen.png"
+    },
+    {
+      "species": 10,
+      "name": "&TeamTurtles&",
+      "abbr": "&TeamTurtlesAbr&",
+      "logo": "data/menu/logos/T_Logo_Turtelona.png"
+    },
+    {
+      "species": 8,
+      "name": "&TeamPanthers&",
+      "abbr": "&TeamPanthersAbr&",
+      "logo": "data/menu/logos/T_Logo_Panterdam.png"
+    },
+    {
+      "species": 9,
+      "name": "&TeamSharks&",
+      "abbr": "&TeamSharksAbr&",
+      "logo": "data/menu/logos/T_Logo_Sharks.png"
+    },
+    {
+      "species": 11,
+      "name": "&TeamRobos&",
+      "abbr": "&TeamRobosAbr&",
+      "logo": "data/menu/logos/T_Logo_Robots.png"
+    },
+    {
+      "species": 0,
+      "name": "&TeamBears&",
+      "abbr": "&TeamBearsAbr&",
+      "logo": "data/menu/logos/T_Logo_Bearchester.png"
+    },
+    {
+      "species": 1,
+      "name": "&TeamBulls&",
+      "abbr": "&TeamBullsAbr&",
+      "logo": "data/menu/logos/T_Logo_Bullrusia.png"
+    },
+    {
+      "species": 3,
+      "name": "&TeamDinos&",
+      "abbr": "&TeamDinosAbr&",
+      "logo": "data/menu/logos/T_Logo_Dynamo.png"
+    },
+    {
+      "species": 6,
+      "name": "&TeamGorillas&",
+      "abbr": "&TeamGorillasAbr&",
+      "logo": "data/menu/logos/T_Logo_Gorilakov.png"
+    },
+    {
+      "species": 5,
+      "name": "&TeamGiraffes&",
+      "abbr": "&TeamGiraffesAbr&",
+      "logo": "data/menu/logos/T_Logo_Giraffinaikos.png"
+    },
+    {
+      "species": 7,
+      "name": "&TeamLions&",
+      "abbr": "&TeamLionsAbr&",
+      "logo": "data/menu/logos/T_Logo_Lions.png"
+    },
+    {
+      "species": 19,
+      "name": "Fazbear United",
+      "abbr": "FZU",
+      "logo": "data/menu/logos/cx_freddy.png"
+    },
+    {
+      "species": 30,
+      "name": "Liga Legend",
+      "abbr": "LOL",
+      "logo": "data/menu/logos/cx_faction30.png"
+    },
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    {
+      "species": 58,
+      "name": "Politycy",
+      "abbr": "SEJ",
+      "logo": "data/menu/logos/cx_politycy.png"
+    },
+    {
+      "species": 65,
+      "name": "Dziennikarze",
+      "abbr": "MED",
+      "logo": "data/menu/logos/cx_dziennikarze.png"
+    },
+    {
+      "species": 73,
+      "name": "Polski LoL",
+      "abbr": "PL",
+      "logo": "data/menu/logos/cx_polskilol.png"
+    }
+  ],
+  "EAnimals": {
+    "m_sMeshName": [
+      "mis.3da",
+      "byk.3da",
+      "kurczak.3da",
+      "dino.3da",
+      "zaba.3da",
+      "zyrafa.3da",
+      "goryl.3da",
+      "lew.3da",
+      "pantera.3da",
+      "rekin.3da",
+      "zolw.3da",
+      "robocik.3da",
+      "",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "cx_mc_steve.3da",
+      "cx_mc_alex.3da",
+      "cx_mc_zombie.3da",
+      "cx_mc_skeleton.3da",
+      "cx_mc_creeper.3da",
+      "cx_mc_enderman.3da",
+      "cx_mc_villager.3da",
+      "cx_bezimienny.3da",
+      "cx_diego.3da",
+      "cx_gorn.3da",
+      "cx_milten.3da",
+      "cx_lester.3da",
+      "cx_xardas.3da",
+      "cx_thorus.3da",
+      "cx_w3_geralt.3da",
+      "cx_w3_ciri.3da",
+      "cx_w3_yennefer.3da",
+      "cx_w3_triss.3da",
+      "cx_w3_keira.3da",
+      "cx_w3_avallach.3da",
+      "cx_w3_zoltan.3da",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTextureNormal": [
+      [
+        "data/textures/tshirts/mis_01.png",
+        "data/textures/tshirts/mis_02.png",
+        "data/textures/tshirts/mis_03.png",
+        "data/textures/tshirts/mis_04.png",
+        "data/textures/tshirts/mis_05.png"
+      ],
+      [
+        "data/textures/tshirts/byk_01.png",
+        "data/textures/tshirts/byk_02.png",
+        "data/textures/tshirts/byk_03.png",
+        "data/textures/tshirts/byk_04.png",
+        "data/textures/tshirts/byk_05.png"
+      ],
+      [
+        "data/textures/tshirts/kurczak_01.png",
+        "data/textures/tshirts/kurczak_02.png",
+        "data/textures/tshirts/kurczak_03.png",
+        "data/textures/tshirts/kurczak_04.png",
+        "data/textures/tshirts/kurczak_05.png"
+      ],
+      [
+        "data/textures/tshirts/dino_01.png",
+        "data/textures/tshirts/dino_02.png",
+        "data/textures/tshirts/dino_03.png",
+        "data/textures/tshirts/dino_04.png",
+        "data/textures/tshirts/dino_05.png"
+      ],
+      [
+        "data/textures/tshirts/zaba_01.png",
+        "data/textures/tshirts/zaba_02.png",
+        "data/textures/tshirts/zaba_03.png",
+        "data/textures/tshirts/zaba_04.png",
+        "data/textures/tshirts/zaba_05.png"
+      ],
+      [
+        "data/textures/tshirts/zyrafa_01.png",
+        "data/textures/tshirts/zyrafa_02.png",
+        "data/textures/tshirts/zyrafa_03.png",
+        "data/textures/tshirts/zyrafa_04.png",
+        "data/textures/tshirts/zyrafa_05.png"
+      ],
+      [
+        "data/textures/tshirts/goryl_01.png",
+        "data/textures/tshirts/goryl_02.png",
+        "data/textures/tshirts/goryl_03.png",
+        "data/textures/tshirts/goryl_04.png",
+        "data/textures/tshirts/goryl_05.png"
+      ],
+      [
+        "data/textures/tshirts/lew_01.png",
+        "data/textures/tshirts/lew_02.png",
+        "data/textures/tshirts/lew_03.png",
+        "data/textures/tshirts/lew_04.png",
+        "data/textures/tshirts/lew_05.png"
+      ],
+      [
+        "data/textures/tshirts/pantera_01.png",
+        "data/textures/tshirts/pantera_02.png",
+        "data/textures/tshirts/pantera_03.png",
+        "data/textures/tshirts/pantera_04.png",
+        "data/textures/tshirts/pantera_05.png"
+      ],
+      [
+        "data/textures/tshirts/rekin_01.png",
+        "data/textures/tshirts/rekin_02.png",
+        "data/textures/tshirts/rekin_03.png",
+        "data/textures/tshirts/rekin_04.png",
+        "data/textures/tshirts/rekin_05.png"
+      ],
+      [
+        "data/textures/tshirts/zolw_01.png",
+        "data/textures/tshirts/zolw_02.png",
+        "data/textures/tshirts/zolw_03.png",
+        "data/textures/tshirts/zolw_04.png",
+        "data/textures/tshirts/zolw_05.png"
+      ],
+      [
+        "data/textures/tshirts/robocik_01.png",
+        "data/textures/tshirts/robocik_02.png",
+        "data/textures/tshirts/robocik_03.png",
+        "data/textures/tshirts/robocik_04.png",
+        "data/textures/tshirts/robocik_05.png"
+      ],
+      [
+        ""
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "data/textures/cx_mc_steve.png",
+        "data/textures/cx_mc_steve.png"
+      ],
+      [
+        "data/textures/cx_mc_alex.png",
+        "data/textures/cx_mc_alex.png"
+      ],
+      [
+        "data/textures/cx_mc_zombie.png",
+        "data/textures/cx_mc_zombie.png"
+      ],
+      [
+        "data/textures/cx_mc_skeleton.png",
+        "data/textures/cx_mc_skeleton.png"
+      ],
+      [
+        "data/textures/cx_mc_creeper.png",
+        "data/textures/cx_mc_creeper.png"
+      ],
+      [
+        "data/textures/cx_mc_enderman.png",
+        "data/textures/cx_mc_enderman.png"
+      ],
+      [
+        "data/textures/cx_mc_villager.png",
+        "data/textures/cx_mc_villager.png"
+      ],
+      [
+        "data/textures/cx_bezimienny.png",
+        "data/textures/cx_bezimienny.png"
+      ],
+      [
+        "data/textures/cx_diego.png",
+        "data/textures/cx_diego.png"
+      ],
+      [
+        "data/textures/cx_gorn.png",
+        "data/textures/cx_gorn.png"
+      ],
+      [
+        "data/textures/cx_milten.png",
+        "data/textures/cx_milten.png"
+      ],
+      [
+        "data/textures/cx_lester.png",
+        "data/textures/cx_lester.png"
+      ],
+      [
+        "data/textures/cx_xardas.png",
+        "data/textures/cx_xardas.png"
+      ],
+      [
+        "data/textures/cx_thorus.png",
+        "data/textures/cx_thorus.png"
+      ],
+      [
+        "data/textures/cx_w3_geralt.png",
+        "data/textures/cx_w3_geralt.png"
+      ],
+      [
+        "data/textures/cx_w3_ciri.png",
+        "data/textures/cx_w3_ciri.png"
+      ],
+      [
+        "data/textures/cx_w3_yennefer.png",
+        "data/textures/cx_w3_yennefer.png"
+      ],
+      [
+        "data/textures/cx_w3_triss.png",
+        "data/textures/cx_w3_triss.png"
+      ],
+      [
+        "data/textures/cx_w3_keira.png",
+        "data/textures/cx_w3_keira.png"
+      ],
+      [
+        "data/textures/cx_w3_avallach.png",
+        "data/textures/cx_w3_avallach.png"
+      ],
+      [
+        "data/textures/cx_w3_zoltan.png",
+        "data/textures/cx_w3_zoltan.png"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTextureNormalLogo": [
+      [
+        "data/menu/TShirtsIcons/misie01.png",
+        "data/menu/TShirtsIcons/misie02.png",
+        "data/menu/TShirtsIcons/misie03.png",
+        "data/menu/TShirtsIcons/misie04.png",
+        "data/menu/TShirtsIcons/misie05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/byki01.png",
+        "data/menu/TShirtsIcons/byki02.png",
+        "data/menu/TShirtsIcons/byki03.png",
+        "data/menu/TShirtsIcons/byki04.png",
+        "data/menu/TShirtsIcons/byki05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/kurczaki01.png",
+        "data/menu/TShirtsIcons/kurczaki02.png",
+        "data/menu/TShirtsIcons/kurczaki03.png",
+        "data/menu/TShirtsIcons/kurczaki04.png",
+        "data/menu/TShirtsIcons/kurczaki05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/dino01.png",
+        "data/menu/TShirtsIcons/dino02.png",
+        "data/menu/TShirtsIcons/dino03.png",
+        "data/menu/TShirtsIcons/dino04.png",
+        "data/menu/TShirtsIcons/dino05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/zaby01.png",
+        "data/menu/TShirtsIcons/zaby02.png",
+        "data/menu/TShirtsIcons/zaby03.png",
+        "data/menu/TShirtsIcons/zaby04.png",
+        "data/menu/TShirtsIcons/zaby05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/zyrafy01.png",
+        "data/menu/TShirtsIcons/zyrafy02.png",
+        "data/menu/TShirtsIcons/zyrafy03.png",
+        "data/menu/TShirtsIcons/zyrafy04.png",
+        "data/menu/TShirtsIcons/zyrafy05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/goryle01.png",
+        "data/menu/TShirtsIcons/goryle02.png",
+        "data/menu/TShirtsIcons/goryle03.png",
+        "data/menu/TShirtsIcons/goryle04.png",
+        "data/menu/TShirtsIcons/goryle05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/lwy01.png",
+        "data/menu/TShirtsIcons/lwy02.png",
+        "data/menu/TShirtsIcons/lwy03.png",
+        "data/menu/TShirtsIcons/lwy04.png",
+        "data/menu/TShirtsIcons/lwy05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/pantery01.png",
+        "data/menu/TShirtsIcons/pantery02.png",
+        "data/menu/TShirtsIcons/pantery03.png",
+        "data/menu/TShirtsIcons/pantery04.png",
+        "data/menu/TShirtsIcons/pantery05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/rekiny01.png",
+        "data/menu/TShirtsIcons/rekiny02.png",
+        "data/menu/TShirtsIcons/rekiny03.png",
+        "data/menu/TShirtsIcons/rekiny04.png",
+        "data/menu/TShirtsIcons/rekiny05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/zolwie01.png",
+        "data/menu/TShirtsIcons/zolwie02.png",
+        "data/menu/TShirtsIcons/zolwie03.png",
+        "data/menu/TShirtsIcons/zolwie04.png",
+        "data/menu/TShirtsIcons/zolwie05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        ""
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      [
+        "data/menu/TShirtsIcons/roboty01.png",
+        "data/menu/TShirtsIcons/roboty02.png",
+        "data/menu/TShirtsIcons/roboty03.png",
+        "data/menu/TShirtsIcons/roboty04.png",
+        "data/menu/TShirtsIcons/roboty05.png"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTexturePublic": [
+      "data/textures/tshirts/mis_P.png",
+      "data/textures/tshirts/byk_P.png",
+      "data/textures/tshirts/kurczak_P.png",
+      "data/textures/tshirts/dino_P.png",
+      "data/textures/tshirts/zaba_P.png",
+      "data/textures/tshirts/zyrafa_P.png",
+      "data/textures/tshirts/goryl_P.png",
+      "data/textures/tshirts/lew_P.png",
+      "data/textures/tshirts/pantera_P.png",
+      "data/textures/tshirts/rekin_P.png",
+      "data/textures/tshirts/zolw_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      "data/textures/tshirts/robocik_P.png",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTextureGoalKeeper": [
+      [
+        "data/textures/tshirts/mis_B01.png",
+        "data/textures/tshirts/mis_B02.png",
+        "data/textures/tshirts/mis_B03.png",
+        "data/textures/tshirts/mis_B04.png",
+        "data/textures/tshirts/mis_B05.png"
+      ],
+      [
+        "data/textures/tshirts/byk_B01.png",
+        "data/textures/tshirts/byk_B02.png",
+        "data/textures/tshirts/byk_B03.png",
+        "data/textures/tshirts/byk_B04.png",
+        "data/textures/tshirts/byk_B05.png"
+      ],
+      [
+        "data/textures/tshirts/kurczak_B01.png",
+        "data/textures/tshirts/kurczak_B02.png",
+        "data/textures/tshirts/kurczak_B03.png",
+        "data/textures/tshirts/kurczak_B04.png",
+        "data/textures/tshirts/kurczak_B05.png"
+      ],
+      [
+        "data/textures/tshirts/dino_B01.png",
+        "data/textures/tshirts/dino_B02.png",
+        "data/textures/tshirts/dino_B03.png",
+        "data/textures/tshirts/dino_B04.png",
+        "data/textures/tshirts/dino_B05.png"
+      ],
+      [
+        "data/textures/tshirts/zaba_B01.png",
+        "data/textures/tshirts/zaba_B02.png",
+        "data/textures/tshirts/zaba_B03.png",
+        "data/textures/tshirts/zaba_B04.png",
+        "data/textures/tshirts/zaba_B05.png"
+      ],
+      [
+        "data/textures/tshirts/zyrafa_B01.png",
+        "data/textures/tshirts/zyrafa_B02.png",
+        "data/textures/tshirts/zyrafa_B03.png",
+        "data/textures/tshirts/zyrafa_B04.png",
+        "data/textures/tshirts/zyrafa_B05.png"
+      ],
+      [
+        "data/textures/tshirts/goryl_B01.png",
+        "data/textures/tshirts/goryl_B02.png",
+        "data/textures/tshirts/goryl_B03.png",
+        "data/textures/tshirts/goryl_B04.png",
+        "data/textures/tshirts/goryl_B05.png"
+      ],
+      [
+        "data/textures/tshirts/lew_B01.png",
+        "data/textures/tshirts/lew_B02.png",
+        "data/textures/tshirts/lew_B03.png",
+        "data/textures/tshirts/lew_B04.png",
+        "data/textures/tshirts/lew_B05.png"
+      ],
+      [
+        "data/textures/tshirts/pantera_B01.png",
+        "data/textures/tshirts/pantera_B02.png",
+        "data/textures/tshirts/pantera_B03.png",
+        "data/textures/tshirts/pantera_B04.png",
+        "data/textures/tshirts/pantera_B05.png"
+      ],
+      [
+        "data/textures/tshirts/rekin_B01.png",
+        "data/textures/tshirts/rekin_B02.png",
+        "data/textures/tshirts/rekin_B03.png",
+        "data/textures/tshirts/rekin_B04.png",
+        "data/textures/tshirts/rekin_B05.png"
+      ],
+      [
+        "data/textures/tshirts/zolw_B01.png",
+        "data/textures/tshirts/zolw_B02.png",
+        "data/textures/tshirts/zolw_B03.png",
+        "data/textures/tshirts/zolw_B04.png",
+        "data/textures/tshirts/zolw_B05.png"
+      ],
+      [
+        "data/textures/tshirts/robocik_B01.png",
+        "data/textures/tshirts/robocik_B02.png",
+        "data/textures/tshirts/robocik_B03.png",
+        "data/textures/tshirts/robocik_B04.png",
+        "data/textures/tshirts/robocik_B05.png"
+      ],
+      [
+        ""
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "data/textures/cx_mc_steve.png",
+        "data/textures/cx_mc_steve.png"
+      ],
+      [
+        "data/textures/cx_mc_alex.png",
+        "data/textures/cx_mc_alex.png"
+      ],
+      [
+        "data/textures/cx_mc_zombie.png",
+        "data/textures/cx_mc_zombie.png"
+      ],
+      [
+        "data/textures/cx_mc_skeleton.png",
+        "data/textures/cx_mc_skeleton.png"
+      ],
+      [
+        "data/textures/cx_mc_creeper.png",
+        "data/textures/cx_mc_creeper.png"
+      ],
+      [
+        "data/textures/cx_mc_enderman.png",
+        "data/textures/cx_mc_enderman.png"
+      ],
+      [
+        "data/textures/cx_mc_villager.png",
+        "data/textures/cx_mc_villager.png"
+      ],
+      [
+        "data/textures/cx_bezimienny.png",
+        "data/textures/cx_bezimienny.png"
+      ],
+      [
+        "data/textures/cx_diego.png",
+        "data/textures/cx_diego.png"
+      ],
+      [
+        "data/textures/cx_gorn.png",
+        "data/textures/cx_gorn.png"
+      ],
+      [
+        "data/textures/cx_milten.png",
+        "data/textures/cx_milten.png"
+      ],
+      [
+        "data/textures/cx_lester.png",
+        "data/textures/cx_lester.png"
+      ],
+      [
+        "data/textures/cx_xardas.png",
+        "data/textures/cx_xardas.png"
+      ],
+      [
+        "data/textures/cx_thorus.png",
+        "data/textures/cx_thorus.png"
+      ],
+      [
+        "data/textures/cx_w3_geralt.png",
+        "data/textures/cx_w3_geralt.png"
+      ],
+      [
+        "data/textures/cx_w3_ciri.png",
+        "data/textures/cx_w3_ciri.png"
+      ],
+      [
+        "data/textures/cx_w3_yennefer.png",
+        "data/textures/cx_w3_yennefer.png"
+      ],
+      [
+        "data/textures/cx_w3_triss.png",
+        "data/textures/cx_w3_triss.png"
+      ],
+      [
+        "data/textures/cx_w3_keira.png",
+        "data/textures/cx_w3_keira.png"
+      ],
+      [
+        "data/textures/cx_w3_avallach.png",
+        "data/textures/cx_w3_avallach.png"
+      ],
+      [
+        "data/textures/cx_w3_zoltan.png",
+        "data/textures/cx_w3_zoltan.png"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTextureReferee": [
+      "data/textures/tshirts/mis_S.png",
+      "data/textures/tshirts/byk_S.png",
+      "data/textures/tshirts/kurczak_S.png",
+      "data/textures/tshirts/dino_S.png",
+      "data/textures/tshirts/zaba_S.png",
+      "data/textures/tshirts/zyrafa_S.png",
+      "data/textures/tshirts/goryl_S.png",
+      "data/textures/tshirts/lew_S.png",
+      "data/textures/tshirts/pantera_S.png",
+      "data/textures/tshirts/rekin_S.png",
+      "data/textures/tshirts/zolw_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      "data/textures/tshirts/robocik_S.png",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sScrFiles": [
+      "data\\Animals_scr\\bear.scr",
+      "data\\Animals_scr\\bull.scr",
+      "data\\Animals_scr\\chicken.scr",
+      "data\\Animals_scr\\dino.scr",
+      "data\\Animals_scr\\frog.scr",
+      "data\\Animals_scr\\giraffe.scr",
+      "data\\Animals_scr\\gorilla.scr",
+      "data\\Animals_scr\\lion.scr",
+      "data\\Animals_scr\\panther.scr",
+      "data\\Animals_scr\\shark.scr",
+      "data\\Animals_scr\\turtle.scr",
+      "data\\Animals_scr\\robo.scr",
+      "",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      "data\\Animals_scr\\robo.scr",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sScrFilesGK": [
+      "data\\Animals_scr\\bear_GK.scr",
+      "data\\Animals_scr\\bull_GK.scr",
+      "data\\Animals_scr\\chicken_GK.scr",
+      "data\\Animals_scr\\dino_GK.scr",
+      "data\\Animals_scr\\frog_GK.scr",
+      "data\\Animals_scr\\giraffe_GK.scr",
+      "data\\Animals_scr\\gorilla_GK.scr",
+      "data\\Animals_scr\\lion_GK.scr",
+      "data\\Animals_scr\\panther_GK.scr",
+      "data\\Animals_scr\\shark_GK.scr",
+      "data\\Animals_scr\\turtle_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      "data\\Animals_scr\\robo_GK.scr",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sNames": [
+      "Bear",
+      "Bull",
+      "Chicken",
+      "Dino",
+      "Frog",
+      "Giraffe",
+      "Gorilla",
+      "Lion",
+      "Panther",
+      "Shark",
+      "Turtle",
+      "Robo",
+      "Animal",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      "Robo",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sNamesGK": [
+      "Bear_GK",
+      "Bull_GK",
+      "Chicken_GK",
+      "Dino_GK",
+      "Frog_GK",
+      "Giraffe_GK",
+      "Gorilla_GK",
+      "Lion_GK",
+      "Panther_GK",
+      "Shark_GK",
+      "Turtle_GK",
+      "Robo_GK",
+      "Animal_GK",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      "Robo_GK",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTeamNamesWav": [
+      "data/sounds/commentary_pl/001.wav",
+      "data/sounds/commentary_pl/003.wav",
+      "data/sounds/commentary_pl/002.wav",
+      "data/sounds/commentary_pl/008.wav",
+      "data/sounds/commentary_pl/006.wav",
+      "data/sounds/commentary_pl/012.wav",
+      "data/sounds/commentary_pl/009.wav",
+      "data/sounds/commentary_pl/007.wav",
+      "data/sounds/commentary_pl/005.wav",
+      "data/sounds/commentary_pl/010.wav",
+      "data/sounds/commentary_pl/004.wav",
+      "data/sounds/commentary_pl/011.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/sounds/cx/names/n_e098b8a25b0a.wav",
+      "data/sounds/cx/names/n_e098b8a25b0a.wav",
+      "data/sounds/cx/names/n_e098b8a25b0a.wav",
+      "data/sounds/cx/names/n_e098b8a25b0a.wav",
+      "data/sounds/cx/names/n_e098b8a25b0a.wav",
+      "data/sounds/cx/names/n_e098b8a25b0a.wav",
+      "data/sounds/cx/names/n_e098b8a25b0a.wav",
+      "data/sounds/cx/names/n_e7dd6b4ae670.wav",
+      "data/sounds/cx/names/n_e7dd6b4ae670.wav",
+      "data/sounds/cx/names/n_e7dd6b4ae670.wav",
+      "data/sounds/cx/names/n_e7dd6b4ae670.wav",
+      "data/sounds/cx/names/n_e7dd6b4ae670.wav",
+      "data/sounds/cx/names/n_e7dd6b4ae670.wav",
+      "data/sounds/cx/names/n_e7dd6b4ae670.wav",
+      "data/sounds/cx/names/n_b7692afb7d6a.wav",
+      "data/sounds/cx/names/n_b7692afb7d6a.wav",
+      "data/sounds/cx/names/n_b7692afb7d6a.wav",
+      "data/sounds/cx/names/n_b7692afb7d6a.wav",
+      "data/sounds/cx/names/n_b7692afb7d6a.wav",
+      "data/sounds/cx/names/n_b7692afb7d6a.wav",
+      "data/sounds/cx/names/n_b7692afb7d6a.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTeamCommentsWav": [
+      "data/sounds/commentary_pl/112.wav",
+      "data/sounds/commentary_pl/114.wav",
+      "data/sounds/commentary_pl/113.wav",
+      "data/sounds/commentary_pl/119.wav",
+      "data/sounds/commentary_pl/117.wav",
+      "data/sounds/commentary_pl/123.wav",
+      "data/sounds/commentary_pl/120.wav",
+      "data/sounds/commentary_pl/118.wav",
+      "data/sounds/commentary_pl/116.wav",
+      "data/sounds/commentary_pl/121.wav",
+      "data/sounds/commentary_pl/115.wav",
+      "data/sounds/commentary_pl/122.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTeamCommentsWav_pol": [
+      "data/sounds/commentary_pol/112.wav",
+      "data/sounds/commentary_pol/114.wav",
+      "data/sounds/commentary_pol/113.wav",
+      "data/sounds/commentary_pol/119.wav",
+      "data/sounds/commentary_pol/117.wav",
+      "data/sounds/commentary_pol/123.wav",
+      "data/sounds/commentary_pol/120.wav",
+      "data/sounds/commentary_pol/118.wav",
+      "data/sounds/commentary_pol/116.wav",
+      "data/sounds/commentary_pol/121.wav",
+      "data/sounds/commentary_pol/115.wav",
+      "data/sounds/commentary_pol/122.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      "data/sounds/crossover/silence.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sFBNamesWav": [
+      [
+        "data/sounds/commentary_pl/013",
+        "data/sounds/commentary_pl/014",
+        "data/sounds/commentary_pl/015",
+        "data/sounds/commentary_pl/016",
+        "data/sounds/commentary_pl/017",
+        "data/sounds/commentary_pl/018",
+        "data/sounds/commentary_pl/019"
+      ],
+      [
+        "data/sounds/commentary_pl/027",
+        "data/sounds/commentary_pl/028",
+        "data/sounds/commentary_pl/029",
+        "data/sounds/commentary_pl/030",
+        "data/sounds/commentary_pl/031",
+        "data/sounds/commentary_pl/032",
+        "data/sounds/commentary_pl/033"
+      ],
+      [
+        "data/sounds/commentary_pl/020",
+        "data/sounds/commentary_pl/021",
+        "data/sounds/commentary_pl/022",
+        "data/sounds/commentary_pl/023",
+        "data/sounds/commentary_pl/024",
+        "data/sounds/commentary_pl/025",
+        "data/sounds/commentary_pl/026"
+      ],
+      [
+        "data/sounds/commentary_pl/062",
+        "data/sounds/commentary_pl/063",
+        "data/sounds/commentary_pl/064",
+        "data/sounds/commentary_pl/065",
+        "data/sounds/commentary_pl/066",
+        "data/sounds/commentary_pl/067",
+        "data/sounds/commentary_pl/068"
+      ],
+      [
+        "data/sounds/commentary_pl/048",
+        "data/sounds/commentary_pl/049",
+        "data/sounds/commentary_pl/050",
+        "data/sounds/commentary_pl/051",
+        "data/sounds/commentary_pl/052",
+        "data/sounds/commentary_pl/053",
+        "data/sounds/commentary_pl/054"
+      ],
+      [
+        "data/sounds/commentary_pl/090",
+        "data/sounds/commentary_pl/091",
+        "data/sounds/commentary_pl/092",
+        "data/sounds/commentary_pl/093",
+        "data/sounds/commentary_pl/094",
+        "data/sounds/commentary_pl/095",
+        "data/sounds/commentary_pl/096"
+      ],
+      [
+        "data/sounds/commentary_pl/069",
+        "data/sounds/commentary_pl/070",
+        "data/sounds/commentary_pl/071",
+        "data/sounds/commentary_pl/072",
+        "data/sounds/commentary_pl/073",
+        "data/sounds/commentary_pl/074",
+        "data/sounds/commentary_pl/075"
+      ],
+      [
+        "data/sounds/commentary_pl/055",
+        "data/sounds/commentary_pl/056",
+        "data/sounds/commentary_pl/057",
+        "data/sounds/commentary_pl/058",
+        "data/sounds/commentary_pl/059",
+        "data/sounds/commentary_pl/060",
+        "data/sounds/commentary_pl/061"
+      ],
+      [
+        "data/sounds/commentary_pl/041",
+        "data/sounds/commentary_pl/042",
+        "data/sounds/commentary_pl/043",
+        "data/sounds/commentary_pl/044",
+        "data/sounds/commentary_pl/045",
+        "data/sounds/commentary_pl/046",
+        "data/sounds/commentary_pl/047"
+      ],
+      [
+        "data/sounds/commentary_pl/076",
+        "data/sounds/commentary_pl/077",
+        "data/sounds/commentary_pl/078",
+        "data/sounds/commentary_pl/079",
+        "data/sounds/commentary_pl/080",
+        "data/sounds/commentary_pl/081",
+        "data/sounds/commentary_pl/082"
+      ],
+      [
+        "data/sounds/commentary_pl/034",
+        "data/sounds/commentary_pl/035",
+        "data/sounds/commentary_pl/036",
+        "data/sounds/commentary_pl/037",
+        "data/sounds/commentary_pl/038",
+        "data/sounds/commentary_pl/039",
+        "data/sounds/commentary_pl/040"
+      ],
+      [
+        "data/sounds/commentary_pl/083",
+        "data/sounds/commentary_pl/084",
+        "data/sounds/commentary_pl/085",
+        "data/sounds/commentary_pl/086",
+        "data/sounds/commentary_pl/087",
+        "data/sounds/commentary_pl/088",
+        "data/sounds/commentary_pl/089"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "data/sounds/cx/names/n_6f0773d26241.wav",
+        "data/sounds/cx/names/n_6f0773d26241.wav",
+        "data/sounds/cx/names/n_6f0773d26241.wav",
+        "data/sounds/cx/names/n_6f0773d26241.wav",
+        "data/sounds/cx/names/n_6f0773d26241.wav",
+        "data/sounds/cx/names/n_6f0773d26241.wav",
+        "data/sounds/cx/names/n_6f0773d26241.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_db74c940d447.wav",
+        "data/sounds/cx/names/n_db74c940d447.wav",
+        "data/sounds/cx/names/n_db74c940d447.wav",
+        "data/sounds/cx/names/n_db74c940d447.wav",
+        "data/sounds/cx/names/n_db74c940d447.wav",
+        "data/sounds/cx/names/n_db74c940d447.wav",
+        "data/sounds/cx/names/n_db74c940d447.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_4c876e938c74.wav",
+        "data/sounds/cx/names/n_4c876e938c74.wav",
+        "data/sounds/cx/names/n_4c876e938c74.wav",
+        "data/sounds/cx/names/n_4c876e938c74.wav",
+        "data/sounds/cx/names/n_4c876e938c74.wav",
+        "data/sounds/cx/names/n_4c876e938c74.wav",
+        "data/sounds/cx/names/n_4c876e938c74.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_0c8e91f06f87.wav",
+        "data/sounds/cx/names/n_0c8e91f06f87.wav",
+        "data/sounds/cx/names/n_0c8e91f06f87.wav",
+        "data/sounds/cx/names/n_0c8e91f06f87.wav",
+        "data/sounds/cx/names/n_0c8e91f06f87.wav",
+        "data/sounds/cx/names/n_0c8e91f06f87.wav",
+        "data/sounds/cx/names/n_0c8e91f06f87.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_edcf837a324d.wav",
+        "data/sounds/cx/names/n_edcf837a324d.wav",
+        "data/sounds/cx/names/n_edcf837a324d.wav",
+        "data/sounds/cx/names/n_edcf837a324d.wav",
+        "data/sounds/cx/names/n_edcf837a324d.wav",
+        "data/sounds/cx/names/n_edcf837a324d.wav",
+        "data/sounds/cx/names/n_edcf837a324d.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_1bb6a56eb9c0.wav",
+        "data/sounds/cx/names/n_1bb6a56eb9c0.wav",
+        "data/sounds/cx/names/n_1bb6a56eb9c0.wav",
+        "data/sounds/cx/names/n_1bb6a56eb9c0.wav",
+        "data/sounds/cx/names/n_1bb6a56eb9c0.wav",
+        "data/sounds/cx/names/n_1bb6a56eb9c0.wav",
+        "data/sounds/cx/names/n_1bb6a56eb9c0.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_9d5e3bab9d0c.wav",
+        "data/sounds/cx/names/n_9d5e3bab9d0c.wav",
+        "data/sounds/cx/names/n_9d5e3bab9d0c.wav",
+        "data/sounds/cx/names/n_9d5e3bab9d0c.wav",
+        "data/sounds/cx/names/n_9d5e3bab9d0c.wav",
+        "data/sounds/cx/names/n_9d5e3bab9d0c.wav",
+        "data/sounds/cx/names/n_9d5e3bab9d0c.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_018ba45c9df2.wav",
+        "data/sounds/cx/names/n_018ba45c9df2.wav",
+        "data/sounds/cx/names/n_018ba45c9df2.wav",
+        "data/sounds/cx/names/n_018ba45c9df2.wav",
+        "data/sounds/cx/names/n_018ba45c9df2.wav",
+        "data/sounds/cx/names/n_018ba45c9df2.wav",
+        "data/sounds/cx/names/n_018ba45c9df2.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_f536fb10ec50.wav",
+        "data/sounds/cx/names/n_f536fb10ec50.wav",
+        "data/sounds/cx/names/n_f536fb10ec50.wav",
+        "data/sounds/cx/names/n_f536fb10ec50.wav",
+        "data/sounds/cx/names/n_f536fb10ec50.wav",
+        "data/sounds/cx/names/n_f536fb10ec50.wav",
+        "data/sounds/cx/names/n_f536fb10ec50.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_cb9842be1006.wav",
+        "data/sounds/cx/names/n_cb9842be1006.wav",
+        "data/sounds/cx/names/n_cb9842be1006.wav",
+        "data/sounds/cx/names/n_cb9842be1006.wav",
+        "data/sounds/cx/names/n_cb9842be1006.wav",
+        "data/sounds/cx/names/n_cb9842be1006.wav",
+        "data/sounds/cx/names/n_cb9842be1006.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_edcfb9e4797e.wav",
+        "data/sounds/cx/names/n_edcfb9e4797e.wav",
+        "data/sounds/cx/names/n_edcfb9e4797e.wav",
+        "data/sounds/cx/names/n_edcfb9e4797e.wav",
+        "data/sounds/cx/names/n_edcfb9e4797e.wav",
+        "data/sounds/cx/names/n_edcfb9e4797e.wav",
+        "data/sounds/cx/names/n_edcfb9e4797e.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_70a92ab066d0.wav",
+        "data/sounds/cx/names/n_70a92ab066d0.wav",
+        "data/sounds/cx/names/n_70a92ab066d0.wav",
+        "data/sounds/cx/names/n_70a92ab066d0.wav",
+        "data/sounds/cx/names/n_70a92ab066d0.wav",
+        "data/sounds/cx/names/n_70a92ab066d0.wav",
+        "data/sounds/cx/names/n_70a92ab066d0.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_19a8be9c5b49.wav",
+        "data/sounds/cx/names/n_19a8be9c5b49.wav",
+        "data/sounds/cx/names/n_19a8be9c5b49.wav",
+        "data/sounds/cx/names/n_19a8be9c5b49.wav",
+        "data/sounds/cx/names/n_19a8be9c5b49.wav",
+        "data/sounds/cx/names/n_19a8be9c5b49.wav",
+        "data/sounds/cx/names/n_19a8be9c5b49.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_cf2de8ac5b7c.wav",
+        "data/sounds/cx/names/n_cf2de8ac5b7c.wav",
+        "data/sounds/cx/names/n_cf2de8ac5b7c.wav",
+        "data/sounds/cx/names/n_cf2de8ac5b7c.wav",
+        "data/sounds/cx/names/n_cf2de8ac5b7c.wav",
+        "data/sounds/cx/names/n_cf2de8ac5b7c.wav",
+        "data/sounds/cx/names/n_cf2de8ac5b7c.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_52d7f71fb926.wav",
+        "data/sounds/cx/names/n_52d7f71fb926.wav",
+        "data/sounds/cx/names/n_52d7f71fb926.wav",
+        "data/sounds/cx/names/n_52d7f71fb926.wav",
+        "data/sounds/cx/names/n_52d7f71fb926.wav",
+        "data/sounds/cx/names/n_52d7f71fb926.wav",
+        "data/sounds/cx/names/n_52d7f71fb926.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_30c18f2beb3d.wav",
+        "data/sounds/cx/names/n_30c18f2beb3d.wav",
+        "data/sounds/cx/names/n_30c18f2beb3d.wav",
+        "data/sounds/cx/names/n_30c18f2beb3d.wav",
+        "data/sounds/cx/names/n_30c18f2beb3d.wav",
+        "data/sounds/cx/names/n_30c18f2beb3d.wav",
+        "data/sounds/cx/names/n_30c18f2beb3d.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_b03bda6c3dad.wav",
+        "data/sounds/cx/names/n_b03bda6c3dad.wav",
+        "data/sounds/cx/names/n_b03bda6c3dad.wav",
+        "data/sounds/cx/names/n_b03bda6c3dad.wav",
+        "data/sounds/cx/names/n_b03bda6c3dad.wav",
+        "data/sounds/cx/names/n_b03bda6c3dad.wav",
+        "data/sounds/cx/names/n_b03bda6c3dad.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_fb672de8a27e.wav",
+        "data/sounds/cx/names/n_fb672de8a27e.wav",
+        "data/sounds/cx/names/n_fb672de8a27e.wav",
+        "data/sounds/cx/names/n_fb672de8a27e.wav",
+        "data/sounds/cx/names/n_fb672de8a27e.wav",
+        "data/sounds/cx/names/n_fb672de8a27e.wav",
+        "data/sounds/cx/names/n_fb672de8a27e.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_e68f7c1a61a4.wav",
+        "data/sounds/cx/names/n_e68f7c1a61a4.wav",
+        "data/sounds/cx/names/n_e68f7c1a61a4.wav",
+        "data/sounds/cx/names/n_e68f7c1a61a4.wav",
+        "data/sounds/cx/names/n_e68f7c1a61a4.wav",
+        "data/sounds/cx/names/n_e68f7c1a61a4.wav",
+        "data/sounds/cx/names/n_e68f7c1a61a4.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_e4f48e0d4ba2.wav",
+        "data/sounds/cx/names/n_e4f48e0d4ba2.wav",
+        "data/sounds/cx/names/n_e4f48e0d4ba2.wav",
+        "data/sounds/cx/names/n_e4f48e0d4ba2.wav",
+        "data/sounds/cx/names/n_e4f48e0d4ba2.wav",
+        "data/sounds/cx/names/n_e4f48e0d4ba2.wav",
+        "data/sounds/cx/names/n_e4f48e0d4ba2.wav"
+      ],
+      [
+        "data/sounds/cx/names/n_5aadd2f1ac0b.wav",
+        "data/sounds/cx/names/n_5aadd2f1ac0b.wav",
+        "data/sounds/cx/names/n_5aadd2f1ac0b.wav",
+        "data/sounds/cx/names/n_5aadd2f1ac0b.wav",
+        "data/sounds/cx/names/n_5aadd2f1ac0b.wav",
+        "data/sounds/cx/names/n_5aadd2f1ac0b.wav",
+        "data/sounds/cx/names/n_5aadd2f1ac0b.wav"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sFBNamesWav_pol": [
+      [
+        [
+          "data/sounds/commentary_pl/013.wav",
+          "data/sounds/commentary_pl/013b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/014.wav",
+          "data/sounds/commentary_pl/014b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/015.wav",
+          "data/sounds/commentary_pl/015b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/016.wav",
+          "data/sounds/commentary_pl/016b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/017.wav",
+          "data/sounds/commentary_pl/017b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/018.wav",
+          "data/sounds/commentary_pl/018b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/019.wav",
+          "data/sounds/commentary_pl/019b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/027.wav",
+          "data/sounds/commentary_pl/027b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/028.wav",
+          "data/sounds/commentary_pl/028b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/029.wav",
+          "data/sounds/commentary_pl/029b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/030.wav",
+          "data/sounds/commentary_pl/030b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/031.wav",
+          "data/sounds/commentary_pl/031b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/032.wav",
+          "data/sounds/commentary_pl/032b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/033.wav",
+          "data/sounds/commentary_pl/033b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/020.wav",
+          "data/sounds/commentary_pl/020b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/021.wav",
+          "data/sounds/commentary_pl/021b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/022.wav",
+          "data/sounds/commentary_pl/022b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/023.wav",
+          "data/sounds/commentary_pl/023b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/024.wav",
+          "data/sounds/commentary_pl/024b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/025.wav",
+          "data/sounds/commentary_pl/025b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/026.wav",
+          "data/sounds/commentary_pl/026b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/062.wav",
+          "data/sounds/commentary_pl/062b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/063.wav",
+          "data/sounds/commentary_pl/063b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/064.wav",
+          "data/sounds/commentary_pl/064b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/065.wav",
+          "data/sounds/commentary_pl/065b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/066.wav",
+          "data/sounds/commentary_pl/066b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/067.wav",
+          "data/sounds/commentary_pl/067b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/068.wav",
+          "data/sounds/commentary_pl/068b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/048.wav",
+          "data/sounds/commentary_pl/048b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/049.wav",
+          "data/sounds/commentary_pl/049b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/050.wav",
+          "data/sounds/commentary_pl/050b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/051.wav",
+          "data/sounds/commentary_pl/051b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/052.wav",
+          "data/sounds/commentary_pl/052b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/053.wav",
+          "data/sounds/commentary_pl/053b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/054.wav",
+          "data/sounds/commentary_pl/054b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/090.wav",
+          "data/sounds/commentary_pl/090b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/091.wav",
+          "data/sounds/commentary_pl/091b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/092.wav",
+          "data/sounds/commentary_pl/092b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/093.wav",
+          "data/sounds/commentary_pl/093b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/094.wav",
+          "data/sounds/commentary_pl/094b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/095.wav",
+          "data/sounds/commentary_pl/095b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/096.wav",
+          "data/sounds/commentary_pl/096b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/069.wav",
+          "data/sounds/commentary_pl/069b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/070.wav",
+          "data/sounds/commentary_pl/070b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/071.wav",
+          "data/sounds/commentary_pl/071b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/072.wav",
+          "data/sounds/commentary_pl/072b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/073.wav",
+          "data/sounds/commentary_pl/073b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/074.wav",
+          "data/sounds/commentary_pl/074b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/075.wav",
+          "data/sounds/commentary_pl/075b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/055.wav",
+          "data/sounds/commentary_pl/055b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/056.wav",
+          "data/sounds/commentary_pl/056b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/057.wav",
+          "data/sounds/commentary_pl/057b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/058.wav",
+          "data/sounds/commentary_pl/058b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/059.wav",
+          "data/sounds/commentary_pl/059b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/060.wav",
+          "data/sounds/commentary_pl/060b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/061.wav",
+          "data/sounds/commentary_pl/061b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/041.wav",
+          "data/sounds/commentary_pl/041b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/042.wav",
+          "data/sounds/commentary_pl/042b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/043.wav",
+          "data/sounds/commentary_pl/043b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/044.wav",
+          "data/sounds/commentary_pl/044b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/045.wav",
+          "data/sounds/commentary_pl/045b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/046.wav",
+          "data/sounds/commentary_pl/046b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/047.wav",
+          "data/sounds/commentary_pl/047b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/076.wav",
+          "data/sounds/commentary_pl/076b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/077.wav",
+          "data/sounds/commentary_pl/077b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/078.wav",
+          "data/sounds/commentary_pl/078b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/079.wav",
+          "data/sounds/commentary_pl/079b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/080.wav",
+          "data/sounds/commentary_pl/080b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/081.wav",
+          "data/sounds/commentary_pl/081b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/082.wav",
+          "data/sounds/commentary_pl/082b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/034.wav",
+          "data/sounds/commentary_pl/034b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/035.wav",
+          "data/sounds/commentary_pl/035b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/036.wav",
+          "data/sounds/commentary_pl/036b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/037.wav",
+          "data/sounds/commentary_pl/037b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/038.wav",
+          "data/sounds/commentary_pl/038b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/039.wav",
+          "data/sounds/commentary_pl/039b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/040.wav",
+          "data/sounds/commentary_pl/040b.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      [
+        [
+          "data/sounds/commentary_pl/083.wav",
+          "data/sounds/commentary_pl/083b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/084.wav",
+          "data/sounds/commentary_pl/084b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/085.wav",
+          "data/sounds/commentary_pl/085b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/086.wav",
+          "data/sounds/commentary_pl/086b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/087.wav",
+          "data/sounds/commentary_pl/087b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/088.wav",
+          "data/sounds/commentary_pl/088b.wav"
+        ],
+        [
+          "data/sounds/commentary_pl/089.wav",
+          "data/sounds/commentary_pl/089br.wav"
+        ]
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sTeamMissWav": [
+      "data/sounds/commentary_pl/231.wav",
+      "data/sounds/commentary_pl/227.wav",
+      "data/sounds/commentary_pl/226.wav",
+      "data/sounds/commentary_pl/235.wav",
+      "data/sounds/commentary_pl/233.wav",
+      "data/sounds/commentary_pl/229.wav",
+      "data/sounds/commentary_pl/230.wav",
+      "data/sounds/commentary_pl/234.wav",
+      "data/sounds/commentary_pl/228.wav",
+      "data/sounds/commentary_pl/236.wav",
+      "data/sounds/commentary_pl/232.wav",
+      "data/sounds/commentary_pl/237.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      "data/sounds/commentary_pl/237.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "CXVoice": [
+      "data/sounds/crossover/hero_0.wav",
+      "data/sounds/crossover/hero_1.wav",
+      "data/sounds/crossover/hero_2.wav",
+      "data/sounds/crossover/hero_3.wav",
+      "data/sounds/crossover/hero_4.wav"
+    ],
+    "CXPlayers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        "Steve",
+        "Steve",
+        "Steve",
+        "Steve",
+        "Steve",
+        "Steve",
+        "Steve"
+      ],
+      [
+        "Alex",
+        "Alex",
+        "Alex",
+        "Alex",
+        "Alex",
+        "Alex",
+        "Alex"
+      ],
+      [
+        "Zombie",
+        "Zombie",
+        "Zombie",
+        "Zombie",
+        "Zombie",
+        "Zombie",
+        "Zombie"
+      ],
+      [
+        "Szkielet",
+        "Szkielet",
+        "Szkielet",
+        "Szkielet",
+        "Szkielet",
+        "Szkielet",
+        "Szkielet"
+      ],
+      [
+        "Creeper",
+        "Creeper",
+        "Creeper",
+        "Creeper",
+        "Creeper",
+        "Creeper",
+        "Creeper"
+      ],
+      [
+        "Enderman",
+        "Enderman",
+        "Enderman",
+        "Enderman",
+        "Enderman",
+        "Enderman",
+        "Enderman"
+      ],
+      [
+        "Wiesniak",
+        "Wiesniak",
+        "Wiesniak",
+        "Wiesniak",
+        "Wiesniak",
+        "Wiesniak",
+        "Wiesniak"
+      ],
+      [
+        "Bezimienny",
+        "Bezimienny",
+        "Bezimienny",
+        "Bezimienny",
+        "Bezimienny",
+        "Bezimienny",
+        "Bezimienny"
+      ],
+      [
+        "Diego",
+        "Diego",
+        "Diego",
+        "Diego",
+        "Diego",
+        "Diego",
+        "Diego"
+      ],
+      [
+        "Gorn",
+        "Gorn",
+        "Gorn",
+        "Gorn",
+        "Gorn",
+        "Gorn",
+        "Gorn"
+      ],
+      [
+        "Milten",
+        "Milten",
+        "Milten",
+        "Milten",
+        "Milten",
+        "Milten",
+        "Milten"
+      ],
+      [
+        "Lester",
+        "Lester",
+        "Lester",
+        "Lester",
+        "Lester",
+        "Lester",
+        "Lester"
+      ],
+      [
+        "Xardas",
+        "Xardas",
+        "Xardas",
+        "Xardas",
+        "Xardas",
+        "Xardas",
+        "Xardas"
+      ],
+      [
+        "Thorus",
+        "Thorus",
+        "Thorus",
+        "Thorus",
+        "Thorus",
+        "Thorus",
+        "Thorus"
+      ],
+      [
+        "Geralt",
+        "Geralt",
+        "Geralt",
+        "Geralt",
+        "Geralt",
+        "Geralt",
+        "Geralt"
+      ],
+      [
+        "Ciri",
+        "Ciri",
+        "Ciri",
+        "Ciri",
+        "Ciri",
+        "Ciri",
+        "Ciri"
+      ],
+      [
+        "Yennefer",
+        "Yennefer",
+        "Yennefer",
+        "Yennefer",
+        "Yennefer",
+        "Yennefer",
+        "Yennefer"
+      ],
+      [
+        "Triss",
+        "Triss",
+        "Triss",
+        "Triss",
+        "Triss",
+        "Triss",
+        "Triss"
+      ],
+      [
+        "Keira Metz",
+        "Keira Metz",
+        "Keira Metz",
+        "Keira Metz",
+        "Keira Metz",
+        "Keira Metz",
+        "Keira Metz"
+      ],
+      [
+        "Avallac'h",
+        "Avallac'h",
+        "Avallac'h",
+        "Avallac'h",
+        "Avallac'h",
+        "Avallac'h",
+        "Avallac'h"
+      ],
+      [
+        "Zoltan",
+        "Zoltan",
+        "Zoltan",
+        "Zoltan",
+        "Zoltan",
+        "Zoltan",
+        "Zoltan"
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "ETeams": {
+    "m_nSkillsStrength": [
+      90,
+      100,
+      80,
+      95,
+      85,
+      95,
+      90,
+      90,
+      90,
+      95,
+      90,
+      80,
+      0,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "m_nSkillsAccuracy": [
+      90,
+      90,
+      90,
+      85,
+      85,
+      95,
+      90,
+      100,
+      100,
+      90,
+      100,
+      95,
+      0,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "m_nSkillsTurning": [
+      90,
+      80,
+      100,
+      90,
+      100,
+      80,
+      90,
+      80,
+      80,
+      85,
+      80,
+      95,
+      0,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      95,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "tTeams": [
+      {
+        "species": 0,
+        "name": "&TeamBears&",
+        "abbr": "&TeamBearsAbr&",
+        "logo": "data/menu/logos/T_Logo_Bearchester.png"
+      },
+      {
+        "species": 1,
+        "name": "&TeamBulls&",
+        "abbr": "&TeamBullsAbr&",
+        "logo": "data/menu/logos/T_Logo_Bullrusia.png"
+      },
+      {
+        "species": 2,
+        "name": "&TeamChickens&",
+        "abbr": "&TeamChickensAbr&",
+        "logo": "data/menu/logos/T_Logo_Chickena.png"
+      },
+      {
+        "species": 3,
+        "name": "&TeamDinos&",
+        "abbr": "&TeamDinosAbr&",
+        "logo": "data/menu/logos/T_Logo_Dynamo.png"
+      },
+      {
+        "species": 4,
+        "name": "&TeamFrogs&",
+        "abbr": "&TeamFrogsAbr&",
+        "logo": "data/menu/logos/T_Logo_Frogen.png"
+      },
+      {
+        "species": 5,
+        "name": "&TeamGiraffes&",
+        "abbr": "&TeamGiraffesAbr&",
+        "logo": "data/menu/logos/T_Logo_Giraffinaikos.png"
+      },
+      {
+        "species": 6,
+        "name": "&TeamGorillas&",
+        "abbr": "&TeamGorillasAbr&",
+        "logo": "data/menu/logos/T_Logo_Gorilakov.png"
+      },
+      {
+        "species": 7,
+        "name": "&TeamLions&",
+        "abbr": "&TeamLionsAbr&",
+        "logo": "data/menu/logos/T_Logo_Lions.png"
+      },
+      {
+        "species": 8,
+        "name": "&TeamPanthers&",
+        "abbr": "&TeamPanthersAbr&",
+        "logo": "data/menu/logos/T_Logo_Panterdam.png"
+      },
+      {
+        "species": 9,
+        "name": "&TeamSharks&",
+        "abbr": "&TeamSharksAbr&",
+        "logo": "data/menu/logos/T_Logo_Sharks.png"
+      },
+      {
+        "species": 10,
+        "name": "&TeamTurtles&",
+        "abbr": "&TeamTurtlesAbr&",
+        "logo": "data/menu/logos/T_Logo_Turtelona.png"
+      },
+      {
+        "species": 11,
+        "name": "&TeamRobos&",
+        "abbr": "&TeamRobosAbr&",
+        "logo": "data/menu/logos/T_Logo_Robots.png"
+      },
+      null,
+      {
+        "species": 13,
+        "name": "Overworld FC",
+        "abbr": "OVR",
+        "logo": "data/menu/logos/cx_steve.png"
+      },
+      {
+        "species": 14,
+        "name": "Bestie Zaun",
+        "abbr": "ZUN",
+        "logo": "data/menu/logos/cx_warwick.png"
+      },
+      {
+        "species": 15,
+        "name": "Straznicy Shurimy",
+        "abbr": "SHU",
+        "logo": "data/menu/logos/cx_nasus.png"
+      },
+      {
+        "species": 16,
+        "name": "Ekipa Moniki",
+        "abbr": "MON",
+        "logo": "data/menu/logos/cx_monika.png"
+      },
+      {
+        "species": 17,
+        "name": "Croft Raiders",
+        "abbr": "CRF",
+        "logo": "data/menu/logos/cx_lara.png"
+      },
+      {
+        "species": 18,
+        "name": "Bractwo Kolonii",
+        "abbr": "KOL",
+        "logo": "data/menu/logos/cx_bezimienny.png"
+      },
+      {
+        "species": 19,
+        "name": "Fazbear United",
+        "abbr": "FZU",
+        "logo": "data/menu/logos/cx_freddy.png"
+      },
+      {
+        "species": 20,
+        "name": "Wilki Kaer Morhen",
+        "abbr": "WKM",
+        "logo": "data/menu/logos/cx_geralt.png"
+      },
+      {
+        "species": 21,
+        "name": "Cienie Diega",
+        "abbr": "DGO",
+        "logo": "data/menu/logos/cx_diego.png"
+      },
+      {
+        "species": 22,
+        "name": "Ekipa Wrzoda",
+        "abbr": "WRZ",
+        "logo": "data/menu/logos/cx_wrzod.png"
+      },
+      {
+        "species": 23,
+        "name": "Reksio FC",
+        "abbr": "REX",
+        "logo": "data/menu/logos/cx_reksio.png"
+      },
+      {
+        "species": 24,
+        "name": "Bolek United",
+        "abbr": "BOL",
+        "logo": "data/menu/logos/cx_bolek.png"
+      },
+      {
+        "species": 25,
+        "name": "Lolek City",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_lolek.png"
+      },
+      {
+        "species": 26,
+        "name": "Bobrowa Tama",
+        "abbr": "BOB",
+        "logo": "data/menu/logos/cx_bobr.png"
+      },
+      {
+        "species": 27,
+        "name": "Nosacze Janusza",
+        "abbr": "JAN",
+        "logo": "data/menu/logos/cx_nosacz.png"
+      },
+      {
+        "species": 28,
+        "name": "Patrol Bomby",
+        "abbr": "BMB",
+        "logo": "data/menu/logos/cx_bomba.png"
+      },
+      {
+        "species": 29,
+        "name": "Soltysi FC",
+        "abbr": "SOL",
+        "logo": "data/menu/logos/cx_soltys.png"
+      },
+      {
+        "species": 30,
+        "name": "Liga Legend",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_faction30.png"
+      },
+      {
+        "species": 30,
+        "name": "Liga Legend",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_faction30.png"
+      },
+      {
+        "species": 30,
+        "name": "Liga Legend",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_faction30.png"
+      },
+      {
+        "species": 30,
+        "name": "Liga Legend",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_faction30.png"
+      },
+      {
+        "species": 30,
+        "name": "Liga Legend",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_faction30.png"
+      },
+      {
+        "species": 30,
+        "name": "Liga Legend",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_faction30.png"
+      },
+      {
+        "species": 30,
+        "name": "Liga Legend",
+        "abbr": "LOL",
+        "logo": "data/menu/logos/cx_faction30.png"
+      },
+      {
+        "species": 37,
+        "name": "Minecraft",
+        "abbr": "MCF",
+        "logo": "data/menu/logos/cx_faction31.png"
+      },
+      {
+        "species": 37,
+        "name": "Minecraft",
+        "abbr": "MCF",
+        "logo": "data/menu/logos/cx_faction31.png"
+      },
+      {
+        "species": 37,
+        "name": "Minecraft",
+        "abbr": "MCF",
+        "logo": "data/menu/logos/cx_faction31.png"
+      },
+      {
+        "species": 37,
+        "name": "Minecraft",
+        "abbr": "MCF",
+        "logo": "data/menu/logos/cx_faction31.png"
+      },
+      {
+        "species": 37,
+        "name": "Minecraft",
+        "abbr": "MCF",
+        "logo": "data/menu/logos/cx_faction31.png"
+      },
+      {
+        "species": 37,
+        "name": "Minecraft",
+        "abbr": "MCF",
+        "logo": "data/menu/logos/cx_faction31.png"
+      },
+      {
+        "species": 37,
+        "name": "Minecraft",
+        "abbr": "MCF",
+        "logo": "data/menu/logos/cx_faction31.png"
+      },
+      {
+        "species": 44,
+        "name": "Gothic",
+        "abbr": "GTH",
+        "logo": "data/menu/logos/cx_faction32.png"
+      },
+      {
+        "species": 44,
+        "name": "Gothic",
+        "abbr": "GTH",
+        "logo": "data/menu/logos/cx_faction32.png"
+      },
+      {
+        "species": 44,
+        "name": "Gothic",
+        "abbr": "GTH",
+        "logo": "data/menu/logos/cx_faction32.png"
+      },
+      {
+        "species": 44,
+        "name": "Gothic",
+        "abbr": "GTH",
+        "logo": "data/menu/logos/cx_faction32.png"
+      },
+      {
+        "species": 44,
+        "name": "Gothic",
+        "abbr": "GTH",
+        "logo": "data/menu/logos/cx_faction32.png"
+      },
+      {
+        "species": 44,
+        "name": "Gothic",
+        "abbr": "GTH",
+        "logo": "data/menu/logos/cx_faction32.png"
+      },
+      {
+        "species": 44,
+        "name": "Gothic",
+        "abbr": "GTH",
+        "logo": "data/menu/logos/cx_faction32.png"
+      },
+      {
+        "species": 51,
+        "name": "Wiedzmin",
+        "abbr": "WCH",
+        "logo": "data/menu/logos/cx_faction33.png"
+      },
+      {
+        "species": 51,
+        "name": "Wiedzmin",
+        "abbr": "WCH",
+        "logo": "data/menu/logos/cx_faction33.png"
+      },
+      {
+        "species": 51,
+        "name": "Wiedzmin",
+        "abbr": "WCH",
+        "logo": "data/menu/logos/cx_faction33.png"
+      },
+      {
+        "species": 51,
+        "name": "Wiedzmin",
+        "abbr": "WCH",
+        "logo": "data/menu/logos/cx_faction33.png"
+      },
+      {
+        "species": 51,
+        "name": "Wiedzmin",
+        "abbr": "WCH",
+        "logo": "data/menu/logos/cx_faction33.png"
+      },
+      {
+        "species": 51,
+        "name": "Wiedzmin",
+        "abbr": "WCH",
+        "logo": "data/menu/logos/cx_faction33.png"
+      },
+      {
+        "species": 51,
+        "name": "Wiedzmin",
+        "abbr": "WCH",
+        "logo": "data/menu/logos/cx_faction33.png"
+      },
+      {
+        "species": 58,
+        "name": "Politycy",
+        "abbr": "SEJ",
+        "logo": "data/menu/logos/cx_politycy.png"
+      },
+      {
+        "species": 58,
+        "name": "Politycy",
+        "abbr": "SEJ",
+        "logo": "data/menu/logos/cx_politycy.png"
+      },
+      {
+        "species": 58,
+        "name": "Politycy",
+        "abbr": "SEJ",
+        "logo": "data/menu/logos/cx_politycy.png"
+      },
+      {
+        "species": 58,
+        "name": "Politycy",
+        "abbr": "SEJ",
+        "logo": "data/menu/logos/cx_politycy.png"
+      },
+      {
+        "species": 58,
+        "name": "Politycy",
+        "abbr": "SEJ",
+        "logo": "data/menu/logos/cx_politycy.png"
+      },
+      {
+        "species": 58,
+        "name": "Politycy",
+        "abbr": "SEJ",
+        "logo": "data/menu/logos/cx_politycy.png"
+      },
+      {
+        "species": 58,
+        "name": "Politycy",
+        "abbr": "SEJ",
+        "logo": "data/menu/logos/cx_politycy.png"
+      },
+      {
+        "species": 65,
+        "name": "Dziennikarze",
+        "abbr": "MED",
+        "logo": "data/menu/logos/cx_dziennikarze.png"
+      },
+      {
+        "species": 65,
+        "name": "Dziennikarze",
+        "abbr": "MED",
+        "logo": "data/menu/logos/cx_dziennikarze.png"
+      },
+      {
+        "species": 65,
+        "name": "Dziennikarze",
+        "abbr": "MED",
+        "logo": "data/menu/logos/cx_dziennikarze.png"
+      },
+      {
+        "species": 65,
+        "name": "Dziennikarze",
+        "abbr": "MED",
+        "logo": "data/menu/logos/cx_dziennikarze.png"
+      },
+      {
+        "species": 65,
+        "name": "Dziennikarze",
+        "abbr": "MED",
+        "logo": "data/menu/logos/cx_dziennikarze.png"
+      },
+      {
+        "species": 65,
+        "name": "Dziennikarze",
+        "abbr": "MED",
+        "logo": "data/menu/logos/cx_dziennikarze.png"
+      },
+      {
+        "species": 65,
+        "name": "Dziennikarze",
+        "abbr": "MED",
+        "logo": "data/menu/logos/cx_dziennikarze.png"
+      },
+      null,
+      {
+        "species": 73,
+        "name": "Polski LoL",
+        "abbr": "PL",
+        "logo": "data/menu/logos/cx_polskilol.png"
+      },
+      {
+        "species": 73,
+        "name": "Polski LoL",
+        "abbr": "PL",
+        "logo": "data/menu/logos/cx_polskilol.png"
+      },
+      {
+        "species": 73,
+        "name": "Polski LoL",
+        "abbr": "PL",
+        "logo": "data/menu/logos/cx_polskilol.png"
+      },
+      {
+        "species": 73,
+        "name": "Polski LoL",
+        "abbr": "PL",
+        "logo": "data/menu/logos/cx_polskilol.png"
+      },
+      {
+        "species": 73,
+        "name": "Polski LoL",
+        "abbr": "PL",
+        "logo": "data/menu/logos/cx_polskilol.png"
+      },
+      {
+        "species": 73,
+        "name": "Polski LoL",
+        "abbr": "PL",
+        "logo": "data/menu/logos/cx_polskilol.png"
+      },
+      {
+        "species": 73,
+        "name": "Polski LoL",
+        "abbr": "PL",
+        "logo": "data/menu/logos/cx_polskilol.png"
+      },
+      {
+        "species": 19,
+        "name": "Fazbear United",
+        "abbr": "FZU",
+        "logo": "data/menu/logos/cx_freddy.png"
+      },
+      {
+        "species": 19,
+        "name": "Fazbear United",
+        "abbr": "FZU",
+        "logo": "data/menu/logos/cx_freddy.png"
+      },
+      {
+        "species": 19,
+        "name": "Fazbear United",
+        "abbr": "FZU",
+        "logo": "data/menu/logos/cx_freddy.png"
+      },
+      {
+        "species": 19,
+        "name": "Fazbear United",
+        "abbr": "FZU",
+        "logo": "data/menu/logos/cx_freddy.png"
+      },
+      {
+        "species": 19,
+        "name": "Fazbear United",
+        "abbr": "FZU",
+        "logo": "data/menu/logos/cx_freddy.png"
+      },
+      {
+        "species": 19,
+        "name": "Fazbear United",
+        "abbr": "FZU",
+        "logo": "data/menu/logos/cx_freddy.png"
+      }
+    ],
+    "CXHomes": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      21,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  "CoreLogic": {
+    "_HALF_TIMES": [
+      2,
+      4,
+      6,
+      10,
+      1
+    ],
+    "sLevelFileNames": [
+      "data/levels/niedzwiedzie/niedzwiedzie.map",
+      "data/levels/byki/byki.map",
+      "data/levels/kurczaki/kurczaki.map",
+      "data/levels/dinozaury/dinozaury.map",
+      "data/levels/zaby/zaby.map",
+      "data/levels/zyrafy/zyrafy.map",
+      "data/levels/goryle/goryle.map",
+      "data/levels/lwy/lwy.map",
+      "data/levels/pantery/pantery.map",
+      "data/levels/rekiny/rekiny.map",
+      "data/levels/zolwie/zolwie.map",
+      "data/levels/robociki/robociki.map",
+      "data/levels/intro.map",
+      "data/levels/outro.map",
+      "data/levels/byki/byki_0.map",
+      "data/levels/E1HighwayWarior/E1HighwayWarior.map",
+      "data/levels/E2CutDownTrees/E2CutDownTrees.map",
+      "data/levels/E3ParkMaze/E3ParkMaze.map",
+      "data/levels/E4TheRedPlanet/E4TheRedPlanet.map",
+      "data/levels/E5RainingCats&Dogs/E5RainingCats&Dogs.map",
+      "data/levels/E6ThreeASide/E6ThreeASide.map",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/levels/oldcamparena/oldcamparena.map",
+      null,
+      "data/levels/kaermorhen__/kaermorhen__.map",
+      "data/levels/plainsbiome_/plainsbiome_.map",
+      null,
+      null
+    ],
+    "sLevelNames": [
+      "_LEVEL_BEARS",
+      "_LEVEL_BULLS",
+      "_LEVEL_CHICKENS",
+      "_LEVEL_DINOS",
+      "_LEVEL_FROGS",
+      "_LEVEL_GIRAFFES",
+      "_LEVEL_GORILLAS",
+      "_LEVEL_LIONS",
+      "_LEVEL_PANTHERS",
+      "_LEVEL_SHARKS",
+      "_LEVEL_TURTLES",
+      "_LEVEL_ROBOS",
+      "_LEVEL_INTRO",
+      "_LEVEL_OUTRO",
+      "_LEVEL_ONEFB",
+      "&LevelNameExtra1&",
+      "&LevelNameExtra2&",
+      "&LevelNameExtra3&",
+      "&LevelNameExtra4&",
+      "&LevelNameExtra5&",
+      "&LevelNameExtra6&",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Stary Oboz",
+      null,
+      "Kaer Morhen",
+      "Minecraft: Plains",
+      null,
+      null
+    ],
+    "sLevelMusic": [
+      "data/Music/bears.wav",
+      "data/Music/bulls.wav",
+      "data/Music/chicken.wav",
+      "data/Music/dinos.wav",
+      "data/Music/frogs.wav",
+      "data/Music/giraffes.wav",
+      "data/Music/gorillas.wav",
+      "data/Music/lions.wav",
+      "data/Music/panthers.wav",
+      "data/Music/sharks.wav",
+      "data/Music/turtles.wav",
+      "data/Music/robos.wav",
+      "data/music/intro.wav",
+      "data/music/outro.wav",
+      "data/Music/bulls.wav",
+      "data/Music/extra.wav",
+      "data/Music/extra.wav",
+      "data/Music/extra.wav",
+      "data/Music/extra.wav",
+      "data/Music/extra.wav",
+      "data/Music/extra.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "data/Music/bears.wav",
+      null,
+      "data/Music/bears.wav",
+      "data/Music/bears.wav",
+      null,
+      null
+    ],
+    "sLevelLoopSounds": [
+      null,
+      "data/sounds/forestLoop.wav",
+      "data/sounds/forestLoop.wav",
+      "data/sounds/forestLoop.wav",
+      "data/sounds/forestLoop.wav",
+      "data/sounds/wiatr_loop.wav",
+      "data/sounds/goryle_loop.wav",
+      "data/sounds/wiatr_loop.wav",
+      "data/sounds/u panter.wav",
+      "data/sounds/wiatr_loop_rekiny.wav",
+      "data/sounds/wiatr_loop.wav",
+      null,
+      null,
+      null,
+      "data/sounds/forestLoop.wav",
+      "data/sounds/wiatr_loop.wav",
+      "data/sounds/forestLoop.wav",
+      "data/sounds/forestLoop.wav",
+      null,
+      "data/sounds/forestLoop.wav",
+      "data/sounds/forestLoop.wav",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "m_sMenuMusics": [
+      "data/music/Menu.wav",
+      "data/music/win.wav",
+      "data/music/loose.wav"
+    ]
+  },
+  "teamAPI": [
+    {
+      "species": 0,
+      "name": "&TeamBears&",
+      "abbr": "&TeamBearsAbr&",
+      "logo": "data/menu/logos/T_Logo_Bearchester.png"
+    },
+    {
+      "species": 1,
+      "name": "&TeamBulls&",
+      "abbr": "&TeamBullsAbr&",
+      "logo": "data/menu/logos/T_Logo_Bullrusia.png"
+    },
+    {
+      "species": 2,
+      "name": "&TeamChickens&",
+      "abbr": "&TeamChickensAbr&",
+      "logo": "data/menu/logos/T_Logo_Chickena.png"
+    },
+    {
+      "species": 3,
+      "name": "&TeamDinos&",
+      "abbr": "&TeamDinosAbr&",
+      "logo": "data/menu/logos/T_Logo_Dynamo.png"
+    },
+    {
+      "species": 4,
+      "name": "&TeamFrogs&",
+      "abbr": "&TeamFrogsAbr&",
+      "logo": "data/menu/logos/T_Logo_Frogen.png"
+    },
+    {
+      "species": 5,
+      "name": "&TeamGiraffes&",
+      "abbr": "&TeamGiraffesAbr&",
+      "logo": "data/menu/logos/T_Logo_Giraffinaikos.png"
+    },
+    {
+      "species": 6,
+      "name": "&TeamGorillas&",
+      "abbr": "&TeamGorillasAbr&",
+      "logo": "data/menu/logos/T_Logo_Gorilakov.png"
+    },
+    {
+      "species": 7,
+      "name": "&TeamLions&",
+      "abbr": "&TeamLionsAbr&",
+      "logo": "data/menu/logos/T_Logo_Lions.png"
+    },
+    {
+      "species": 8,
+      "name": "&TeamPanthers&",
+      "abbr": "&TeamPanthersAbr&",
+      "logo": "data/menu/logos/T_Logo_Panterdam.png"
+    },
+    {
+      "species": 9,
+      "name": "&TeamSharks&",
+      "abbr": "&TeamSharksAbr&",
+      "logo": "data/menu/logos/T_Logo_Sharks.png"
+    },
+    {
+      "species": 10,
+      "name": "&TeamTurtles&",
+      "abbr": "&TeamTurtlesAbr&",
+      "logo": "data/menu/logos/T_Logo_Turtelona.png"
+    },
+    {
+      "species": 11,
+      "name": "&TeamRobos&",
+      "abbr": "&TeamRobosAbr&",
+      "logo": "data/menu/logos/T_Logo_Robots.png"
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 37,
+      "name": "Minecraft",
+      "abbr": "MCF",
+      "logo": "data/menu/logos/cx_faction31.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 44,
+      "name": "Gothic",
+      "abbr": "GTH",
+      "logo": "data/menu/logos/cx_faction32.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    {
+      "species": 51,
+      "name": "Wiedzmin",
+      "abbr": "WCH",
+      "logo": "data/menu/logos/cx_faction33.png"
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

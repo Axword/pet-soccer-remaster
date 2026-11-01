@@ -1,0 +1,235 @@
+[
+  {
+    "team": "Minecraft",
+    "representative_species": 37,
+    "source_note": "Original Mojang bedrock-samples entity geometry; official Minecraft Java1.21.4 client textures; rigid voxel limbs and original pixel art.",
+    "players": [
+      {
+        "slot": 0,
+        "name": "Steve",
+        "species": 37,
+        "stem": "cx_mc_steve",
+        "mesh": "data/meshes/animals/cx_mc_steve.3da",
+        "texture": "data/textures/cx_mc_steve.png"
+      },
+      {
+        "slot": 1,
+        "name": "Alex",
+        "species": 38,
+        "stem": "cx_mc_alex",
+        "mesh": "data/meshes/animals/cx_mc_alex.3da",
+        "texture": "data/textures/cx_mc_alex.png"
+      },
+      {
+        "slot": 2,
+        "name": "Zombie",
+        "species": 39,
+        "stem": "cx_mc_zombie",
+        "mesh": "data/meshes/animals/cx_mc_zombie.3da",
+        "texture": "data/textures/cx_mc_zombie.png"
+      },
+      {
+        "slot": 3,
+        "name": "Szkielet",
+        "species": 40,
+        "stem": "cx_mc_skeleton",
+        "mesh": "data/meshes/animals/cx_mc_skeleton.3da",
+        "texture": "data/textures/cx_mc_skeleton.png"
+      },
+      {
+        "slot": 4,
+        "name": "Creeper",
+        "species": 41,
+        "stem": "cx_mc_creeper",
+        "mesh": "data/meshes/animals/cx_mc_creeper.3da",
+        "texture": "data/textures/cx_mc_creeper.png"
+      },
+      {
+        "slot": 5,
+        "name": "Enderman",
+        "species": 42,
+        "stem": "cx_mc_enderman",
+        "mesh": "data/meshes/animals/cx_mc_enderman.3da",
+        "texture": "data/textures/cx_mc_enderman.png"
+      },
+      {
+        "slot": 6,
+        "name": "Wiesniak",
+        "species": 43,
+        "stem": "cx_mc_villager",
+        "mesh": "data/meshes/animals/cx_mc_villager.3da",
+        "texture": "data/textures/cx_mc_villager.png"
+      }
+    ]
+  },
+  {
+    "team": "Gothic",
+    "representative_species": 44,
+    "source_note": "Owned installed Gothic VDF meshes and original textures; Gothic.dat exact NPC visual/body/skin/armor definitions.",
+    "players": [
+      {
+        "slot": 0,
+        "name": "Bezimienny",
+        "species": 44,
+        "stem": "cx_bezimienny",
+        "mesh": "data/meshes/animals/cx_bezimienny.3da",
+        "texture": "data/textures/cx_bezimienny.png"
+      },
+      {
+        "slot": 1,
+        "name": "Diego",
+        "species": 45,
+        "stem": "cx_diego",
+        "mesh": "data/meshes/animals/cx_diego.3da",
+        "texture": "data/textures/cx_diego.png"
+      },
+      {
+        "slot": 2,
+        "name": "Gorn",
+        "species": 46,
+        "stem": "cx_gorn",
+        "mesh": "data/meshes/animals/cx_gorn.3da",
+        "texture": "data/textures/cx_gorn.png"
+      },
+      {
+        "slot": 3,
+        "name": "Milten",
+        "species": 47,
+        "stem": "cx_milten",
+        "mesh": "data/meshes/animals/cx_milten.3da",
+        "texture": "data/textures/cx_milten.png"
+      },
+      {
+        "slot": 4,
+        "name": "Lester",
+        "species": 48,
+        "stem": "cx_lester",
+        "mesh": "data/meshes/animals/cx_lester.3da",
+        "texture": "data/textures/cx_lester.png"
+      },
+      {
+        "slot": 5,
+        "name": "Xardas",
+        "species": 49,
+        "stem": "cx_xardas",
+        "mesh": "data/meshes/animals/cx_xardas.3da",
+        "texture": "data/textures/cx_xardas.png"
+      },
+      {
+        "slot": 6,
+        "name": "Thorus",
+        "species": 50,
+        "stem": "cx_thorus",
+        "mesh": "data/meshes/animals/cx_thorus.3da",
+        "texture": "data/textures/cx_thorus.png"
+      }
+    ]
+  },
+  {
+    "team": "Wiedzmin",
+    "representative_species": 51,
+    "source_note": "CD Projekt RED original Witcher3 character geometry/textures via credited public Steam Workshop author ports. SourceIO converted into original football animation rig; original costume and face retained.",
+    "players": [
+      {
+        "slot": 0,
+        "name": "Geralt",
+        "species": 51,
+        "stem": "cx_w3_geralt",
+        "mesh": "data/meshes/animals/cx_w3_geralt.3da",
+        "texture": "data/textures/cx_w3_geralt.png"
+      },
+      {
+        "slot": 1,
+        "name": "Ciri",
+        "species": 52,
+        "stem": "cx_w3_ciri",
+        "mesh": "data/meshes/animals/cx_w3_ciri.3da",
+        "texture": "data/textures/cx_w3_ciri.png"
+      },
+      {
+        "slot": 2,
+        "name": "Yennefer",
+        "species": 53,
+        "stem": "cx_w3_yennefer",
+        "mesh": "data/meshes/animals/cx_w3_yennefer.3da",
+        "texture": "data/textures/cx_w3_yennefer.png"
+      },
+      {
+        "slot": 3,
+        "name": "Triss",
+        "species": 54,
+        "stem": "cx_w3_triss",
+        "mesh": "data/meshes/animals/cx_w3_triss.3da",
+        "texture": "data/textures/cx_w3_triss.png"
+      },
+      {
+        "slot": 4,
+        "name": "Keira Metz",
+        "species": 55,
+        "stem": "cx_w3_keira",
+        "mesh": "data/meshes/animals/cx_w3_keira.3da",
+        "texture": "data/textures/cx_w3_keira.png"
+      },
+      {
+        "slot": 5,
+        "name": "Avallac'h",
+        "species": 56,
+        "stem": "cx_w3_avallach",
+        "mesh": "data/meshes/animals/cx_w3_avallach.3da",
+        "texture": "data/textures/cx_w3_avallach.png"
+      },
+      {
+        "slot": 6,
+        "name": "Zoltan",
+        "species": 57,
+        "stem": "cx_w3_zoltan",
+        "mesh": "data/meshes/animals/cx_w3_zoltan.3da",
+        "texture": "data/textures/cx_w3_zoltan.png"
+      }
+    ],
+    "workshop_sources": [
+      {
+        "character": "geralt",
+        "workshop_id": "904208280",
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=904208280",
+        "model": "models/player/tfa_w3_geralt_default.mdl"
+      },
+      {
+        "character": "ciri",
+        "workshop_id": "1365759533",
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1365759533",
+        "model": "models/konnie/witcher3/cirialt.mdl"
+      },
+      {
+        "character": "yennefer",
+        "workshop_id": "1366624470",
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1366624470",
+        "model": "models/konnie/witcher3/yenneferalt.mdl"
+      },
+      {
+        "character": "triss",
+        "workshop_id": "505431747",
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=505431747",
+        "model": "models/player/ratedr4ryan/triss_tw3.mdl"
+      },
+      {
+        "character": "keira",
+        "workshop_id": "1436344300",
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1436344300",
+        "model": "models/konnie/witcher3/keira.mdl"
+      },
+      {
+        "character": "avallach",
+        "workshop_id": "1369258907",
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1369258907",
+        "model": "models/konnie/witcher3/avallach.mdl"
+      },
+      {
+        "character": "zoltan",
+        "workshop_id": "1434761807",
+        "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1434761807",
+        "model": "models/konnie/witcher3/zoltan.mdl"
+      }
+    ]
+  }
+]

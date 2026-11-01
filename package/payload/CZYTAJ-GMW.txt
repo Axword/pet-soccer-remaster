@@ -1,0 +1,30 @@
+﻿PET SOCCER REMASTER — GOTHIC / MINECRAFT / WIEDŹMIN
+
+Wymaga zainstalowanej polskiej wersji Pet Soccer.
+Instalator odczytuje oryginał i tworzy oddzielną kopię z modem.
+Oryginalna gra oraz jej zapis pozostają bez zmian.
+
+Dodatkowe drużyny: Minecraft, Gothic i Wiedźmin.
+Pozostaje 12 oryginalnych drużyn.
+Zawiera obecne mapy, animacje, tekstury, dubbing i poprawki stabilności,
+obsługę dwóch padów, wyższe rozdzielczości, okno/pełny ekran,
+przełączany remaster, panele zawodników i tryb turniejowy.
+
+Dołączony czysty zapis: Gracz, wszystkie drużyny i poziomy trudności
+odblokowane, bez rozegranej kariery i bez prywatnego zapisu autora.
+
+URUCHOMIENIE
+Uruchom PetSoccer.exe z folderu moda lub skrót Pet Soccer - GMW.
+Pierwszy start: 1024x768 w oknie. Tryb ekranu i rozdzielczość zmienisz
+w Audio video. Podłączone pady są wykrywane przy starcie.
+Multiplayer → TURNIEJ → DALEJ → GRAJ: drabinka ośmiu drużyn.
+Czas meczu: 1 min (2x30 s). Remis w turnieju: gra do złotego gola.
+Drabinka działa w bieżącej sesji gry.
+
+ODINSTALOWANIE
+Uruchom Odinstaluj.exe z folderu moda. Zmieniony zapis i nowe pliki
+użytkownika pozostają. Oryginalnej instalacji deinstalator nie zmienia.
+
+Wersja beta 0.1.0-beta.1. Kod moda: https://github.com/Axword/pet-soccer-remaster . Oryginalna gra nie jest dołączona do instalatora.
+Weryfikacja tej paczki: kod, zależności plików i instalacja/odinstalowanie.
+Pełny test nowej instalacji podczas meczu nie został wykonany.

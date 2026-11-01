@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "archive": "base",
+      "sha256": "770a80e77da8d1109f04786c922c06d94f52b379f858acc7c7d653622a009da7",
+      "bytes": 1078510,
+      "all_entry_bytes_equal": true
+    },
+    {
+      "archive": "target",
+      "sha256": "68e1065ab569ea213465e2fb835083bc801eb95d313ffcc77a944288214ed105",
+      "bytes": 1156005,
+      "all_entry_bytes_equal": true
+    }
+  ],
+  "local_workspace_paths_redacted": true
+}

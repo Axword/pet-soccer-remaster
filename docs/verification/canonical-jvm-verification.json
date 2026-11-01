@@ -1,0 +1,59 @@
+{
+  "classes": [
+    {
+      "class": "EAnimals",
+      "verified": true
+    },
+    {
+      "class": "ETeams",
+      "verified": true
+    },
+    {
+      "class": "CoreLogic",
+      "verified": true
+    },
+    {
+      "class": "MenuChooseTeam",
+      "verified": true
+    },
+    {
+      "class": "SoccerModule",
+      "verified": true
+    },
+    {
+      "class": "CXKnockout",
+      "verified": true
+    },
+    {
+      "class": "CXGMWProfile",
+      "verified": true
+    },
+    {
+      "class": "AIMatch",
+      "verified": true
+    },
+    {
+      "class": "AIFootBaller",
+      "verified": true
+    },
+    {
+      "class": "AITeam",
+      "verified": true
+    },
+    {
+      "class": "PlayerSave",
+      "verified": true
+    },
+    {
+      "class": "Match",
+      "verified": true
+    },
+    {
+      "class": "MenuOptionsMatch",
+      "verified": true
+    }
+  ],
+  "all_passed": true,
+  "engine_or_UI_started": false,
+  "local_workspace_paths_redacted": true
+}

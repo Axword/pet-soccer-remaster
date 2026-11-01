@@ -1,0 +1,22 @@
+{
+  "installer_sha256": "46bed6b60b95649f770e2963653f4a2cecf143bfe39ec29ec5d110501578070c",
+  "installer_bytes": 68231417,
+  "package_manifest_sha256": "80351e41a1bbfa8ad19463b8402011e6602e1a3e662fb02c6f39839b19390673",
+  "installed_code_sha256": "68e1065ab569ea213465e2fb835083bc801eb95d313ffcc77a944288214ed105",
+  "original_profile_archive_sha256": "20a1407a4f26d55050e887b1caec41d59bb4491143d3556b5aa318bc01cc5b11",
+  "all_original_profile_entry_bytes_equal": true,
+  "code_entry_count": 428,
+  "standalone_files": 356,
+  "delta_files": 19,
+  "installed_whitelist_files_verified": 4182,
+  "base_source_files_unchanged": 3826,
+  "clean_save_sha256": "14ee35d2173e757c69e3fe613bae8c97dab822181cf1482826e7afff72a79e9e",
+  "installer_exit": 0,
+  "uninstaller_exit": 0,
+  "changed_save_and_new_file_preserved": true,
+  "no_delta_or_tool_files_left_in_game": true,
+  "current_game_protected_files_unchanged": 5,
+  "game_or_engine_or_interactive_UI_started": false,
+  "seconds": 150.37,
+  "local_workspace_paths_redacted": true
+}

@@ -1,0 +1,17 @@
+{
+  "portable_native_x86_compile_passed": true,
+  "portable_native_text_section_identical_to_reviewed_release": true,
+  "portable_java_helpers_compiled": 7,
+  "java_target_major": 47,
+  "source_only_unit_checks_passed": 8,
+  "byte_identical_recipe_reproduction": [
+    "performance",
+    "one_minute_duration",
+    "bracket",
+    "gmw_profile"
+  ],
+  "all_archive_entry_bytes_identical_for_each_recipe": true,
+  "game_or_native_engine_launched": false,
+  "original_game_or_private_inputs_published": false,
+  "limit": "Compile/static/bytecode checks only; no live rendering or match PASS."
+}

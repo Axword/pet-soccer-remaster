@@ -1,0 +1,11 @@
+{
+  "public_payload_manifest_sha256": "80351e41a1bbfa8ad19463b8402011e6602e1a3e662fb02c6f39839b19390673",
+  "public_payload_files_verified": 376,
+  "standalone": 356,
+  "deltas": 19,
+  "source_tree_files_before_this_receipt": 482,
+  "source_tree_bytes_before_this_receipt": 245966669,
+  "forbidden_complete_game_archives_or_executables": [],
+  "private_build_dirs_excluded_from_count": true,
+  "all_public_payload_hashes_verified": true
+}

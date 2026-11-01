@@ -1,0 +1,22 @@
+# The installer verifies exact hashes. Never normalize payload/delta/manifest bytes.
+* -text
+src/**/*.cpp text eol=lf
+src/**/*.h text eol=lf
+src/**/*.java text eol=lf
+src/**/*.py text eol=lf
+tools/**/*.py text eol=lf
+tests/**/*.py text eol=lf
+tests/**/*.cpp text eol=lf
+tests/**/*.h text eol=lf
+tests/**/*.java text eol=lf
+authoring/**/*.py text eol=lf
+installer/**/*.cpp text eol=lf
+installer/**/*.h text eol=lf
+installer/**/*.nsi text eol=lf
+*.md text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+package/** -text
+metadata/** -text
+
