@@ -1,0 +1,66 @@
+{
+  "in_memory_exact_delivery_reproduction": true,
+  "files": [
+    {
+      "map_id": 38,
+      "relative": "Data/Meshes/Objects/CXarena38.3da",
+      "source_sha256": "da867fc8b33a5c092010f558e5ccb427894d05bbba6b89c49c54aec1c1e94a11",
+      "sha256": "07841d048ab26c9b4d3c99ef0435a1a79e353d3fa404bbbb0b699f0d38fc8ddb",
+      "bytes": 593900,
+      "vertices": 15052,
+      "triangles": 7614,
+      "normal_vertices_changed": 2180,
+      "changed_by_material": {
+        "cx38_crag.png": 2180
+      },
+      "crease_degrees": 55.0,
+      "blend": 0.55,
+      "max_normal_change_degrees": 19.289330702520196,
+      "mean_normal_change_degrees": 11.47661521579576,
+      "eligible_joined_edges": 1894,
+      "preserved_sharp_edges": 446,
+      "same_material_edge_fans": 1288,
+      "all_other_bytes_exact": true,
+      "all_positions_uv_indices_materials_tracks_bounds_exact": true,
+      "all_normals_unit_finite": true,
+      "textures_or_gameplay_resources_changed": false,
+      "runtime_appearance_verified": false
+    },
+    {
+      "map_id": 40,
+      "relative": "Data/Meshes/Objects/CXarena40.3da",
+      "source_sha256": "73e1afc05c31ffad83e55a3545cb1d97bc085f012780635e3d9388a6988bbfb7",
+      "sha256": "f08884fe7b511568b2120ff14da23c75559e666ff04820260cb7f6b4cbedbf6e",
+      "bytes": 1324178,
+      "vertices": 33545,
+      "triangles": 17507,
+      "normal_vertices_changed": 12703,
+      "changed_by_material": {
+        "cx40v2_cliff.png": 248,
+        "cx40v2_clifftop.png": 80,
+        "cx40v2_leaf.png": 6264,
+        "cx40v2_leaflit.png": 6111
+      },
+      "crease_degrees": 55.0,
+      "blend": 0.55,
+      "max_normal_change_degrees": 19.30410740904607,
+      "mean_normal_change_degrees": 10.11763288580464,
+      "eligible_joined_edges": 9710,
+      "preserved_sharp_edges": 1020,
+      "same_material_edge_fans": 5274,
+      "all_other_bytes_exact": true,
+      "all_positions_uv_indices_materials_tracks_bounds_exact": true,
+      "all_normals_unit_finite": true,
+      "textures_or_gameplay_resources_changed": false,
+      "runtime_appearance_verified": false
+    }
+  ],
+  "already_polished_input_rejected": true,
+  "syntax_and_help": "PASS",
+  "game_started": false,
+  "assets_written": false,
+  "tested_python": "3.13.13",
+  "validation_active_under_python_optimized_mode": true,
+  "public_recipe_sha256": "1e6a3679793d85210d35d91594c5b70b9e76c64a3cb5fcfbd25a84c4a0c6f1d8",
+  "source_recipe_sha256": "4b60ae612431cb8633b3bed95e980e875d630b3f87bc9ac1dbb89d9e1f8c6751"
+}

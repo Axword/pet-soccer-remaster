@@ -1,5 +1,11 @@
 # Modele, animacje i mapy
 
+Aktualna naprawa ubrań Wiedźmina: [WITCHER_CLOTHING_REPAIR.md](../docs/WITCHER_CLOTHING_REPAIR.md).
+Odtwarza brakujące powierzchnie z lokalnych autentycznych modeli i zachowuje
+bieżący szkielet, animacje oraz atlasy. Historyczny przepis upraszczania rozłączonych
+wysp UV usuwał fragmenty ubrań; do bieżącej paczki stosuj nowy, sprawdzony przepis.
+Delikatne wygładzenie map opisuje [MAP_NORMAL_POLISH.md](../docs/MAP_NORMAL_POLISH.md).
+
 `recipes` zawiera24 rzeczywiste autorskie skrypty używane podczas adaptacji
 modeli, eksportu formatu3DA0x101, naprawy animacji Gothic/Wiedźmina, skalowania,
 budowy map i powiększania tekstur Minecraft. To kod prac nad assetami, a nie

@@ -82,7 +82,7 @@ def main():
             shutil.copyfile(source, dest)
             if relative.lower() == 'czytaj-gmw.txt':
                 text = dest.read_text(encoding='utf-8-sig').replace('Paczka prywatna.',
-                    'Wersja beta 0.1.0-beta.2. Kod moda: https://github.com/Axword/pet-soccer-remaster .')
+                    'Wersja beta 0.1.0-beta.3. Kod moda: https://github.com/Axword/pet-soccer-remaster .')
                 dest.write_text(text, encoding='utf-8-sig', newline='')
             standalone.append({'relative': relative, 'sha256': sha(dest), 'bytes': dest.stat().st_size})
     standalone.sort(key=lambda value: value['relative'].lower())

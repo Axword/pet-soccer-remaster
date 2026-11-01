@@ -1,0 +1,789 @@
+{
+  "format": "GMW-W3-CLOTHING-RECIPE-1",
+  "state": "accepted",
+  "characters": {
+    "geralt": {
+      "relative": "Data/Meshes/Animals/cx_w3_geralt.3da",
+      "workshop_id": "904208280",
+      "source_model": "models/player/tfa_w3_geralt_default.mdl",
+      "source_input_files_sha256": {
+        "models/player/tfa_w3_geralt_default.mdl": "68ea34952fd1ca930989eb6726edadda112b0f603894464249a561548bebb9ac",
+        "models/player/tfa_w3_geralt_default.vvd": "797a5f314b4cb00d7be86d7bbdeef080f47707bc430b233d0d5bde458f51e072",
+        "models/player/tfa_w3_geralt_default.dx90.vtx": "720b94930ab1755e9db8e5f03f618d06767ba66a7a2a5a68e5be7b3560c4b299"
+      },
+      "beta2_sha256": "195ebe9651fcc2a2701ad09b599966816018308dd676a044d3b5ff22912b6129",
+      "output_sha256": "99d4f8682b5f51f3c77e317484517446a5946a33e603c866290298235cbd8fc8",
+      "output_bytes": 4721318,
+      "materials": [
+        "boots",
+        "chain",
+        "gloves",
+        "pants",
+        "torso"
+      ],
+      "source_material_triangles": {
+        "boots": 2352,
+        "chain": 5306,
+        "torso": 8077,
+        "pants": 1760,
+        "gloves": 6334
+      },
+      "current_material_triangles": {
+        "boots": 262,
+        "chain": 591,
+        "torso": 899,
+        "pants": 196,
+        "gloves": 705
+      },
+      "atlas_regions": {
+        "torso": [
+          1,
+          1,
+          407,
+          407
+        ],
+        "cord": [
+          410,
+          1,
+          407,
+          407
+        ],
+        "chain": [
+          819,
+          1,
+          407,
+          407
+        ],
+        "torso_metal": [
+          1228,
+          1,
+          407,
+          407
+        ],
+        "pants_metal": [
+          1637,
+          1,
+          407,
+          407
+        ],
+        "pants": [
+          1,
+          410,
+          407,
+          407
+        ],
+        "boots_metal": [
+          410,
+          410,
+          407,
+          407
+        ],
+        "boots": [
+          819,
+          410,
+          407,
+          407
+        ],
+        "gloves": [
+          1228,
+          410,
+          407,
+          407
+        ],
+        "eyes_lashes": [
+          1637,
+          410,
+          407,
+          407
+        ],
+        "mouth": [
+          1,
+          819,
+          407,
+          407
+        ],
+        "head": [
+          410,
+          819,
+          407,
+          407
+        ],
+        "eyes": [
+          819,
+          819,
+          407,
+          407
+        ],
+        "hair": [
+          1228,
+          819,
+          407,
+          407
+        ],
+        "hair_at": [
+          1637,
+          819,
+          407,
+          407
+        ],
+        "beard": [
+          1,
+          1228,
+          407,
+          407
+        ],
+        "harness_metal": [
+          410,
+          1228,
+          407,
+          407
+        ],
+        "harness": [
+          819,
+          1228,
+          407,
+          407
+        ],
+        "hook": [
+          1228,
+          1228,
+          407,
+          407
+        ],
+        "pendant": [
+          1637,
+          1228,
+          407,
+          407
+        ],
+        "sword_silver": [
+          1,
+          1637,
+          407,
+          407
+        ],
+        "scabbard_silver": [
+          410,
+          1637,
+          407,
+          407
+        ],
+        "sword_steel": [
+          819,
+          1637,
+          407,
+          407
+        ],
+        "scabbard_steel": [
+          1228,
+          1637,
+          407,
+          407
+        ]
+      },
+      "atlas_relative": "Data/Textures/cx_w3_geralt.png",
+      "atlas_sha256": "9feba173bf4c1fcf3d234a9ec1114f02f0fbc4b8ad192629195b3fe91133de05",
+      "ini_relative": "Data/Meshes/Animals/cx_w3_geralt.ini",
+      "ini_sha256": "3975d05b0522f1c5b42cb3868340423a78c615908d2e1c6b69fb9c26d18434bc",
+      "authentic_alpha_preserved": true,
+      "render_bounds_policy": {
+        "mode": "expand_exact_union",
+        "preserve_tolerance": 0.002,
+        "reason": "Reproduce the exact root-approved current candidate metadata policy; never clip source vertices"
+      },
+      "omit_optional_materials": {}
+    },
+    "ciri": {
+      "relative": "Data/Meshes/Animals/cx_w3_ciri.3da",
+      "workshop_id": "1365759533",
+      "source_model": "models/konnie/witcher3/cirialt.mdl",
+      "source_input_files_sha256": {
+        "models/konnie/witcher3/cirialt.mdl": "4bea69f395f25aa6603c702ab81adb0a25577e6cfe2b4adad9959bf513239f5f",
+        "models/konnie/witcher3/cirialt.vvd": "d761718f1cb500119bac5f16c5804123946143145253ab92c4fda1fe94c5f6f7",
+        "models/konnie/witcher3/cirialt.dx90.vtx": "6611cadc7abedfd9506f15e7632654fd2dd832d44a0539b5bdfeb5172f688a08"
+      },
+      "beta2_sha256": "fe691548cd25191c83971df5b73914aa581bab7f9936284ddbae4537cd98a1cc",
+      "output_sha256": "1e21147d87abdafb547b2f8d088ad40494197b89526e8b0f0adec41ecf90c72c",
+      "output_bytes": 5502436,
+      "materials": [
+        "dlccloth"
+      ],
+      "source_material_triangles": {
+        "dlccloth": 43561
+      },
+      "current_material_triangles": {
+        "dlccloth": 3494
+      },
+      "atlas_regions": {
+        "dlccloth": [
+          1,
+          1,
+          510,
+          510
+        ],
+        "pendant.001": [
+          513,
+          1,
+          510,
+          510
+        ],
+        "mouth.001": [
+          1025,
+          1,
+          510,
+          510
+        ],
+        "eye": [
+          1537,
+          1,
+          510,
+          510
+        ],
+        "eyelash": [
+          1,
+          513,
+          510,
+          510
+        ],
+        "hair.001": [
+          513,
+          513,
+          510,
+          510
+        ],
+        "head.001": [
+          1025,
+          513,
+          510,
+          510
+        ],
+        "body": [
+          1537,
+          513,
+          510,
+          510
+        ],
+        "scabbard": [
+          1,
+          1025,
+          510,
+          510
+        ],
+        "sword": [
+          513,
+          1025,
+          510,
+          510
+        ]
+      },
+      "atlas_relative": "Data/Textures/cx_w3_ciri.png",
+      "atlas_sha256": "8e12bef60aad01547a32f9e1c393d1718c94011cffbfd4a5a616744353a542c0",
+      "ini_relative": "Data/Meshes/Animals/cx_w3_ciri.ini",
+      "ini_sha256": "3975d05b0522f1c5b42cb3868340423a78c615908d2e1c6b69fb9c26d18434bc",
+      "authentic_alpha_preserved": true,
+      "render_bounds_policy": {
+        "mode": "preserve_approved_within_tolerance",
+        "preserve_tolerance": 0.002,
+        "reason": "Reproduce the exact root-approved current candidate metadata policy; never clip source vertices"
+      },
+      "omit_optional_materials": {}
+    },
+    "yennefer": {
+      "relative": "Data/Meshes/Animals/cx_w3_yennefer.3da",
+      "workshop_id": "1366624470",
+      "source_model": "models/konnie/witcher3/yenneferalt.mdl",
+      "source_input_files_sha256": {
+        "models/konnie/witcher3/yenneferalt.mdl": "ff655da74c0b94aa37ef7d92eca01bb00c621271cb54d1612cad79be6d25339e",
+        "models/konnie/witcher3/yenneferalt.vvd": "f5e78f025afe038e6e5bd93037eaac45c42fae0028f915777bd91adb976dfea8",
+        "models/konnie/witcher3/yenneferalt.dx90.vtx": "856506ec8fe8cb196f902c68144664a82cc25a819a5dad8f2cd0501f27fa0d27"
+      },
+      "beta2_sha256": "dc2a425f39f4f84048e0d731e925bd8e935be7dbb95fd894b32b683c2cdc9af6",
+      "output_sha256": "8832ce149b42a3a7aa6413be0d84a404dc45beb2c7ca490cac9df2f218343c27",
+      "output_bytes": 4686856,
+      "materials": [
+        "cloth",
+        "glove",
+        "stocking"
+      ],
+      "source_material_triangles": {
+        "glove": 5238,
+        "cloth": 23442,
+        "stocking": 444
+      },
+      "current_material_triangles": {
+        "glove": 631,
+        "cloth": 2828,
+        "stocking": 54
+      },
+      "atlas_regions": {
+        "cloth": [
+          1,
+          1,
+          510,
+          510
+        ],
+        "eyelash.001": [
+          513,
+          1,
+          510,
+          510
+        ],
+        "underwear": [
+          1025,
+          1,
+          510,
+          510
+        ],
+        "hair.002": [
+          1537,
+          1,
+          510,
+          510
+        ],
+        "mouth.002": [
+          1,
+          513,
+          510,
+          510
+        ],
+        "head.002": [
+          513,
+          513,
+          510,
+          510
+        ],
+        "glove": [
+          1025,
+          513,
+          510,
+          510
+        ],
+        "eyes.001": [
+          1537,
+          513,
+          510,
+          510
+        ],
+        "body.001": [
+          1,
+          1025,
+          510,
+          510
+        ],
+        "scarf": [
+          513,
+          1025,
+          510,
+          510
+        ],
+        "feather": [
+          1025,
+          1025,
+          510,
+          510
+        ],
+        "stocking": [
+          1537,
+          1025,
+          510,
+          510
+        ]
+      },
+      "atlas_relative": "Data/Textures/cx_w3_yennefer.png",
+      "atlas_sha256": "59fa91a67ebeeebada857bf2d2d73ffe5962580e0308d6bdb874d48656a4dd38",
+      "ini_relative": "Data/Meshes/Animals/cx_w3_yennefer.ini",
+      "ini_sha256": "3975d05b0522f1c5b42cb3868340423a78c615908d2e1c6b69fb9c26d18434bc",
+      "authentic_alpha_preserved": true,
+      "render_bounds_policy": {
+        "mode": "expand_exact_union",
+        "preserve_tolerance": 0.002,
+        "reason": "Reproduce the exact root-approved current candidate metadata policy; never clip source vertices"
+      },
+      "omit_optional_materials": {}
+    },
+    "triss": {
+      "relative": "Data/Meshes/Animals/cx_w3_triss.3da",
+      "workshop_id": "505431747",
+      "source_model": "models/player/ratedr4ryan/triss_tw3.mdl",
+      "source_input_files_sha256": {
+        "models/player/ratedr4ryan/triss_tw3.mdl": "8f67804e72a6b5743426348f95e108ea027d5485044560d6641f97f02e4806ee",
+        "models/player/ratedr4ryan/triss_tw3.vvd": "cd90e85c89be88fdf5d2b9179c2bb2a4c3cff6b7de5d2679f9e98c0ea9f3183d",
+        "models/player/ratedr4ryan/triss_tw3.dx90.vtx": "6a4bcf48e2537f0150e336c1acf0d4606e41bf886f814b93da651a965ab5ff36"
+      },
+      "beta2_sha256": "008f8b8ce1275754a32dd9d3e7045a04114e14bafe4155fb8f4e7d06f7306e7b",
+      "output_sha256": "7c989f6c5affa8441af96ef2651c3ef853fd3c287c889a57e6f75ac5ac44012c",
+      "output_bytes": 4455574,
+      "materials": [
+        "TRISS_CLOTH_COLOR"
+      ],
+      "source_material_triangles": {
+        "TRISS_CLOTH_COLOR": 26554
+      },
+      "current_material_triangles": {
+        "TRISS_CLOTH_COLOR": 4651
+      },
+      "atlas_regions": {
+        "YENN_BODY_COLOR": [
+          1,
+          1,
+          680,
+          680
+        ],
+        "TRISS_CLOTH_COLOR": [
+          683,
+          1,
+          680,
+          680
+        ],
+        "TRISS_FACE_COLOR": [
+          1365,
+          1,
+          680,
+          680
+        ],
+        "EYES_004": [
+          1,
+          683,
+          680,
+          680
+        ],
+        "EYES_017": [
+          683,
+          683,
+          680,
+          680
+        ],
+        "Teeths_BM": [
+          1365,
+          683,
+          680,
+          680
+        ],
+        "TRISS_HAIR2": [
+          1,
+          1365,
+          680,
+          680
+        ],
+        "MEDAL_COLOR": [
+          683,
+          1365,
+          680,
+          680
+        ]
+      },
+      "atlas_relative": "Data/Textures/cx_w3_triss.png",
+      "atlas_sha256": "a62294e443b9b996ae48345a3ffcc7f6f4ba64d26f4949e469451b8c3d740052",
+      "ini_relative": "Data/Meshes/Animals/cx_w3_triss.ini",
+      "ini_sha256": "3975d05b0522f1c5b42cb3868340423a78c615908d2e1c6b69fb9c26d18434bc",
+      "authentic_alpha_preserved": true,
+      "render_bounds_policy": {
+        "mode": "expand_exact_union",
+        "preserve_tolerance": 0.002,
+        "reason": "Reproduce the exact root-approved current candidate metadata policy; never clip source vertices"
+      },
+      "omit_optional_materials": {}
+    },
+    "keira": {
+      "relative": "Data/Meshes/Animals/cx_w3_keira.3da",
+      "workshop_id": "1436344300",
+      "source_model": "models/konnie/witcher3/keira.mdl",
+      "source_input_files_sha256": {
+        "models/konnie/witcher3/keira.mdl": "8ed9534634b3cdd376c6bbdbae3f575f74aadca81a10a0466134adac05b80785",
+        "models/konnie/witcher3/keira.vvd": "f278f6a648889bbe237bbca1e993ea479a4275261633af6c7f6a05b1316e5a95",
+        "models/konnie/witcher3/keira.dx90.vtx": "f033e7048a25aa846f811ebe1349143fe85f8323dcb46be77de99f07910ece38"
+      },
+      "beta2_sha256": "0b2c1fe199f693721f817f058cea18185b63683ba9ce89eed7eda856bee48743",
+      "output_sha256": "e501d1e5db8272dbc25e30693d19acb253b2bfba2c786d3f826ed3fe116bdea3",
+      "output_bytes": 3625730,
+      "materials": [
+        "dress1",
+        "dress2"
+      ],
+      "source_material_triangles": {
+        "dress1": 6386,
+        "dress2": 2914
+      },
+      "current_material_triangles": {
+        "dress1": 1213,
+        "dress2": 554
+      },
+      "atlas_regions": {
+        "eyelash.002": [
+          1,
+          1,
+          510,
+          510
+        ],
+        "head.003": [
+          513,
+          1,
+          510,
+          510
+        ],
+        "eyes.002": [
+          1025,
+          1,
+          510,
+          510
+        ],
+        "hair.003": [
+          1537,
+          1,
+          510,
+          510
+        ],
+        "mouth.003": [
+          1,
+          513,
+          510,
+          510
+        ],
+        "body2": [
+          513,
+          513,
+          510,
+          510
+        ],
+        "dress1": [
+          1025,
+          513,
+          510,
+          510
+        ],
+        "misc": [
+          1537,
+          513,
+          510,
+          510
+        ],
+        "misc2": [
+          1,
+          1025,
+          510,
+          510
+        ],
+        "necklace": [
+          513,
+          1025,
+          510,
+          510
+        ],
+        "necklace2": [
+          1025,
+          1025,
+          510,
+          510
+        ],
+        "dress2": [
+          1537,
+          1025,
+          510,
+          510
+        ],
+        "scroll": [
+          1,
+          1537,
+          510,
+          510
+        ],
+        "scroll2": [
+          513,
+          1537,
+          510,
+          510
+        ]
+      },
+      "atlas_relative": "Data/Textures/cx_w3_keira.png",
+      "atlas_sha256": "1e18d7e3b22028489366222c323fc4c768c53b17492a5668348b76bcd5a78d18",
+      "ini_relative": "Data/Meshes/Animals/cx_w3_keira.ini",
+      "ini_sha256": "3975d05b0522f1c5b42cb3868340423a78c615908d2e1c6b69fb9c26d18434bc",
+      "authentic_alpha_preserved": true,
+      "render_bounds_policy": {
+        "mode": "preserve_approved_within_tolerance",
+        "preserve_tolerance": 0.002,
+        "reason": "Reproduce the exact root-approved current candidate metadata policy; never clip source vertices"
+      },
+      "omit_optional_materials": {}
+    },
+    "avallach": {
+      "relative": "Data/Meshes/Animals/cx_w3_avallach.3da",
+      "workshop_id": "1369258907",
+      "source_model": "models/konnie/witcher3/avallach.mdl",
+      "source_input_files_sha256": {
+        "models/konnie/witcher3/avallach.mdl": "a2131512013a15dab306c6577218c982d3f2ed8ae33ecac1b8dd11a5bddf152e",
+        "models/konnie/witcher3/avallach.vvd": "a56fc14302103d2f9b890785eb85f3e7a9e0d98a3349beba43060beb65fbf100",
+        "models/konnie/witcher3/avallach.dx90.vtx": "e4c9d159fe73ab0310f413c6cbd9095d782f241076ba719561df064071e52001"
+      },
+      "beta2_sha256": "45a5f3564ce5d568e799038526723c604da6eeb55b1d51793edae91458c88f29",
+      "output_sha256": "e269eef5e57829fcc5f7431d08baffef1e8d62f3102b7374582b7fcc7692336d",
+      "output_bytes": 4079252,
+      "materials": [
+        "clothes"
+      ],
+      "source_material_triangles": {
+        "clothes": 16807
+      },
+      "current_material_triangles": {
+        "clothes": 2846
+      },
+      "atlas_regions": {
+        "head.004": [
+          1,
+          1,
+          510,
+          510
+        ],
+        "eyelashes": [
+          513,
+          1,
+          510,
+          510
+        ],
+        "mouth.004": [
+          1025,
+          1,
+          510,
+          510
+        ],
+        "eyes.003": [
+          1537,
+          1,
+          510,
+          510
+        ],
+        "body.003": [
+          1,
+          513,
+          510,
+          510
+        ],
+        "clothes": [
+          513,
+          513,
+          510,
+          510
+        ],
+        "hair.004": [
+          1025,
+          513,
+          510,
+          510
+        ],
+        "feathers": [
+          1537,
+          513,
+          510,
+          510
+        ],
+        "cloak": [
+          1,
+          1025,
+          510,
+          510
+        ],
+        "mask": [
+          513,
+          1025,
+          510,
+          510
+        ]
+      },
+      "atlas_relative": "Data/Textures/cx_w3_avallach.png",
+      "atlas_sha256": "b23b8cc4cbdba06acdfe1dfaaa7a20b6ebcf421695d44804d0bd7cec9f9d2624",
+      "ini_relative": "Data/Meshes/Animals/cx_w3_avallach.ini",
+      "ini_sha256": "3975d05b0522f1c5b42cb3868340423a78c615908d2e1c6b69fb9c26d18434bc",
+      "authentic_alpha_preserved": true,
+      "render_bounds_policy": {
+        "mode": "preserve_approved_within_tolerance",
+        "preserve_tolerance": 0.002,
+        "reason": "Reproduce the exact root-approved current candidate metadata policy; never clip source vertices"
+      },
+      "omit_optional_materials": {
+        "mask": 309
+      },
+      "source_bodygroup_overrides": {
+        "mask": null
+      }
+    },
+    "zoltan": {
+      "relative": "Data/Meshes/Animals/cx_w3_zoltan.3da",
+      "workshop_id": "1434761807",
+      "source_model": "models/konnie/witcher3/zoltan.mdl",
+      "source_input_files_sha256": {
+        "models/konnie/witcher3/zoltan.mdl": "893d3fa3edb49fd31dd0ef288f9237f72e08d6d4e36011d74e2bfb66565642ee",
+        "models/konnie/witcher3/zoltan.vvd": "92730021c7db0de909504c8b7b77d5e7be257b3e1dff790961b280ad5b30f14e",
+        "models/konnie/witcher3/zoltan.dx90.vtx": "bf0495fc4ced4c44d58a4933d82c9cc393500dc5e8f2e99b3b2f45864ae1b0ed"
+      },
+      "beta2_sha256": "9886bbf67f84b412372fd0948678121b0d0c5342e6605f14987ed92a65e54728",
+      "output_sha256": "4a2bf4bb7395eef04d57ab26398975d7a3b5a8884fb289d42bcfbc89ca70cde1",
+      "output_bytes": 3399910,
+      "materials": [
+        "clothes.001"
+      ],
+      "source_material_triangles": {
+        "clothes.001": 7082
+      },
+      "current_material_triangles": {
+        "clothes.001": 3335
+      },
+      "atlas_regions": {
+        "eyes.004": [
+          1,
+          1,
+          680,
+          680
+        ],
+        "clothes.001": [
+          683,
+          1,
+          680,
+          680
+        ],
+        "hair.005": [
+          1365,
+          1,
+          680,
+          680
+        ],
+        "head.005": [
+          1,
+          683,
+          680,
+          680
+        ],
+        "body.004": [
+          683,
+          683,
+          680,
+          680
+        ],
+        "mouth.005": [
+          1365,
+          683,
+          680,
+          680
+        ],
+        "eyelash.003": [
+          1,
+          1365,
+          680,
+          680
+        ]
+      },
+      "atlas_relative": "Data/Textures/cx_w3_zoltan.png",
+      "atlas_sha256": "79941830155e315122e41f5ef1982f4ef227276902519ef0a17ce6665249aad8",
+      "ini_relative": "Data/Meshes/Animals/cx_w3_zoltan.ini",
+      "ini_sha256": "3975d05b0522f1c5b42cb3868340423a78c615908d2e1c6b69fb9c26d18434bc",
+      "authentic_alpha_preserved": true,
+      "render_bounds_policy": {
+        "mode": "expand_exact_union",
+        "preserve_tolerance": 0.002,
+        "reason": "Reproduce the exact root-approved current candidate metadata policy; never clip source vertices"
+      },
+      "omit_optional_materials": {}
+    }
+  },
+  "coordinate_fit": "Current bind pivots reconstructed from existing full skin records; original MDL bone pivots fitted to these, no animation replacement",
+  "asset_license_note": "Only owned recipe metadata is provided; original MDL/VVD/VTX, texture pixels and intermediate geometry arrays are not included"
+}

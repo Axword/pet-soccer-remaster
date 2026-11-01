@@ -1,0 +1,39 @@
+{
+  "portable_source_reader_original_MDL_reproduction": "PASS",
+  "character": "geralt",
+  "all_7_attribute_array_hashes_exact": true,
+  "source_array_sha256": {
+    "positions": "74685ed2ad301a827a492501ce3ccb348f0022e5e77de9fc36ef14cf274a3e4f",
+    "normals": "24daa0d6575f14351b811e5c808cd53fca458b025e59d7a3075b45d089b842f1",
+    "uv": "e3ccc785f6cc35fc6a95733410550b266422278a9d5823cc3065eee971ae59fe",
+    "bones": "b526027c37081343b17bae9e8c85f685a3d066722c5abc164d3b7db005a98026",
+    "weights": "70b91ed9e5f11825f01f2c6979b2bf59963a14b4bf7bc5cce4eed1f1c1bf34eb",
+    "labels": "eddb861036a67da6cc780446e66337da06ad9633fb04b365c2ecc88fe4a24d7c",
+    "node_pivots": "2e203a6864e0d372f03da58b943199aab76d32f7455814e7da44768b44833109"
+  },
+  "max_bind_pivot_fit_error": 2.5326262892221103e-06,
+  "source_counts": {
+    "chain": 5306,
+    "torso": 8077,
+    "pants": 1760,
+    "boots": 2352,
+    "gloves": 6334
+  },
+  "source_MDL_VVD_VTX_checked": true,
+  "dry_run_wrote_no_NPZ_or_mesh": true,
+  "game_started": false,
+  "reader_sha256": "79087cfa3e895ede05e7f930f22365dd862de508c2bca475bc529925d528e5ae",
+  "contract_sha256": "8c7a7bc4b53fd537b5a629b2b3758eca3c08adb60b303a334c3cc7aee3359a3e",
+  "character_profiles_sha256": "4ce1c01887cb0a31eb883f09404f3e7b5fdafd4845fbdccdcdf56a3e299b1ede",
+  "accepted_delivery_manifest_sha256": "fbf874ba4d0bcef17690fc1fa3bcb2bb741e79c2fc050bc1937eab9f55e7048f",
+  "post_write_order_fix_reexecuted_real_Geralt_import": true,
+  "negative_source_triangle_count_guard": {
+    "result": "PASS",
+    "Blender_exit": 23,
+    "dry_run": false,
+    "output_directory_created": false,
+    "NPZ_or_report_created": false,
+    "input_change": "Expected chain triangle count incremented by1 in a temporary metadata fixture; original sources untouched"
+  },
+  "note": "This receipt is a fresh actual import/guard run after moving writes; the separate all-seven writer receipt remains the earlier valid geometry reconstruction check."
+}

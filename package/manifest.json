@@ -13,8 +13,8 @@
     },
     {
       "relative": "CZYTAJ-GMW.txt",
-      "sha256": "2335c5efa82dcf4b046fe2f1a25df02b7769fa3296bf24c866ff8973fc7954a9",
-      "bytes": 1199
+      "sha256": "03fa0f26e08aa573b57f0080da9170059885e3a1018a88251f9fbd544814db40",
+      "bytes": 1252
     },
     {
       "relative": "Data/Levels/KaerMorhen__/KaerMorhen__.map",
@@ -458,8 +458,8 @@
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_avallach.3da",
-      "sha256": "45a5f3564ce5d568e799038526723c604da6eeb55b1d51793edae91458c88f29",
-      "bytes": 3352080
+      "sha256": "e269eef5e57829fcc5f7431d08baffef1e8d62f3102b7374582b7fcc7692336d",
+      "bytes": 4079252
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_avallach.ini",
@@ -468,8 +468,8 @@
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_ciri.3da",
-      "sha256": "fe691548cd25191c83971df5b73914aa581bab7f9936284ddbae4537cd98a1cc",
-      "bytes": 3282638
+      "sha256": "1e21147d87abdafb547b2f8d088ad40494197b89526e8b0f0adec41ecf90c72c",
+      "bytes": 5502436
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_ciri.ini",
@@ -478,8 +478,8 @@
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_geralt.3da",
-      "sha256": "195ebe9651fcc2a2701ad09b599966816018308dd676a044d3b5ff22912b6129",
-      "bytes": 3379830
+      "sha256": "99d4f8682b5f51f3c77e317484517446a5946a33e603c866290298235cbd8fc8",
+      "bytes": 4721318
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_geralt.ini",
@@ -488,8 +488,8 @@
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_keira.3da",
-      "sha256": "0b2c1fe199f693721f817f058cea18185b63683ba9ce89eed7eda856bee48743",
-      "bytes": 3204136
+      "sha256": "e501d1e5db8272dbc25e30693d19acb253b2bfba2c786d3f826ed3fe116bdea3",
+      "bytes": 3625730
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_keira.ini",
@@ -498,8 +498,8 @@
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_triss.3da",
-      "sha256": "008f8b8ce1275754a32dd9d3e7045a04114e14bafe4155fb8f4e7d06f7306e7b",
-      "bytes": 3248884
+      "sha256": "7c989f6c5affa8441af96ef2651c3ef853fd3c287c889a57e6f75ac5ac44012c",
+      "bytes": 4455574
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_triss.ini",
@@ -508,8 +508,8 @@
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_yennefer.3da",
-      "sha256": "dc2a425f39f4f84048e0d731e925bd8e935be7dbb95fd894b32b683c2cdc9af6",
-      "bytes": 3270970
+      "sha256": "8832ce149b42a3a7aa6413be0d84a404dc45beb2c7ca490cac9df2f218343c27",
+      "bytes": 4686856
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_yennefer.ini",
@@ -518,8 +518,8 @@
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_zoltan.3da",
-      "sha256": "9886bbf67f84b412372fd0948678121b0d0c5342e6605f14987ed92a65e54728",
-      "bytes": 3201592
+      "sha256": "4a2bf4bb7395eef04d57ab26398975d7a3b5a8884fb289d42bcfbc89ca70cde1",
+      "bytes": 3399910
     },
     {
       "relative": "Data/Meshes/Animals/cx_w3_zoltan.ini",
@@ -538,12 +538,12 @@
     },
     {
       "relative": "Data/Meshes/Objects/CXarena38.3da",
-      "sha256": "da867fc8b33a5c092010f558e5ccb427894d05bbba6b89c49c54aec1c1e94a11",
+      "sha256": "07841d048ab26c9b4d3c99ef0435a1a79e353d3fa404bbbb0b699f0d38fc8ddb",
       "bytes": 593900
     },
     {
       "relative": "Data/Meshes/Objects/CXarena40.3da",
-      "sha256": "73e1afc05c31ffad83e55a3545cb1d97bc085f012780635e3d9388a6988bbfb7",
+      "sha256": "f08884fe7b511568b2120ff14da23c75559e666ff04820260cb7f6b4cbedbf6e",
       "bytes": 1324178
     },
     {
@@ -1786,30 +1786,30 @@
     {
       "relative": "code.pak",
       "base_sha256": "313f2402da3062cb590132b2985beefabfecd0de81af1a6f588694b268a22454",
-      "sha256": "4ed3fe358fd87ee823b923f1ee013b249615efd68e79ad0f18a99f849efc59ef",
+      "sha256": "5cdeb8796758cd9b6a6963f39b6dcd3c3ac7aa61fc335926fce77cad39c6fc41",
       "delta_relative": ".gmw-deltas/code.pak.gmwd",
-      "delta_sha256": "a7723767c588499cc795bdc8e0289d3f4579f8251853bfc7edc03a23dadc15e6",
-      "target_bytes": 1158472,
-      "original_profile_sha256": "c24ed0b49e80411ad7c0d4dbe9728ee84917c7af8bdb76e19490d63fab1972e6",
+      "delta_sha256": "b114a1d24a047eb3a83e96b69ad5ce3c1b3ba8ce59c84ad72c8d5d4fee6253d6",
+      "target_bytes": 1164845,
+      "original_profile_sha256": "82cf7b366d8c54d5f99368ad4c34301bf077f26666c277f94f8753bf17a051f5",
       "normalized_base_sha256": "770a80e77da8d1109f04786c922c06d94f52b379f858acc7c7d653622a009da7",
-      "copy_bytes": 1057671,
-      "literal_bytes": 100801,
-      "commands": 2357,
-      "delta_bytes": 131583
+      "copy_bytes": 1057379,
+      "literal_bytes": 107466,
+      "commands": 2370,
+      "delta_bytes": 138421
     },
     {
       "relative": "code_inf.pak",
       "base_sha256": "d0f4a7a4f7678d62a1e5c5795ff48650d094463739049b6662f01f584b328efd",
-      "sha256": "83630fa4244728b52f2c684a951e22e1893306888c17c3aa850a97de1ac6ca04",
+      "sha256": "ef5d1c392976f6a5f0bd31bf2239c69e5ef798dfc26a072164f4dc87e512ef04",
       "delta_relative": ".gmw-deltas/code_inf.pak.gmwd",
-      "delta_sha256": "a642e12c364fd9d7a62db00fd9e45fdb65d2977b3922d0c2da261eb4c6f9c7c8",
-      "target_bytes": 8554,
-      "original_profile_sha256": "83630fa4244728b52f2c684a951e22e1893306888c17c3aa850a97de1ac6ca04",
+      "delta_sha256": "47937076efd8152f6873387cccfe04c29fe46e352b7f0013a0dd730b75262f0c",
+      "target_bytes": 8597,
+      "original_profile_sha256": "ef5d1c392976f6a5f0bd31bf2239c69e5ef798dfc26a072164f4dc87e512ef04",
       "normalized_base_sha256": "d0f4a7a4f7678d62a1e5c5795ff48650d094463739049b6662f01f584b328efd",
       "copy_bytes": 8403,
-      "literal_bytes": 151,
+      "literal_bytes": 194,
       "commands": 2,
-      "delta_bytes": 266
+      "delta_bytes": 309
     },
     {
       "relative": "Data/Menu/scr/Hud.scr",
@@ -2053,12 +2053,12 @@
   "omitted_unchanged_originals": [],
   "standalone_files": 356,
   "delta_files": 19,
-  "bytes": 228012345,
+  "bytes": 235550225,
   "no_complete_stock_files_bundled": true,
   "no_game_engine_or_JRE_bundled": true,
   "base_manifest_sha256": "3a8cff1d1001b0d3030a21d9484445a69be482c2ee81900d0c1ed2f243aa466e",
-  "payload_manifest_sha256": "f958b2459435be789bd9d12ef9ee9b3321fb1fa6ddfdb89cd9494e3eec6b940e",
-  "patch_manifest_sha256": "6584cc40af39e2adc250fa6758c518b7a507bdad41ca9412df874e1aaf928a2c",
+  "payload_manifest_sha256": "30f4179e8cef1b87b07fc9aaceeb4dc1b2fd69032a314215cdb9c0bca97d3c14",
+  "patch_manifest_sha256": "ede221216df185b0a047feb3db4affa96da5287e870036fdead2e4b7ae174d7f",
   "zip_normalizer_sha256": "100bc5030aba432464cd12ec97ab5f3b78b88da8bac23cd5b4299e60587120b0",
   "zip_normalizer_bytes": 2775
 }

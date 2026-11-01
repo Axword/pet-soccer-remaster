@@ -8,10 +8,10 @@ Oryginalne 12 drużyn pozostaje dostępne.
 Problemy, crashe i uwagi zgłaszaj w
 [GitHub Issues](https://github.com/Axword/pet-soccer-remaster/issues).
 
-[**⬇ Pobierz instalator Windows — beta 2**](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.2/PetSoccer-Remaster-GMW-Setup.exe)
+[**⬇ Pobierz instalator Windows — beta 3**](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.3/PetSoccer-Remaster-GMW-Setup.exe)
 
-[Pliki moda ZIP](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.2/PetSoccer-GMW-ModFiles-beta.zip)
-· [Wydanie beta i sumy kontrolne](https://github.com/Axword/pet-soccer-remaster/releases/tag/v0.1.0-beta.2)
+[Pliki moda ZIP](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.3/PetSoccer-GMW-ModFiles-beta.zip)
+· [Wydanie beta i sumy kontrolne](https://github.com/Axword/pet-soccer-remaster/releases/tag/v0.1.0-beta.3)
 · [Strona projektu](https://axword.pl/mods)
 · [Wesprzyj autora](https://buycoffee.to/axword)
 
@@ -30,12 +30,15 @@ wyższe rozdzielczości i oddzielny wybór okna/pełnego ekranu.
 
 ## Co zawiera
 
-**Beta 2** naprawia wejście do multiplayera i błędne indeksy przy wyborze barw.
-Poprawia nakładanie ekranów turnieju, układ drabinki, czcionki i losowanie par.
+**Beta 3** poprawia kierunek, animacje i ponowne wczytywanie podglądów Gothica
+i Wiedźmina. Odtwarza fragmenty ubrań siedmiu postaci Wiedźmina, które usunęło
+wcześniejsze uproszczenie siatki. Delikatnie wygładza skały na dwóch dodatkowych
+mapach. Zachowuje oryginalny interfejs i poprawki multiplayera oraz turnieju z bety 2.
+[Szczegóły zmian i wykonanych sprawdzeń](docs/BETA3.md).
+
 Zawiera tylko dodatkowe kluby **Borussia Blockmund** (Minecraft), **Górnik Khorinis**
 (Gothic) i **Wiedźminhampton** (Wiedźmin). Nowe kluby mają po jednym faktycznym
-stroju; oryginalne zachowują pięć. Modele zoptymalizowano bez zmiany ich wyglądu.
-[Szczegóły poprawek i weryfikacji](docs/BETA2.md).
+stroju; oryginalne zachowują pięć. [Poprawki bety 2](docs/BETA2.md) pozostają w grze.
 
 - Przełączany remaster, zachowane oryginalne czcionki i elementy menu.
 - Obsługę padów w grze, wykrywanie urządzeń i rozdzielenie dwóch graczy.

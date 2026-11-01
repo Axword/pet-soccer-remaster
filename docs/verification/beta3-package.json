@@ -1,0 +1,68 @@
+{
+  "version": "0.1.0-beta.3",
+  "assets": [
+    {
+      "name": "PetSoccer-Remaster-GMW-Setup.exe",
+      "bytes": 70622971,
+      "sha256": "3e3a891a8fd289d6ada892f42ec384c5e838c81763435d669aabc3c0108fa1a0"
+    },
+    {
+      "name": "PetSoccer-GMW-ModFiles-beta.zip",
+      "bytes": 98595064,
+      "sha256": "adaa31dc56be76d4e771afa91652b165c6b41f1155e9a67370821fbfb527cb85"
+    }
+  ],
+  "delta_count": 19,
+  "standalone_count": 356,
+  "all_deltas_exact": true,
+  "all_standalone_hashes_exact": true,
+  "generated_readme_canonicalization": {
+    "relative": "CZYTAJ-GMW.txt",
+    "transformation": "UTF-8 BOM and universal newlines to LF",
+    "private_sha256": "3f90d276e6ff5f7b2ecae53e0b1182070cf1ffcc291a4b112b97724198fa537f",
+    "package_sha256": "03fa0f26e08aa573b57f0080da9170059885e3a1018a88251f9fbd544814db40",
+    "text_preserved": true,
+    "exact_canonical_bytes": true
+  },
+  "code": {
+    "zip_entries": 431,
+    "class_entries": 429,
+    "all_accepted_entry_bytes_exact": true,
+    "helper_classes": [
+      "CXHumanPreview.class",
+      "CXPreviewText.class"
+    ],
+    "private_QA_classes_or_methods": false,
+    "normalized_installed_sha256": "5cdeb8796758cd9b6a6963f39b6dcd3c3ac7aa61fc335926fce77cad39c6fc41",
+    "accepted_archive_sha256": "82cf7b366d8c54d5f99368ad4c34301bf077f26666c277f94f8753bf17a051f5",
+    "unchanged_original_entries": 309,
+    "unchanged_original_entry_bytes": 440715,
+    "unchanged_original_entry_literal_bytes": 0
+  },
+  "clean_save_sha256": "14ee35d2173e757c69e3fe613bae8c97dab822181cf1482826e7afff72a79e9e",
+  "clean_ini_sha256": "6bc88b289fb3d0957ce0b3790d1e9a3261317f6c4e9155db99c81d9d22fdcfe8",
+  "package_manifest_sha256": "07cc9b9e5ee50d1a78aa5ee5e334fb0ab4e97e9a0c4af721c99aeb8d790512fc",
+  "installer_smoke": {
+    "installer_sha256": "3e3a891a8fd289d6ada892f42ec384c5e838c81763435d669aabc3c0108fa1a0",
+    "installer_bytes": 70622971,
+    "package_manifest_sha256": "07cc9b9e5ee50d1a78aa5ee5e334fb0ab4e97e9a0c4af721c99aeb8d790512fc",
+    "installer_exit": 0,
+    "uninstaller_exit": 0,
+    "installed_whitelist_files_verified": 4182,
+    "original_files_verified_unchanged": 3826,
+    "standalone_files": 356,
+    "delta_files": 19,
+    "code_zip_entries": 431,
+    "code_class_entries": 429,
+    "all_code_entry_bytes_match_frozen_candidate": true,
+    "clean_save_sha256": "14ee35d2173e757c69e3fe613bae8c97dab822181cf1482826e7afff72a79e9e",
+    "clean_ini_sha256": "6bc88b289fb3d0957ce0b3790d1e9a3261317f6c4e9155db99c81d9d22fdcfe8",
+    "changed_save_and_added_file_preserved": true,
+    "no_delta_or_tool_files_left_installed": true,
+    "registry_or_shortcut_integration_requested": false,
+    "interactive_installer_UI_started": false,
+    "game_engine_started": false,
+    "live_mod_game_accessed": false,
+    "seconds": 85.36
+  }
+}

@@ -54,6 +54,45 @@ Jeżeli odcisk/metoda się nie zgadza, przerwij i zrób nowy audyt zamiast usuwa
 asercje. Te przepisy nie są zamiennikiem całego historycznego procesu ekstrakcji
 i adaptacji modeli z innych gier.
 
+## Referencyjne odtworzenie beta3
+
+Wejściem obu przepisów jest właściwy etap **beta2**. Każdy wynik powstaje w
+nowym katalogu; nie nakładaj generatorów na aktualną instalację ani ręcznie
+poprawione modele. Nazwy ścieżek poniżej są przykładami lokalnych wejść:
+
+```powershell
+$originalGame = 'C:/Gry/Pet Soccer'
+$beta2Code = 'C:/Gry/PetSoccerGMW-beta2/code.pak'
+$beta2Index = 'C:/Gry/PetSoccerGMW-beta2/code_inf.pak'
+$ecj = 'tools/external/ecj-3.7.2.jar'
+
+python tools/compile_java.py --game "$originalGame" --classpath "$beta2Code" --ecj "$ecj"
+python -m src.patches.human_preview --input "$beta2Code" --code-index "$beta2Index" --helper build/java/CXHumanPreview.class --output build/beta3-preview
+python -m src.patches.preview_text --code build/beta3-preview/code.pak --code-index build/beta3-preview/code_inf.pak --helper build/java/CXPreviewText.class --output build/beta3-code
+```
+
+Przepisy sprawdzają odciski metod i odrzucają niezgodne lub już zmienione
+wejście. Finalne archiwum i indeks pochodzą z `build/beta3-code/`.
+Dla zamrożonego wejścia referencyjnego odtworzono dokładny SHA archiwum
+`82cf7b366d8c54d5f99368ad4c34301bf077f26666c277f94f8753bf17a051f5`
+oraz indeksu
+`ef5d1c392976f6a5f0bd31bf2239c69e5ef798dfc26a072164f4dc87e512ef04`.
+To 431 wpisów ZIP, w tym 429 klas. Inny układ metadanych/kompresji ZIP może
+zmienić hash całego archiwum; zgodność klas i normalizację sprawdzają narzędzia
+paczki. Pełne archiwa wynikowe pozostają lokalnymi plikami roboczymi.
+
+Geometrię odtwarzaj oddzielnie. Dwie miejscowe poprawki normalnych opisuje
+[MAP_NORMAL_POLISH.md](MAP_NORMAL_POLISH.md). Autorskie narzędzia
+`authoring/read_witcher_clothing.py` i `authoring/restore_witcher_clothing.py`
+wraz z `authoring/witcher-clothing-contract.json` wymagają lokalnych źródeł
+MDL/VVD/DX90VTX, SourceIO oraz Blendera/Pythona z NumPy. Pośrednie NPZ są
+prywatne. Dokładna kolejność i wejścia:
+[WITCHER_CLOTHING_REPAIR.md](WITCHER_CLOTHING_REPAIR.md).
+Te narzędzia przywracają wybrane części do bieżącego rigu; nie służą do
+regenerowania całej gry ze starego snapshotu.
+
+Stan oraz ograniczenia odbioru beta3 znajdują się w [BETA3.md](BETA3.md).
+
 ## Instalator i pliki paczki
 
 Do odtworzenia instalatora z już opublikowanych plików paczki wystarczą MSVCx86
@@ -87,6 +126,20 @@ poprawionymi modelami. Wydanie używa zamrożonego manifestu plików.
 ```powershell
 python -m unittest discover -s tests -p 'test_*.py'
 ```
+
+Siedem testów przepisu podglądów wymaga własnego lokalnego wejścia beta2 oraz
+skompilowanego helpera. W PowerShell, przed uruchomieniem powyższej komendy:
+
+```powershell
+$env:PET_SOCCER_CODE_PAK = $beta2Code
+$env:PET_SOCCER_PREVIEW_HELPER = (Resolve-Path 'build/java/CXHumanPreview.class').Path
+```
+
+W przygotowaniu beta3 przeszło 15 publicznych testów Python. Oddzielne 1164
+prywatne asercje JVM sprawdzały poprawione klasy menu z jawnymi atrapami
+natywnego schedulera, ładowania siatek i renderera. Prywatne klasy/sterowniki QA
+nie trafiają do repozytorium ani instalatora; tych wyników nie traktuje się
+jako testu wyglądu, FPS lub pełnego meczu w natywnym silniku.
 
 Testy reguł Java wykorzystują własne klasy moda i jawne atrapy granic silnika;
 nie są testem renderera. `BuildCleanSave.java` sprawdza tworzenie i odczyt

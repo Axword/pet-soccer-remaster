@@ -1,19 +1,19 @@
 ﻿PET SOCCER REMASTER — GOTHIC / MINECRAFT / WIEDŹMIN
-Wersja beta 0.1.0-beta.2.
+Wersja beta 0.1.0-beta.3.
 
 Wymaga oryginalnej polskiej wersji Pet Soccer. Gra nie jest dołączona.
-Instalator odczytuje oryginał i tworzy osobną kopię z modem.
-Oryginalny folder i zapis pozostają bez zmian.
+Instalator tworzy osobną kopię; oryginalny folder i zapis pozostają bez zmian.
 
 12 oryginalnych zespołów oraz 3 dodatkowe kluby:
 Borussia Blockmund — Minecraft
 Górnik Khorinis — Gothic
 Wiedźminhampton — Wiedźmin
 
-Poprawione barwy/stroje oraz multiplayer. Bezstratna optymalizacja siatek
-Wiedźmina i szkieletu Minecraft, bez zmiany tekstur, twarzy i animacji.
-Wyższe rozdzielczości, okno/pełny ekran, dwa pady, panele zawodników,
-dubbing oraz turniej z drabinką pozostają.
+Beta3: poprawiona obsługa ludzkich postaci w podglądach oraz delikatnie
+wygładzone oświetlenie naturalnych dekoracji boisk Gothica i Wiedźmina.
+Geometria boisk, kolizje i zasady meczu pozostają bez zmian.
+Wcześniejsze poprawki multiplayer, barw, turnieju, sterowania padami,
+rozdzielczości, trybu okno/pełny ekran oraz dubbingu pozostają.
 
 Czysty zapis Gracz: wszystkie zespoły i poziomy trudności odblokowane.
 Pierwszy start: 1024x768 w oknie. Zmienisz to w Audio video.

@@ -1,0 +1,70 @@
+{
+  "portable_writer_all7_expected_hashes_exact": true,
+  "files": [
+    {
+      "character": "geralt",
+      "sha256": "99d4f8682b5f51f3c77e317484517446a5946a33e603c866290298235cbd8fc8",
+      "bytes": 4721318,
+      "vertices": 28374,
+      "triangles": 36903,
+      "dry_run_wrote_no_asset": true
+    },
+    {
+      "character": "ciri",
+      "sha256": "1e21147d87abdafb547b2f8d088ad40494197b89526e8b0f0adec41ecf90c72c",
+      "bytes": 5502436,
+      "vertices": 36198,
+      "triangles": 55064,
+      "dry_run_wrote_no_asset": true
+    },
+    {
+      "character": "yennefer",
+      "sha256": "8832ce149b42a3a7aa6413be0d84a404dc45beb2c7ca490cac9df2f218343c27",
+      "bytes": 4686856,
+      "vertices": 27168,
+      "triangles": 40610,
+      "dry_run_wrote_no_asset": true
+    },
+    {
+      "character": "triss",
+      "sha256": "7c989f6c5affa8441af96ef2651c3ef853fd3c287c889a57e6f75ac5ac44012c",
+      "bytes": 4455574,
+      "vertices": 24014,
+      "triangles": 36901,
+      "dry_run_wrote_no_asset": true
+    },
+    {
+      "character": "keira",
+      "sha256": "e501d1e5db8272dbc25e30693d19acb253b2bfba2c786d3f826ed3fe116bdea3",
+      "bytes": 3625730,
+      "vertices": 15304,
+      "triangles": 22537,
+      "dry_run_wrote_no_asset": true
+    },
+    {
+      "character": "avallach",
+      "sha256": "e269eef5e57829fcc5f7431d08baffef1e8d62f3102b7374582b7fcc7692336d",
+      "bytes": 4079252,
+      "vertices": 19894,
+      "triangles": 31732,
+      "dry_run_wrote_no_asset": true
+    },
+    {
+      "character": "zoltan",
+      "sha256": "4a2bf4bb7395eef04d57ab26398975d7a3b5a8884fb289d42bcfbc89ca70cde1",
+      "bytes": 3399910,
+      "vertices": 13276,
+      "triangles": 18747,
+      "dry_run_wrote_no_asset": true
+    }
+  ],
+  "mesh_or_NPZ_written": false,
+  "game_started": false,
+  "writer_sha256": "6a2661eb1bd8c993834cf7bb26b9ed9d13d24b1e3842793f8ba7f96ef93bda6e",
+  "test": "Compute final promoted delivery models in memory, including authentic unmasked Avallach and exact per-character approved AABB policy",
+  "tested_contract_sha256": "d838f95e2e25b43e1aa41f9f6ecddf642ed356a455620d5a780e21d1c5bdee9b",
+  "contract_sha256": "8c7a7bc4b53fd537b5a629b2b3758eca3c08adb60b303a334c3cc7aee3359a3e",
+  "character_profiles_sha256": "4ce1c01887cb0a31eb883f09404f3e7b5fdafd4845fbdccdcdf56a3e299b1ede",
+  "status_only_update_after_test": "Root accepted native14 fronts and seven source-data checks; pending-native-review changed to accepted. Character profiles were byte-identical; no recipe/data changes.",
+  "accepted_delivery_manifest_sha256": "fbf874ba4d0bcef17690fc1fa3bcb2bb741e79c2fc050bc1937eab9f55e7048f"
+}

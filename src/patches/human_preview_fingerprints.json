@@ -1,0 +1,19 @@
+{
+  "MenuAnimal.class": {
+    "LoadMesh(Ljava/lang/String;)V": "82aade7a6c170b1edeaefa477bd1850401253095a501f48167db1d9ed2fe455e",
+    "SetHappiness(Z)V": "3d54d8d8295e9dad161b764df06fa8a95a9aab940c397ec78989cadb79eb6e9f",
+    "Reset()V": "0e7d2b2f788c6f6087cf24651a10ceb000836646b77d8be96c7b6fa6e88f9591",
+    "OnDestinationPos()V": "603b47e97943ae7bfa082c86832fdf720e623ef02abf62df379e4def39272717"
+  },
+  "SoccerMenuShowObjectModule.class": {
+    "SetFootballer(I)V": "31146b6c8fab21b5fcedb9af1a95093d78e0ef955ea9260b9ac61647a2544380",
+    "ContinueSetFootballer()V": "3fef59b3b2543b8067166fa553b410b0a4b63e3d8a4de264666e61aa57c629c5",
+    "ResetScene()V": "ae6a520b5d24ed102835d6d083ed9694ce5335743adfd44141063fe023fbb2d5",
+    "Deactivate()V": "008227c4692dcd090927730f2713e8854e03b2901e7f46d3f082cae570d6ac4c",
+    "OnDeactivate()V": "9a3fb50ea24d8095266ff13f59dafa78fce98328ac11a2a2cbe4c6543dc07b7b",
+    "OnActivate()V": "7e58fa9c5d1660751ab6b007643e4eedc745ee6ce4ed1d6c472709bf34da1f8b",
+    "Unload()V": "2e04cf6fa68fa3f3b0320ddb9fc0a5b166b39d233b5279256245d4a096fb0fd1",
+    "SetFootballerCup(II)V": "894a03649bbeadf1e88c1810f9d9735309547e56d3c5df7687156cf56b113aeb",
+    "SetFootballerInstant(II)V": "182cb50cfccb8e7911806483e1cf21d839606056b82b7cf2281247f2009cfbef"
+  }
+}

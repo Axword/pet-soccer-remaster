@@ -67,7 +67,7 @@ z `--pattern cx_mc_skeleton.3da`. Narzędzia nie nadpisują plików wejściowych
 - Turniej: 43 asercje rzeczywistych metod chowania ekranów i 22 575 asercji
   reguł; 128 drabinek i 896 spotkań wykonanych w teście logiki, z jawnymi atrapami
   granic interfejsu. Nie są to mecze rozegrane w silniku.
-- Jawne źródła odtwarzają wszystkie 429 klas i sześć nowych plików turnieju.
+- Jawne źródła odtwarzają wszystkie 429 wpisów archiwum (427 klas) i sześć nowych plików turnieju.
 - Dwa niezależne odczyty 21 modeli: bitowo identyczne rozwinięte narożniki
   trójkątów, dane skórowania i animacje; osiem plików zmienionych.
 - Działająca gra: logowanie i wejście do menu multiplayera przy 1024×768 w oknie.
