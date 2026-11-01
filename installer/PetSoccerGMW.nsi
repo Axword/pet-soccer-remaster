@@ -11,10 +11,10 @@ RequestExecutionLevel user
 SetCompressor /SOLID lzma
 SetCompressorDictSize 32
 BrandingText "Pet Soccer Remaster GMW"
-VIProductVersion "0.1.0.0"
+VIProductVersion "0.1.0.2"
 VIAddVersionKey "ProductName" "Pet Soccer Remaster GMW"
 VIAddVersionKey "FileDescription" "Instalator moda Gothic / Minecraft / Wiedźmin"
-VIAddVersionKey "FileVersion" "0.1.0-beta.1"
+VIAddVersionKey "FileVersion" "0.1.0-beta.2"
 VIAddVersionKey "LegalCopyright" "Axword — kod moda; zasoby gier należą do ich autorów"
 ShowInstDetails show
 ShowUninstDetails show
@@ -151,7 +151,7 @@ Section "Pet Soccer GMW" SEC_MAIN
             ${EndIf}
         ${EndIf}
         WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "DisplayName" "Pet Soccer Remaster GMW"
-        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "DisplayVersion" "0.1.0-beta.1"
+        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "DisplayVersion" "0.1.0-beta.2"
         WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "InstallLocation" "$INSTDIR"
         WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "UninstallString" '$\"$INSTDIR\Odinstaluj.exe$\"'
         WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "DisplayIcon" "$INSTDIR\PetSoccer.exe"

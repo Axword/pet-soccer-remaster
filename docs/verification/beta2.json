@@ -1,0 +1,48 @@
+{
+  "version": "0.1.0-beta.2",
+  "accepted_local_archive_sha256": "c24ed0b49e80411ad7c0d4dbe9728ee84917c7af8bdb76e19490d63fab1972e6",
+  "installed_normalized_archive_sha256": "4ed3fe358fd87ee823b923f1ee013b249615efd68e79ad0f18a99f849efc59ef",
+  "all_429_class_entry_bytes_identical": true,
+  "source_recipes_reproduce_accepted_archive": true,
+  "source_layout_tool_reproduces_all_six_tournament_scr": true,
+  "standalone_files": 356,
+  "delta_files": 19,
+  "all_public_file_hashes_and_deltas_verified": true,
+  "unchanged_original_class_literal_bytes_in_delta": 0,
+  "clean_unlock_save_sha256": "14ee35d2173e757c69e3fe613bae8c97dab822181cf1482826e7afff72a79e9e",
+  "source_unit_tests": 8,
+  "actual_java13_wardrobe_assertions": 684,
+  "actual_java13_hide_assertions": 43,
+  "knockout_logic_assertions": 22575,
+  "logic_brackets": 128,
+  "logic_fixtures": 896,
+  "native_renderer_used_by_logic_tests": false,
+  "three_tournament_layouts_pass_ctc_lexer_and_widget_contract_audit": true,
+  "mesh_readers_check_all_21_models": true,
+  "changed_meshes": 8,
+  "lossless_mesh_bytes_saved": 16841424,
+  "texture_pixels_changed": false,
+  "live_multiplayer_entry_checked_before_final_tournament_patch": true,
+  "final_tournament_visual_runtime_checked": false,
+  "fps_or_loading_benchmark_performed": false,
+  "silent_installer_smoke": {
+    "installer_exit": 0,
+    "uninstaller_exit": 0,
+    "installed_files_verified": 4182,
+    "original_game_files_unchanged": 3826,
+    "changed_save_and_new_user_file_preserved": true,
+    "engine_or_interactive_ui_launched": false
+  },
+  "full_game_engine_or_jre_bundled": false,
+  "package_manifest_sha256": "8ca66dbecbb799180e9505a5aa869e6e81c6a274184ed0fa36f6c02842cd9ead",
+  "assets": {
+    "PetSoccer-Remaster-GMW-Setup.exe": {
+      "bytes": 67489793,
+      "sha256": "cedfb2d39cc51439e8ab40b5eac5d21870f45753379b38e9031fdeac16aabad4"
+    },
+    "PetSoccer-GMW-ModFiles-beta.zip": {
+      "bytes": 94234593,
+      "sha256": "3b75f1f81127747bbed6d56cc3614bbb20c9b0bfbcff2317a9f3fd531e82c4c6"
+    }
+  }
+}

@@ -1,30 +1,26 @@
 ﻿PET SOCCER REMASTER — GOTHIC / MINECRAFT / WIEDŹMIN
+Wersja beta 0.1.0-beta.2.
 
-Wymaga zainstalowanej polskiej wersji Pet Soccer.
-Instalator odczytuje oryginał i tworzy oddzielną kopię z modem.
-Oryginalna gra oraz jej zapis pozostają bez zmian.
+Wymaga oryginalnej polskiej wersji Pet Soccer. Gra nie jest dołączona.
+Instalator odczytuje oryginał i tworzy osobną kopię z modem.
+Oryginalny folder i zapis pozostają bez zmian.
 
-Dodatkowe drużyny: Minecraft, Gothic i Wiedźmin.
-Pozostaje 12 oryginalnych drużyn.
-Zawiera obecne mapy, animacje, tekstury, dubbing i poprawki stabilności,
-obsługę dwóch padów, wyższe rozdzielczości, okno/pełny ekran,
-przełączany remaster, panele zawodników i tryb turniejowy.
+12 oryginalnych zespołów oraz 3 dodatkowe kluby:
+Borussia Blockmund — Minecraft
+Górnik Khorinis — Gothic
+Wiedźminhampton — Wiedźmin
 
-Dołączony czysty zapis: Gracz, wszystkie drużyny i poziomy trudności
-odblokowane, bez rozegranej kariery i bez prywatnego zapisu autora.
+Poprawione barwy/stroje oraz multiplayer. Bezstratna optymalizacja siatek
+Wiedźmina i szkieletu Minecraft, bez zmiany tekstur, twarzy i animacji.
+Wyższe rozdzielczości, okno/pełny ekran, dwa pady, panele zawodników,
+dubbing oraz turniej z drabinką pozostają.
 
-URUCHOMIENIE
-Uruchom PetSoccer.exe z folderu moda lub skrót Pet Soccer - GMW.
-Pierwszy start: 1024x768 w oknie. Tryb ekranu i rozdzielczość zmienisz
-w Audio video. Podłączone pady są wykrywane przy starcie.
-Multiplayer → TURNIEJ → DALEJ → GRAJ: drabinka ośmiu drużyn.
-Czas meczu: 1 min (2x30 s). Remis w turnieju: gra do złotego gola.
-Drabinka działa w bieżącej sesji gry.
+Czysty zapis Gracz: wszystkie zespoły i poziomy trudności odblokowane.
+Pierwszy start: 1024x768 w oknie. Zmienisz to w Audio video.
+Uruchom PetSoccer.exe z nowego folderu lub skrót Pet Soccer - GMW.
+Multiplayer → TURNIEJ: drabinka ośmiu drużyn w bieżącej sesji.
+Czas 1 min oznacza 2x30 s. Remis w turnieju: złoty gol.
 
-ODINSTALOWANIE
-Uruchom Odinstaluj.exe z folderu moda. Zmieniony zapis i nowe pliki
-użytkownika pozostają. Oryginalnej instalacji deinstalator nie zmienia.
-
-Wersja beta 0.1.0-beta.1. Kod moda: https://github.com/Axword/pet-soccer-remaster . Oryginalna gra nie jest dołączona do instalatora.
-Weryfikacja tej paczki: kod, zależności plików i instalacja/odinstalowanie.
-Pełny test nowej instalacji podczas meczu nie został wykonany.
+To beta; część funkcji może wymagać dalszych poprawek.
+Kod i zgłoszenia: https://github.com/Axword/pet-soccer-remaster
+Status zasobów stron trzecich: THIRD_PARTY.md w repozytorium.

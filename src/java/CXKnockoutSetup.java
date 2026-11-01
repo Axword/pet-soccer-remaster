@@ -29,4 +29,8 @@ public class CXKnockoutSetup extends MenuMultiplayer {
         m_cEdit.SetDisabled(m_cList.GetItemCount() >= 8);
         UpdateOkButton();
     }
+    public void Hide() {
+        super.Hide();
+        if (m_cModuleShowFB != null) m_cModuleShowFB.Deactivate();
+    }
 }

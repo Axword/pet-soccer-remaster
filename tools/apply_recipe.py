@@ -4,7 +4,7 @@ import argparse, importlib, json, sys, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-RECIPES = ['dead_diagnostics', 'attacker_status', 'console_guard', 'commentary', 'physics', 'timing', 'bracket', 'gmw_profile']
+RECIPES = ['dead_diagnostics', 'attacker_status', 'console_guard', 'commentary', 'physics', 'timing', 'bracket', 'gmw_profile', 'club_names', 'wardrobe', 'tournament']
 
 def read(path):
     with zipfile.ZipFile(path) as z: return {n:z.read(n) for n in z.namelist()}
@@ -26,7 +26,12 @@ def main():
         if not a.baseline: p.error('This recipe requires its exact --baseline reference')
         kwargs = {'baseline_classes':read(a.baseline), 'compiled_dir':a.compiled}
     if a.recipe == 'gmw_profile': kwargs['snapshot'] = json.loads(a.snapshot.read_text(encoding='utf8'))
-    updates = module.apply(classes, **kwargs)
+    if a.recipe == 'wardrobe':
+        updates, _ = module.apply(classes, (a.compiled/'CXTeamColours.class').read_bytes())
+    elif a.recipe == 'tournament':
+        updates, _ = module.apply(classes, a.compiled)
+    else:
+        updates = module.apply(classes, **kwargs)
     a.output.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(a.input) as before, zipfile.ZipFile(a.output, 'w') as after:
         for row in before.infolist(): after.writestr(row, updates.get(row.filename, before.read(row)))

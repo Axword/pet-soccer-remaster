@@ -8,6 +8,7 @@ public final class CXKnockout {
     static MatchData pending;
     static boolean completed;
     static boolean armed;
+    static final java.util.Random drawRandom = new java.util.Random();
 
     public static String SetupTitle(MenuMultiplayer setup) {
         return setup instanceof CXKnockoutSetup ? "TURNIEJ" : Text.Get("&MenuTitleMultiplayer&");
@@ -52,14 +53,25 @@ public final class CXKnockout {
 
     public static void Seed(CXKnockoutSetup setup) { CXGMWProfile.Seed(setup); }
 
+    static void Shuffle(java.util.Vector chosen, java.util.Random random) {
+        for (int i=chosen.size()-1; i>0; i--) {
+            int other=random.nextInt(i+1);
+            Object swap=chosen.elementAt(i);
+            chosen.setElementAt(chosen.elementAt(other),i);
+            chosen.setElementAt(swap,other);
+        }
+    }
+
     public static void Begin(CXKnockoutSetup setup) {
-        if (setup.m_vPlayers.size() != 8) return;
+        if (armed || setup.m_vPlayers.size() != 8) return;
         java.util.Vector chosen = new java.util.Vector();
         for (int i = 0; i < 8; i++) {
             MenuMultiplayer.MpTeamRecord record = (MenuMultiplayer.MpTeamRecord)setup.m_vPlayers.elementAt(i);
             if (record == null || record.GetTeamData() == null) return;
             chosen.addElement(record);
         }
+        // Draw slots once for this new tournament; Show/Render/Consume keep them.
+        Shuffle(chosen,drawRandom);
         teams = chosen;
         games = new MatchData[7];
         winners = new int[7];
@@ -167,8 +179,7 @@ public final class CXKnockout {
 
     static String Label(int entrant, TeamData data) {
         String label = ((MenuMultiplayer.MpTeamRecord)teams.elementAt(entrant)).m_sPlayerName;
-        if (label == null || label.length() == 0 || label.equals(data.m_sName)) label = data.m_sNameAbr;
-        if (label.length() > 14) label = label.substring(0, 13) + "…";
+        if (label == null || label.length() == 0 || label.equals(data.m_sName)) label = data.m_sName;
         return label;
     }
 
@@ -179,11 +190,11 @@ public final class CXKnockout {
         if (extent == null || extent.fX <= width) return text + suffix;
         while (text.length() > 1) {
             text = text.substring(0, text.length() - 1);
-            String shortened = text + "…" + suffix;
+            String shortened = text + "..." + suffix;
             extent = widget.GetTextExtent(shortened);
             if (extent == null || extent.fX <= width) return shortened;
         }
-        return text + "…" + suffix;
+        return text + "..." + suffix;
     }
 
     static void Entry(CXKnockoutMenu menu, String id, int entrant, int game, int side) {

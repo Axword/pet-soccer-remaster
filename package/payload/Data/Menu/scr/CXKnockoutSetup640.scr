@@ -873,7 +873,7 @@ Interface("UI_CX_KNOCKOUT_SETUP")
 
  Static("UIStatic","ID_CX_GOLD_RULE","Specific")
  {
- Text("Remis po dwóch po³owach: z³oty gol")
+ Text("Remis po 2 polowach: zloty gol")
  TextColor(1,1,1)
  Font("FLRoman16")
  TextPosFlags(34)
