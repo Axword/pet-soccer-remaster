@@ -1,90 +1,88 @@
-# Pet Soccer Remaster + Fun Clubs — beta
+# Pet Soccer Remaster + Fun Clubs — Online beta
 
-Fanowski mod Pet Soccer: poprawki obrazu i sterowania, obsługa dwóch padów,
-dodatkowe drużyny **Gothic, Minecraft i Wiedźmin** oraz lokalny turniej z drabinką.
-Oryginalne 12 drużyn pozostaje dostępne.
+Fanowski mod Pet Soccer z poprawkami obrazu, obsługą dwóch padów, turniejem,
+nową **Jagniellonią Białystok** i prototypem **Online 1vs1** z lobby oraz rankingiem.
+Zachowuje styl i 12 zwierzęcych drużyn oryginału.
 
-**To jest beta. Część funkcji może jeszcze działać niepoprawnie.**
-Problemy, crashe i uwagi zgłaszaj w
-[GitHub Issues](https://github.com/Axword/pet-soccer-remaster/issues).
+**Wersja 0.2.0-beta.1. To beta — zgłaszaj błędy w [Issues](https://github.com/Axword/pet-soccer-remaster/issues).**
 
-[**⬇ Pobierz instalator Windows — beta 3**](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.3/PetSoccer-Remaster-GMW-Setup.exe)
+[**⬇ Instalator Windows — Online beta**](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.2.0-beta.1/PetSoccer-Remaster-Online-Setup.exe)
 
-[Pliki moda ZIP](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.1.0-beta.3/PetSoccer-GMW-ModFiles-beta.zip)
-· [Wydanie beta i sumy kontrolne](https://github.com/Axword/pet-soccer-remaster/releases/tag/v0.1.0-beta.3)
+[Pliki moda ZIP](https://github.com/Axword/pet-soccer-remaster/releases/download/v0.2.0-beta.1/PetSoccer-Remaster-Online-ModFiles.zip)
+· [Wydanie i sumy kontrolne](https://github.com/Axword/pet-soccer-remaster/releases/tag/v0.2.0-beta.1)
 · [Strona projektu](https://axword.pl/mods)
 · [Wesprzyj autora](https://buycoffee.to/axword)
 
 ## Instalacja
 
-1. Zainstaluj oryginalną polską wersję Pet Soccer. Gra nie jest dołączona do moda.
-2. Pobierz instalator z zakładki Releases i wskaż folder oryginalnej gry.
-3. Wybierz nowy folder docelowy. Instalator utworzy osobną kopię z modem;
-   oryginalny folder i jego zapis pozostaną bez zmian.
-4. Uruchom `PetSoccer.exe` z nowej kopii albo utworzony skrót.
+1. Potrzebujesz oryginalnej polskiej wersji Pet Soccer. Gra nie jest dołączona.
+2. Uruchom instalator i wskaż folder oryginalnej gry.
+3. Wybierz **nowy folder**. Instalator utworzy osobną kopię; oryginału i jego zapisów nie zmienia.
+4. Uruchom nowy skrót lub `PetSoccer-Online.exe` z folderu moda.
 
-Paczka zawiera czysty profil **Gracz** z odblokowanymi drużynami, boiskami i
-poziomami trudności. Nie zawiera prywatnego zapisu ani postępu kariery autora.
-Pierwszy start używa 1024×768 w oknie. Ustawienia Audio video udostępniają
-wyższe rozdzielczości i oddzielny wybór okna/pełnego ekranu.
+Python do Online jest dołączony. Nie trzeba instalować Blendera, Pythona ani pip.
+Pierwszy start: 1024×768 w oknie, czysty profil **Gracz** z odblokowanymi
+oryginalnymi drużynami, boiskami i poziomami trudności. Nie jest to prywatny zapis autora.
 
-## Co zawiera
+## Gdzie są dodatkowe kluby?
 
-**Beta 3** poprawia kierunek, animacje i ponowne wczytywanie podglądów Gothica
-i Wiedźmina. Odtwarza fragmenty ubrań siedmiu postaci Wiedźmina, które usunęło
-wcześniejsze uproszczenie siatki. Delikatnie wygładza skały na dwóch dodatkowych
-mapach. Zachowuje oryginalny interfejs i poprawki multiplayera oraz turnieju z bety 2.
-[Szczegóły zmian i wykonanych sprawdzeń](docs/BETA3.md).
+Domyślnie widoczne jest 12 oryginalnych klubów.
+**Audio video → Więcej opcji → Dodatkowe kluby: WŁ.** udostępnia:
 
-Zawiera tylko dodatkowe kluby **Borussia Blockmund** (Minecraft), **Górnik Khorinis**
-(Gothic) i **Wiedźminhampton** (Wiedźmin). Nowe kluby mają po jednym faktycznym
-stroju; oryginalne zachowują pięć. [Poprawki bety 2](docs/BETA2.md) pozostają w grze.
+- **Jagniellonię Białystok** — siedmiu jagnięcych zawodników, pięć strojów,
+  herb i boisko **Podlaska Polana**.
+- **Borussię Blockmund** — Minecraft.
+- **Górnika Khorinis** — Gothic.
+- **Wiedźminhampton** — Wiedźmin.
+- **Real Runeterra** — League of Legends.
 
-- Przełączany remaster, zachowane oryginalne czcionki i elementy menu.
-- Obsługę padów w grze, wykrywanie urządzeń i rozdzielenie dwóch graczy.
-- Panele z aktualnie kontrolowanymi zawodnikami.
-- Trzy dodatkowe drużyny, po siedem różnych postaci, oraz ich mapy.
-- Nazwy drużyn/zawodników i komentarze z głosami Gothic.
-- Multiplayer → **TURNIEJ**: osiem drużyn, ćwierćfinały, półfinały i finał.
-- Opcję jednej minuty meczu: dwie połowy po 30 sekund. Remis w turnieju
-  uruchamia oryginalną regułę złotego gola.
-- Poprawki restartów, ochrony przed niepoprawnymi pozycjami piłki i zbędnych
-  operacji wykonywanych podczas meczu.
+Nie ma wybieralnych drużyn polityków, dziennikarzy ani polskiego esportu.
 
-Drabinka działa w bieżącej sesji gry. Dotychczasowy tryb ligowy pozostaje osobno.
+## Online
 
-## Źródła i pliki
+Przycisk **Online** otwiera połączenie z serwerem, listę pokojów i ranking.
+Jeden gracz tworzy pokój, drugi dołącza; obaj wybierają drużyny i gotowość.
+Host prowadzi wspólny stan meczu: piłkę, zawodników, wynik i zegar.
+**Escape daje obu graczom 15 sekund przerwy, po czym mecz wznawia się automatycznie.**
+
+To prototyp do **LAN lub własnego serwera**. Nie ma publicznego, stale
+utrzymywanego serwera ani kont. Domyślne `127.0.0.1` jest połączeniem lokalnym,
+nie wyszukiwaniem innych komputerów. Ranking W/R/P i win rate są zapisane na
+konkretnym serwerze. [Łączenie dwóch komputerów i uruchamianie serwera](docs/ONLINE.md).
+
+## Pozostałe zmiany
+
+- Naprawione puste „Więcej opcji”, powrót do ustawień i przełączanie dodatkowych klubów.
+- Poprawione oczy wszystkich siedmiu modeli Jagniellonii.
+- Oryginalne zwierzęta różnią się delikatnie proporcjami i ubarwieniem,
+  przy zachowaniu wymiarów fizyki i zasad gry.
+- Delikatne wyostrzenie istniejących 12 map, bez zwiększania pamięci ich tekstur.
+- Obsługa padów, oddzielny tryb okna/pełnego ekranu i wyższe rozdzielczości,
+  przełączany remaster, oryginalne czcionki oraz panele zawodników.
+- Poprawki podglądów Gothica, Wiedźmina i LoL-a, restartów gry i obsługi niepoprawnych pozycji piłki.
+- Lokalny **Multiplayer → TURNIEJ**: osiem drużyn i drabinka; mecz od jednej minuty
+  (2×30 s), a przy remisie w turnieju złoty gol.
+
+[Zakres sprawdzeń i ograniczenia tej wersji](docs/ONLINE_BETA1.md).
+
+## Źródła
 
 | Ścieżka | Zawartość |
 | --- | --- |
-| `src/native` | Pełny bieżący kod mostka JNI, obrazu, HUD-u, padów, komentarzy i zabezpieczeń fizyki. |
-| `src/java` | Autorskie klasy interfejsu, drabinki i profilu GMW oraz deklaracje JNI. |
-| `src/patches` | Jawne przepisy zmian bajtkodu: czas meczu, drabinka, wybór drużyn, logowanie, fizyka i optymalizacja. |
-| `tools` | Edytor plików klas, kompilacja i tworzenie nowych, izolowanych PAK-ów. |
-| `authoring` | Rzeczywiste przepisy eksportu modeli, animacji i map; uruchamiane w osobnym lokalnym workspace. |
-| `installer` | Otwarty kod instalatora i mechanizmu kopiowania/łatek. |
-| `package` / `metadata` | Pliki i manifesty paczki; niezmienione pliki gry kopiowane są z lokalnej instalacji. |
-| `tests` | Testy reguł i narzędzi, generowanie czystego zapisu oraz testy bezpieczeństwa instalacji. |
-| `docs` | Architektura, budowanie, zakres weryfikacji i pochodzenie źródeł. |
+| `src/native`, `src/java` | Autorskie części mostka JNI, menu, Online, animacji i pozostałych poprawek. |
+| `src/patches`, `tools` | Jawne, sprawdzające wejścia przepisy zmian i narzędzia budowania. |
+| `src/online` | Serwer, launcher i testy Online. |
+| `authoring` | Przepisy tworzenia modeli, tekstur i map. |
+| `installer`, `delta.py` | Instalator i mechanizm łat, także aliasów zasobów oryginału. |
+| `package`, `metadata` | Pliki moda, łaty i manifest obsługiwanej oryginalnej instalacji. |
+| `tests`, `docs` | Testy, instrukcje, pochodzenie źródeł i granice weryfikacji. |
 
-Kod autorskich części jest na licencji **MIT**. Modele, dźwięki, grafiki,
-czcionki i dane łat z materiałów gier mają odrębny status — zobacz
-[THIRD_PARTY.md](THIRD_PARTY.md). Repozytorium nie zawiera silnika, JRE,
-kompletnej oryginalnej gry ani jej niezmienionych klas jako osobnych plików.
+Kod autorski jest na licencji **MIT**. Materiały gier i runtime Pythona mają
+odrębne licencje: [THIRD_PARTY.md](THIRD_PARTY.md). Repozytorium nie zawiera
+kompletnej oryginalnej gry, silnika ani JRE. Zmienione zasoby oryginału, także
+kopie pod nowymi nazwami, instalator odtwarza z lokalnych plików i łat.
 
-Instrukcja dla osób modyfikujących kod: [BUILDING.md](docs/BUILDING.md).
+[Budowanie](docs/BUILDING.md) · [Pochodzenie nowych źródeł](docs/SOURCE_PROVENANCE.md)
 
-## Zgłaszanie problemów
-
-Podaj wersję moda, Windows, rozdzielczość i tryb ekranu, liczbę padów, drużyny,
-mapę oraz kroki prowadzące do błędu. Dla crasha dołącz odpowiedni fragment
-logu po usunięciu prywatnych danych. Zrzut lub krótkie nagranie pomaga przy
-błędach animacji i interfejsu. Nie przesyłaj całej gry.
-
-## Stan weryfikacji
-
-Sprawdzono kod, klasy Java w środowisku gry, reguły drabinki, zależności paczki
-oraz instalację i odinstalowanie w osobnym folderze. Te sprawdzenia nie zastępują
-pełnego testu wizualnego i dłuższych meczów na każdej konfiguracji. Płynność,
-urządzenia wejściowe i nietypowe sytuacje meczowe mogą wymagać dalszych poprawek.
-
+Przy zgłoszeniu błędu podaj wersję, drużyny, mapę, tryb gry, rozdzielczość i kroki
+odtworzenia. Logi przejrzyj pod kątem prywatnych danych. Nie przesyłaj całej gry.

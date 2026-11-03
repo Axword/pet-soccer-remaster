@@ -1,0 +1,23 @@
+{
+  "SoccerModule.OnFrame()V": "813c289403ffa9cb280f83f6b7d386ba65eec11faf568ebcb53d0056bddcfd84",
+  "SoccerModule.OnMatchEnd()V": "2e3eb50dc68f7a78d676bee01ab9e4dbdd2e3966346e8d4912a60b83315b3380",
+  "SoccerModule.OnInputKey(IZC)V": "17eff5a1915ffc73ec363e8202390dfce392c77d8acc7c796c3f528f86555313",
+  "InputDigital.Translate(IIZ)V": "de844326f22ada16c5da8ae73228c37b32eb44df4c0e19cb42f1bf0f9af45880",
+  "InputAnalog.Translate(IIF)V": "e17ef645184621531c443864024c951e660b606ca960a58790af38c9a6973c6b",
+  "AIMatch.Update()V": "b2ffe4132c25bdb1a2c3b9bfebc557d686ac26610a49a1bd031454de5eb02463",
+  "AIFootBaller.OnFrame()V": "a497d711a3e0342b7f8bf6458fe9b2583c7618482981034cc7f24163fd7164c8",
+  "AIFootBaller.Update()V": "78d816ab9bbd52306ddfbb2f552a9ca0072a17fc440e411ea4dfaaeb10f082eb",
+  "AIFootBaller.OnPhysicsUpdate(FF)V": "998f287e1f1898d1f12e53018217dc1f1210a80bec317363fe2724e458ecbdf5",
+  "AIFootBaller.OnCollisionFullInfoMove(LControlObject;LVector;LVector;LVector;)V": "5b81d1a0d6089214a56c96dbe55d7d865b5a5d2bbeb47b250f29c95d3b30ffe8",
+  "Ball.OnFrame()V": "df3a2f7cdf3732ff7e3d29f526354396521042748faf9f5c9c6728aadadb4a31",
+  "Ball.OnPhysicsUpdate(FF)V": "097b081b689a3f313c940786cced4dcfc7ebb5562f74683660b0d8d95d170015",
+  "Ball.OnCollisionFullInfo(LControlObject;LVector;LVector;)V": "3cd4fe13a5b97a8665e9e99f61cac3536041ad33b793c6c751929bb3a5f17078",
+  "SoccerModule.StartMatch()V": "eb7695c2a16453b3290b371c7bbe2b4ae418c50d42059104d66ad09721e17974",
+  "FootBaller.PlayAnim(Ljava/lang/String;I)I": "b582e6aa734ad84b95443a40ae25a0c6673d91f238ca27839bd94cdb18a7d6b8",
+  "SoccerGame.OnFrame()V": "25c7d03a2a21753818cfd76d97d7a034575f7b15ee1a154b575e0f262d481883",
+  "SoccerGame.ExitToMenu()V": "fe2ebc17959b270ef68b57528a2f063e7b38c5e1635906040be28aa03274445e",
+  "SoccerGame.EndModule()V": "1dac88b1d896af25921e870ae9dba5dba959ac3a0cef0c29d1d2deb3abe64be6",
+  "SoccerGame.SaveAttrib()V": "0c768da7ca8591a780e15e0e3f3d0d555fc8be9ad1cacb27a0e64ba8cd60d2a0",
+  "PetSoccerHud.ShowEventInfo(I)V": "679f5e701476d641355ce1422821b3b299d2e7da9273fd1f57ddff41a5e19aa3",
+  "Commentator.CommentMatchEnd()V": "dfbd1abe0227d6be471aeb61b49ea2c41e8d4df0dd6d07adb4128181cd632a99"
+}

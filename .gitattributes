@@ -17,6 +17,7 @@ installer/**/*.nsi text eol=lf
 LICENSE text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
-package/** -text
-metadata/** -text
+package/** -text whitespace=-blank-at-eol,-blank-at-eof
+metadata/** -text whitespace=cr-at-eol
+*.gmwd binary
 

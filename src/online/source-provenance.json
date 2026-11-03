@@ -1,0 +1,159 @@
+{
+  "format": "PET-SOCCER-OWNED-ONLINE-SOURCE-1",
+  "version": "0.2.0-beta.1",
+  "frozen_portable_delivery_sha256": "427e1fb41fca9819f301877f4a2c0bc8c53cd8bfbbc879be37b4c187552668ce",
+  "files": [
+    {
+      "source": "src/online_launcher.cpp",
+      "target": "src/online/online_launcher.cpp",
+      "input_sha256": "94e5731fbe8edff8cfb85b7039b13af78e14d02c884036a526001fc8de3fe987",
+      "output_sha256": "94e5731fbe8edff8cfb85b7039b13af78e14d02c884036a526001fc8de3fe987",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "payload/online/broker.py",
+      "target": "src/online/broker.py",
+      "input_sha256": "fda1ff9df22bf674acc390d2d9e84037bc2779090888c4514c28693c733582f5",
+      "output_sha256": "0e833f15bc9da8dfa302a576e12ae5024a84056048476e3cded6121c9c66779a",
+      "change": "broker"
+    },
+    {
+      "source": "tests/launcher_guard_test.cpp",
+      "target": "src/online/tests/launcher_guard_test.cpp",
+      "input_sha256": "b0ec28a2af65326b3d16880206c9cf2853438d696869a608bc34463536ebdc2b",
+      "output_sha256": "b0ec28a2af65326b3d16880206c9cf2853438d696869a608bc34463536ebdc2b",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/probe_test.cpp",
+      "target": "src/online/tests/probe_test.cpp",
+      "input_sha256": "b84d679c66f5ea6131aba60895e0802776b7850a517799315f47841b63ce356a",
+      "output_sha256": "b84d679c66f5ea6131aba60895e0802776b7850a517799315f47841b63ce356a",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/real_broker_probe.cpp",
+      "target": "src/online/tests/real_broker_probe.cpp",
+      "input_sha256": "a642952484ee3d5e53a08fabbd42ff8be938df11fcd9b8e1a21c14553e6dbe4b",
+      "output_sha256": "a642952484ee3d5e53a08fabbd42ff8be938df11fcd9b8e1a21c14553e6dbe4b",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/real_broker_probe.py",
+      "target": "src/online/tests/real_broker_probe.py",
+      "input_sha256": "5eaaa3a0506ada8ed489dd36da25b1dfb169cb1fee5bc4c3b79cfed6cf56b92e",
+      "output_sha256": "5eaaa3a0506ada8ed489dd36da25b1dfb169cb1fee5bc4c3b79cfed6cf56b92e",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/run_guard.py",
+      "target": "src/online/tests/run_guard.py",
+      "input_sha256": "bcd89ae612e9967ddb9e13a9c1c48ff8adaf2c650efa4032e52bb04aa6e98fa6",
+      "output_sha256": "67d1b2aa8834169aefa2ef2f4c71404c094bd06481b2b3b2bf65cb38af13283e",
+      "change": "LF plus source-only workspace guard before output creation"
+    },
+    {
+      "source": "tests/test_broker.py",
+      "target": "src/online/tests/test_broker.py",
+      "input_sha256": "c0bcc8d31b3d279ce677d26e48608743f877a417dcfed2ecfa0698cfad7c42b2",
+      "output_sha256": "c0bcc8d31b3d279ce677d26e48608743f877a417dcfed2ecfa0698cfad7c42b2",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/test_launcher.py",
+      "target": "src/online/tests/test_launcher.py",
+      "input_sha256": "9483f8fd86ffb4a4b29cde3d36f29c41f8b12f71271d3dd370c7100aeeded8d4",
+      "output_sha256": "9483f8fd86ffb4a4b29cde3d36f29c41f8b12f71271d3dd370c7100aeeded8d4",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/test_leaderboard.py",
+      "target": "src/online/tests/test_leaderboard.py",
+      "input_sha256": "fc20ec7c05c29aaa0c3a8e1fceb8487d95d20575ec45b0f04a9ae10a94509fdc",
+      "output_sha256": "fc20ec7c05c29aaa0c3a8e1fceb8487d95d20575ec45b0f04a9ae10a94509fdc",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/test_pause.py",
+      "target": "src/online/tests/test_pause.py",
+      "input_sha256": "cea376b935fa30ef8e50acaf4fae74baa09e20c1fc9261c0d909521e13542371",
+      "output_sha256": "cea376b935fa30ef8e50acaf4fae74baa09e20c1fc9261c0d909521e13542371",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "tests/test_portable.py",
+      "target": "src/online/tests/test_portable.py",
+      "input_sha256": "20b213ee48bc878adaddadff37f9f257f3973cadab139038922045114ab03d58",
+      "output_sha256": "20b213ee48bc878adaddadff37f9f257f3973cadab139038922045114ab03d58",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "payload/Online - polacz ze swoim serwerem.cmd",
+      "target": "src/online/scripts/Online - polacz ze swoim serwerem.cmd",
+      "input_sha256": "8737aa8436aa3a2606807aebe5bed24f511e08b30d35ca49175043f7ddbbadac",
+      "output_sha256": "8737aa8436aa3a2606807aebe5bed24f511e08b30d35ca49175043f7ddbbadac",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "payload/ONLINE.txt",
+      "target": "src/online/scripts/ONLINE.txt",
+      "input_sha256": "43977c495875e3b3778ba7bd63c88df4e2b264a8a2bdff8088cd814f2e651846",
+      "output_sha256": "43977c495875e3b3778ba7bd63c88df4e2b264a8a2bdff8088cd814f2e651846",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "payload/Uruchom-Serwer-LAN.cmd",
+      "target": "src/online/scripts/Uruchom-Serwer-LAN.cmd",
+      "input_sha256": "f7e653320a0a94c3d87894557ff6fd57894d796e8454f84fb454030faf55316d",
+      "output_sha256": "f7e653320a0a94c3d87894557ff6fd57894d796e8454f84fb454030faf55316d",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "payload/Zatrzymaj-Lobby.cmd",
+      "target": "src/online/scripts/Zatrzymaj-Lobby.cmd",
+      "input_sha256": "a4c262f01eeebea0b9a8bca3a8b767099493390a186ff4b018637c8db9b3eaae",
+      "output_sha256": "a4c262f01eeebea0b9a8bca3a8b767099493390a186ff4b018637c8db9b3eaae",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "payload/online/Stop-Lobby.ps1",
+      "target": "src/online/scripts/online/Stop-Lobby.ps1",
+      "input_sha256": "20097b4855790388b580f7ea2fbc491342e50b0ebaa0611c5e866a744d20021d",
+      "output_sha256": "20097b4855790388b580f7ea2fbc491342e50b0ebaa0611c5e866a744d20021d",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "runtime-contract.json",
+      "target": "src/online/runtime-contract.json",
+      "input_sha256": "627ed91f50082d59e19a0f3fccec49000af4c24ffd28408d6f6983a37ef1b7ea",
+      "output_sha256": "fc852471ca0530b3644465ff9cdb1517a61f27e6c5a060fdd2c29c6e077597b0",
+      "change": "LF source line endings only"
+    },
+    {
+      "source": "build_launcher.py",
+      "target": "src/online/workspace_build_launcher.py",
+      "input_sha256": "925467f58fac77b13962a18f1fbe41473ce6e7f05a990ec2596997c671939c35",
+      "output_sha256": "d3b72342a800a0a00428532f2e4393b870cee34b991e5d33700195d30905cdcf",
+      "change": "compiler"
+    },
+    {
+      "source": "run_tests.py",
+      "target": "src/online/workspace_run_tests.py",
+      "input_sha256": "b9902b76808dc72644adeddc7586c011c7360356be2e855f471a7158de494f7d",
+      "output_sha256": "9d56a3b5ab762dc51b5de415013d7e9a4c3285401766c3907e10980c938968b9",
+      "change": "tests"
+    }
+  ],
+  "additional_public_tools": [
+    "tools/online_build_common.py",
+    "tools/prepare_online_workspace.py",
+    "tools/build_online_runtime.py",
+    "tools/build_online_launcher.py",
+    "tools/test_online.py"
+  ],
+  "notes": [
+    "Only owned source is imported; official runtime binaries stay in package/payload.",
+    "Source broker adds only a doc link correction and SOURCE_ONLY marker guard to prevent CLI writes into src.",
+    "Build/test helpers require a staged WORKSPACE.json and create generated files only in ignored build/."
+  ]
+}

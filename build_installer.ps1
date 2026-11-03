@@ -8,6 +8,6 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Native backend compilation failed. Install MSVC Desktop C++ build tools.' }
     & $NsisCompiler /V2 /INPUTCHARSET UTF8 PetSoccerGMW.nsi
     if ($LASTEXITCODE -ne 0) { throw 'NSIS compilation failed.' }
-    Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $publicBuildRoot 'release/PetSoccer-Remaster-GMW-Setup.exe')
+    Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $publicBuildRoot 'release/PetSoccer-Remaster-Online-Setup.exe')
 }
 finally { Pop-Location }

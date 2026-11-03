@@ -1,0 +1,22 @@
+{
+  "EAnimals": {
+    "<clinit>": "48d394f87d5b7edd3f7e7b4156c3e629e031ee2bb16a028119884145e19eb834"
+  },
+  "ETeams": {
+    "InitTeamData": "605f36c0c2e32ed59a84c8a9c01040f31aaf7078ef35db39e4543494ef664c3e"
+  },
+  "CoreLogic": {
+    "<clinit>": "7258ac976dbc052d2f183a9122203a520db52021bc3bba28f5d8a35120d52350"
+  },
+  "MenuChooseTeam": {
+    "<init>": "02d9ed0dbdd953d7466a980cdf32a0980da2e8ecc577730ca776fcff9bb3248d",
+    "OnCreate": "4e706d8ef71a8e869f18b569c07039f818ee49b90ba04d899b8c2dbfb7c37683"
+  },
+  "CXGMWProfile": {
+    "Selected": "01f8a01f9bc4494089a12060d3c8ddc5d27f8e8a11373547b65248bf960cc225",
+    "Map": "7daf7b57036f7cc94f8cd9b800082bfdf4e20f5ba5070459c32a4f28bb2024e5"
+  },
+  "TeamData": {
+    "IsAvailable": "ddfde240e88d588e8e0b5129ca718e489ce6e992518e188b6ee7a1e7f0ec41a8"
+  }
+}

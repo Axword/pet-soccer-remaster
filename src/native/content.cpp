@@ -4,7 +4,7 @@ static jobject backdropOwner=nullptr;
 static float originalPhysics[3]={};
 extern "C" JNIEXPORT void JNICALL Java_CXSupport_NormalizePhysics(JNIEnv* e,jclass,jobject footballer){
  logf("NORMALIZE entering");
- jclass f=e->GetObjectClass(footballer);int animal=e->GetIntField(footballer,e->GetFieldID(f,"m_nAnimalType","I"));if(animal<13)return;
+ jclass f=e->GetObjectClass(footballer);int animal=e->GetIntField(footballer,e->GetFieldID(f,"m_nAnimalType","I"));if(animal<13||animal==58)return;
  e->PushLocalFrame(24);jclass v=e->FindClass("Vector");jmethodID ctor=e->GetMethodID(v,"<init>","(FFF)V");
  if(originalPhysics[1]<=0){
   logf("NORMALIZE loading reference");
@@ -18,6 +18,7 @@ extern "C" JNIEXPORT void JNICALL Java_CXSupport_NormalizePhysics(JNIEnv* e,jcla
  error(e,"cosmetic model physics normalization");e->PopLocalFrame(nullptr);
 }
 extern "C" JNIEXPORT jint JNICALL Java_CXSupport_ResolveAnimal(JNIEnv* e,jclass,jint team,jint animal){
+ if(animal==58)return 58; // One stock animal, not the old politician58..64 cosmetic group.
  // CX_FAZBEAR_MIXED_SQUAD
  bool fazbear=animal==19||(animal>=80&&animal<86);
  if((!fazbear&&(animal<30||animal>=86||!appearanceGroup[animal]))||!initAPI(e))return animal;
@@ -25,11 +26,12 @@ extern "C" JNIEXPORT jint JNICALL Java_CXSupport_ResolveAnimal(JNIEnv* e,jclass,
  jmethodID count=e->GetMethodID(tm,"GetFootBallerCount","()I");int slot=e->CallIntMethod(t,count)%7;int base=appearanceGroup[animal];int result=fazbear?fazbearSpecies[slot]:base+slot;
  logf("SQUAD team=%d slot=%d appearance=%d name=%s",team,slot,result,appearanceNames[result]?appearanceNames[result]:"missing");return result;
 }
-extern "C" JNIEXPORT jstring JNICALL Java_CXSupport_ResolvePlayerName(JNIEnv* e,jclass,jint animal,jstring old){if((animal==19||(animal>=30&&animal<86))&&appearanceNames[animal])return e->NewStringUTF(appearanceNames[animal]);return old;}
-extern "C" JNIEXPORT jint JNICALL Java_CXSupport_Home(JNIEnv*,jclass,jint animal){return animal>=0&&animal<86?contentHomes[animal]:-1;}
+extern "C" JNIEXPORT jstring JNICALL Java_CXSupport_ResolvePlayerName(JNIEnv* e,jclass,jint animal,jstring old){if(animal==58)return old;if((animal==19||(animal>=30&&animal<86))&&appearanceNames[animal])return e->NewStringUTF(appearanceNames[animal]);return old;}
+extern "C" JNIEXPORT jint JNICALL Java_CXSupport_Home(JNIEnv*,jclass,jint animal){if(animal==58)return 42;return animal>=0&&animal<86?contentHomes[animal]:-1;}
 extern "C" JNIEXPORT void JNICALL Java_CXSupport_SpawnBackdrop(JNIEnv* e,jclass,jobject module){
  logf("BACKDROP entering");
- if(!initAPI(e))return;jfieldID levelField=e->GetFieldID(sm,"m_nLevelID","I");int id=e->GetIntField(module,levelField);if(id<38||id>43)return;
+ if(!initAPI(e))return;jfieldID levelField=e->GetFieldID(sm,"m_nLevelID","I");int id=e->GetIntField(module,levelField);if(id==42)return; // Podlasie is a complete original-style map, no legacy politician backdrop.
+ if(id<38||id>43)return;
  if(backdropOwner&&e->IsSameObject(backdropOwner,module))return;
  if(backdropOwner)e->DeleteGlobalRef(backdropOwner);backdropOwner=e->NewGlobalRef(module);
  cxGroundNeutralArenaDecor(e,module,id);

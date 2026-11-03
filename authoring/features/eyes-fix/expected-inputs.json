@@ -1,0 +1,37 @@
+[
+  {
+    "slot": 0,
+    "relative": "Data/Meshes/Animals/cx_jagniaki_0.3da",
+    "sha256": "878dacc8826a852137cac38174593a8103ec9dbefe4c6a7dda89e14760c77914"
+  },
+  {
+    "slot": 1,
+    "relative": "Data/Meshes/Animals/cx_jagniaki_1.3da",
+    "sha256": "faf2a89ec90d2f048eb508840ccaf21550da8244406ab7f318c982f25de0cf2c"
+  },
+  {
+    "slot": 2,
+    "relative": "Data/Meshes/Animals/cx_jagniaki_2.3da",
+    "sha256": "6edb0d0b4bf406bcd7645e98ab0d4a2dfdbe76732b503970da8fea4829185d6d"
+  },
+  {
+    "slot": 3,
+    "relative": "Data/Meshes/Animals/cx_jagniaki_3.3da",
+    "sha256": "1fddf37f0ed252f6c648615774556f0e73451ee531f625e3f77803a37eb26ad8"
+  },
+  {
+    "slot": 4,
+    "relative": "Data/Meshes/Animals/cx_jagniaki_4.3da",
+    "sha256": "5ab548cf6e8970186bd2ac713d0c34e1b981bc110e4ab11916d4b95ff87d141b"
+  },
+  {
+    "slot": 5,
+    "relative": "Data/Meshes/Animals/cx_jagniaki_5.3da",
+    "sha256": "8aa3ac695efab28c4e94ad507a4228cfbf4083b386d1debaf478bcb809616edb"
+  },
+  {
+    "slot": 6,
+    "relative": "Data/Meshes/Animals/cx_jagniaki_6.3da",
+    "sha256": "a18c9199a39f4b95dd4feb02164bb59c4f5a17253a79497738fc188f4e1165d4"
+  }
+]

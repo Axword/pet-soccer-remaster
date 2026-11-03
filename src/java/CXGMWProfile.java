@@ -8,15 +8,16 @@ public final class CXGMWProfile {
         } catch(Exception failure) { throw new IllegalStateException("Profile table: "+name+": "+failure); }
     }
     public static boolean Selected(int species) {
-        return species >= 0 && (species <= 12 || species >= 37 && species <= 57);
+        return species >= 0 && (species <= 12 || species >= 30 && species <= 57);
     }
     public static int Species(int species) {
         return species >= 13 && !Selected(species) ? 11 : species;
     }
     public static int Map(int level) {
-        return level >= 21 && level != 38 && level != 40 && level != 41 ? 0 : level;
+        return level >= 21 && level != 38 && level != 39 && level != 40 && level != 41 ? 0 : level;
     }
     public static int SeedIndex(int slot, int available) {
+        if (available == 16) return slot < 4 ? slot : slot + 8;
         if (available == 15) return slot < 5 ? slot : slot + 7;
         return available >= 20 ? 12 + slot : slot % available;
     }
@@ -52,6 +53,7 @@ public final class CXGMWProfile {
             EAnimals.CXPlayers[i]=names;
         }
         for(int i=0;i<EAnimals.CXVoice.length;i++) EAnimals.CXVoice[i]=playerWaves[11][0];
+        CXLoLProfile.Animals();
     }
     public static void TeamStats() {
         int[] strength=(int[])Table(ETeams.class,"m_nSkillsStrength");
@@ -67,6 +69,7 @@ public final class CXGMWProfile {
     public static void Teams() {
         TeamData[] teams=(TeamData[])Table(ETeams.class,"tTeams");
         for(int i=13;i<86;i++) if(!Selected(i)) teams[i]=teams[11];
+        CXLoLProfile.Teams();
     }
     public static void Maps() {
         for(int i=21;i<CoreLogic.sLevelFileNames.length;i++) if(Map(i)!=i) {
@@ -75,5 +78,6 @@ public final class CXGMWProfile {
             CoreLogic.sLevelMusic[i]=CoreLogic.sLevelMusic[0];
             CoreLogic.sLevelLoopSounds[i]=CoreLogic.sLevelLoopSounds[0];
         }
+        CXLoLProfile.Maps();
     }
 }

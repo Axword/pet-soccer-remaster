@@ -1,0 +1,3 @@
+Pet Soccer Remaster + Fun Clubs
+0.2.0-beta.1
+Online protocol: GMWL-6fbcaedb-online5

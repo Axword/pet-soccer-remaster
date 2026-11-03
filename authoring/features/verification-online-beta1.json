@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "compile and private-path scan",
+      "file": "features/animal-identity/build_texture_variants.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/animal-identity/build_texture_variants.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/animal-identity/build_variants.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/animal-identity/build_variants.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/animal-identity/native_variants.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/base-maps/build_stock_polish.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/base-maps/build_stock_polish.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/base-maps/native_tex.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/eyes-fix/build_eye_delta.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/eyes-fix/build_eye_delta.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/eyes-fix/inspect_eyes.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/eyes-fix/inspect_eyes.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/jagniellonia/build_assets.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/jagniellonia/build_assets.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/jagniellonia/build_lamb_one.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/jagniellonia/build_lamb_one.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/jagniellonia/build_map.py",
+      "passed": true
+    },
+    {
+      "check": "side-effect-free CLI help",
+      "file": "features/jagniellonia/build_map.py",
+      "passed": true
+    },
+    {
+      "check": "compile and private-path scan",
+      "file": "features/jagniellonia/native_readback.py",
+      "passed": true
+    },
+    {
+      "check": "approved first lamb reproduced from stock source using exported recipe",
+      "passed": true,
+      "sha256": "878dacc8826a852137cac38174593a8103ec9dbefe4c6a7dda89e14760c77914"
+    },
+    {
+      "check": "exact approved model reproduction and duplicate rejection",
+      "slot": 0,
+      "body_head_morph_reproduced": true,
+      "sha256": "ee14840c195ca1451938b4221d7044edc03fce74bcece331b9428bc817ade1de",
+      "passed": true
+    },
+    {
+      "check": "exact approved model reproduction and duplicate rejection",
+      "slot": 1,
+      "body_head_morph_reproduced": true,
+      "sha256": "601efb1675397fd9cd0a8dfcf31d8d404d999ef381e6f29bdef591e0cc97eaa9",
+      "passed": true
+    },
+    {
+      "check": "exact approved model reproduction and duplicate rejection",
+      "slot": 2,
+      "body_head_morph_reproduced": true,
+      "sha256": "f0984bd5139a5cbfa42e9462ea82640147118d24533882cd978476f575d49f25",
+      "passed": true
+    },
+    {
+      "check": "exact approved model reproduction and duplicate rejection",
+      "slot": 3,
+      "body_head_morph_reproduced": true,
+      "sha256": "28a3b5bf6638a1f98bcf8abac031c6c3866c51c576394419ef8968152d7d8fbe",
+      "passed": true
+    },
+    {
+      "check": "exact approved model reproduction and duplicate rejection",
+      "slot": 4,
+      "body_head_morph_reproduced": true,
+      "sha256": "f8c17513c51b9fdadb6591ba4cacd628abd22c7652152ef9b99116c98971a76e",
+      "passed": true
+    },
+    {
+      "check": "exact approved model reproduction and duplicate rejection",
+      "slot": 5,
+      "body_head_morph_reproduced": true,
+      "sha256": "21ec81c787fcd04cd57724d8f4c1c292d2bd5216a7778a24290ce26f7a977ca4",
+      "passed": true
+    },
+    {
+      "check": "exact approved model reproduction and duplicate rejection",
+      "slot": 6,
+      "body_head_morph_reproduced": true,
+      "sha256": "944c4e61b83d6070ba293e1b25d307e08762cbe6b47339ee927856a3f377b6ab",
+      "passed": true
+    }
+  ],
+  "source_models_read_only": true,
+  "game_or_blender_launched": false,
+  "asset_outputs_written": false,
+  "dependencies": {
+    "python": "3.13.13",
+    "numpy": "2.3.4",
+    "Pillow": "13.0.0"
+  }
+}

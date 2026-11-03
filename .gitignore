@@ -42,6 +42,8 @@ node_modules/
 !package/payload/cxsupport.dll
 !package/payload/GMWZipNormalize.class
 !package/payload/.gmw-tools/GMWZipNormalize.class
+!package/payload/PetSoccer-Online.exe
+!package/payload/online/runtime/**
 !installer/GMWZipNormalize.class
 /installer/GMWInstallerHelper.exe
 /release/

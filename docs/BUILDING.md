@@ -3,6 +3,14 @@
 Wszystkie wejścia oryginalnej gry pozostają lokalne. Nie dodawaj ich do Git.
 Do testów stosuj nowy folder roboczy; narzędzia nie powinny nadpisywać oryginału.
 
+## Bieżące wydanie Online 0.2.0-beta.1
+
+Dla nowej wersji stosuj kolejność opisaną w [ONLINE.md](ONLINE.md) i narzędzie
+`tools/build_online.py`. Ono wybiera odpowiednie klasy i nakłada przepisy
+rejestracji Jagniellonii. Poniższe przykłady beta3 są dokumentacją historycznych
+etapów: hurtowa podmiana wszystkich klas po zbudowaniu Online odpięłaby część
+nowych hooków. Pochodzenie bieżących źródeł: [SOURCE_PROVENANCE.md](SOURCE_PROVENANCE.md).
+
 ## Wymagania
 
 - Windows, Python3.10+.

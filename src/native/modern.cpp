@@ -50,25 +50,90 @@ static jobject cxHudElem(JNIEnv* e,jobject root,int index){return e->CallObjectM
 static void text(JNIEnv* e,jobject root,const char* id,const char* value){jobject o=elem(e,root,id);if(o){jstring s=e->NewStringUTF(value);e->CallVoidMethod(o,setText,s);e->DeleteLocalRef(s);e->DeleteLocalRef(o);}}
 static void label(JNIEnv* e,jobject root,const char* id,const char* caption,int value,bool yesno=true){char b[150];if(yesno)sprintf_s(b,"%s: %s",caption,value?"WL.":"WYL.");else sprintf_s(b,"%s: %d",caption,value);text(e,root,id,b);}
 extern "C" JNIEXPORT void JNICALL Java_CXSupport_RefreshOptions(JNIEnv* e,jclass,jobject root){
- if(!uiAPI(e))return;label(e,root,"CX_REMASTER","Remaster",remaster);text(e,root,"CX_DISPLAY_NOTICE",displayNotice);label(e,root,"CX_RM","Remaster / filtrowanie 16x",remaster);label(e,root,"CX_VSYNC","Synchronizacja pionowa",vsync);
+ if(!uiAPI(e))return;label(e,root,"CX_EXTRA_TEAMS","Dodatkowe kluby",readInt("Content","ExtraTeams",0)!=0);label(e,root,"CX_REMASTER","Remaster",remaster);text(e,root,"CX_DISPLAY_NOTICE",displayNotice);label(e,root,"CX_RM","Remaster / filtrowanie 16x",remaster);label(e,root,"CX_VSYNC","Synchronizacja pionowa",vsync);
  if(fps)label(e,root,"CX_FPS","Limit FPS",fps,false);else text(e,root,"CX_FPS","Limit FPS: bez limitu");
  label(e,root,"CX_HUD","Panele zawodnikow",hudOn);label(e,root,"CX_VOICE","Komentarz Gothic",voiceOn);label(e,root,"CX_PAD","Dwa pady XInput",enabled);label(e,root,"CX_DEADZONE","Martwa strefa (%)",leftDZ*100/32767,false);label(e,root,"CX_CURSOR","Predkosc kursora",cursorSpeed,false);label(e,root,"CX_INVERT","Odwroc os Y kursora",invertY);label(e,root,"CX_PAUSE","Pauza po utracie fokusu",autoPause);
  if(cameraFov)label(e,root,"CX_CAMERA","Kat widzenia kamery",cameraFov,false);else text(e,root,"CX_CAMERA","Kamera: oryginalna");label(e,root,"CX_P1","Pad gracza 1 (port 1-4)",ports[0]+1,false);label(e,root,"CX_P2","Pad gracza 2 (port 1-4)",ports[1]+1,false);error(e,"refresh settings");
 }
+// CXOptions owns its complete, synchronous tree/focus/stacking lifecycle.
+// Keep destruction deferred until the native UI command has returned.
+static bool queueOptionsDisposal(JNIEnv* e,jobject panel){
+ if(!panel)return false;jobject held=e->NewGlobalRef(panel);
+ if(!held){if(e->ExceptionCheck())e->ExceptionClear();logf("OPTIONS could not retain disposal reference");return false;}
+ closedOptions.push_back(held);return true;
+}
+static bool optionsException(JNIEnv* e,const char* stage){
+ if(!e->ExceptionCheck())return false;
+ e->ExceptionDescribe();e->ExceptionClear();logf("OPTIONS failure: %s; keeping parent usable",stage);return true;
+}
 static void openOptions(JNIEnv* e,jobject parent){
- if(!uiAPI(e)||modernOptions)return;jobject module=e->GetObjectField(parent,uiModule);jstring name=e->NewStringUTF("CXOptions");jobject o=e->CallObjectMethod(module,createObj,name);e->DeleteLocalRef(name);if(error(e,"create modern options")||!o)return;
- for(auto spec:{std::pair<const char*,float>("CXUI",.029f),{"CXTitle",.04f}}){jstring id=e->NewStringUTF(spec.first),face=e->NewStringUTF("FL Romanski 13");int h=e->CallStaticIntMethod(go,screenH);e->CallBooleanMethod(module,loadfontNative,id,face,(int)(h*spec.second));e->DeleteLocalRef(id);e->DeleteLocalRef(face);}
- name=e->NewStringUTF("data/menu/scr/CXOptions.scr");jboolean ok=e->CallBooleanMethod(o,loadUI,module,name,JNI_FALSE);e->DeleteLocalRef(name);if(error(e,"load modern options")||!ok)return;
- modernOptions=e->NewGlobalRef(o);previousOptions=e->NewGlobalRef(parent);e->CallVoidMethod(parent,hideUI);Java_CXSupport_RefreshOptions(e,nullptr,o);e->CallNonvirtualVoidMethod(o,ui,showUI);logf("modern settings opened");
+ if(!uiAPI(e)||modernOptions||!parent)return;
+ jobject module=e->GetObjectField(parent,uiModule);if(!module)return;
+ jstring name=e->NewStringUTF("CXOptions");jobject o=e->CallObjectMethod(module,createObj,name);e->DeleteLocalRef(name);
+ if(optionsException(e,"create")||!o)return;
+ for(auto spec:{std::pair<const char*,float>("CXUI",.029f),{"CXTitle",.04f}}){
+  jstring id=e->NewStringUTF(spec.first),face=e->NewStringUTF("FL Romanski 13");int h=e->CallStaticIntMethod(go,screenH);
+  jboolean fontOK=e->CallBooleanMethod(module,loadfontNative,id,face,(int)(h*spec.second));
+  if(!fontOK)logf("OPTIONS font registration returned false: %s (existing alias may remain)",spec.first);
+  e->DeleteLocalRef(id);e->DeleteLocalRef(face);
+ }
+ if(optionsException(e,"fonts")){queueOptionsDisposal(e,o);return;}
+ name=e->NewStringUTF("data/menu/scr/CXOptions.scr");jboolean loaded=e->CallBooleanMethod(o,loadUI,module,name,JNI_FALSE);e->DeleteLocalRef(name);
+ if(optionsException(e,"load")||!loaded){queueOptionsDisposal(e,o);return;}
+ jobject back=elem(e,o,"CX_BACK"),teams=elem(e,o,"CX_EXTRA_TEAMS"),title=elem(e,o,"CX_TITLE");
+ logf("OPTIONS controls found: back=%d teams=%d title=%d",back!=nullptr,teams!=nullptr,title!=nullptr);
+ bool complete=back&&teams&&title;
+ if(complete){
+  // Validate the aliases on real sprites, including when LoadFont returned
+  // false because an alias was already present from an earlier opening.
+  jstring bodyFont=e->NewStringUTF("CXUI"),titleFont=e->NewStringUTF("CXTitle");
+  jboolean backFont=e->CallBooleanMethod(back,cxHudWidgetFont,bodyFont),teamsFont=e->CallBooleanMethod(teams,cxHudWidgetFont,bodyFont),headingFont=e->CallBooleanMethod(title,cxHudWidgetFont,titleFont);
+  logf("OPTIONS font binding: back=%d teams=%d title=%d",backFont,teamsFont,headingFont);
+  complete=backFont&&teamsFont&&headingFont;
+  e->DeleteLocalRef(bodyFont);e->DeleteLocalRef(titleFont);
+ }
+ if(back)e->DeleteLocalRef(back);if(teams)e->DeleteLocalRef(teams);if(title)e->DeleteLocalRef(title);
+ if(optionsException(e,"required controls")||!complete){logf("OPTIONS missing Back or Additional Clubs; parent remains visible");queueOptionsDisposal(e,o);return;}
+ Java_CXSupport_RefreshOptions(e,nullptr,o);
+ if(optionsException(e,"refresh")||disabled){logf("OPTIONS refresh failed; parent remains usable");queueOptionsDisposal(e,o);return;}
+ jclass options=e->GetObjectClass(o);jmethodID open=e->GetMethodID(options,"Open","(LUserInterface;)Z");
+ if(optionsException(e,"Open lookup")||!open){e->DeleteLocalRef(options);queueOptionsDisposal(e,o);return;}
+ jobject heldPanel=e->NewGlobalRef(o),heldParent=e->NewGlobalRef(parent);
+ if(optionsException(e,"retain panel/parent")||!heldPanel||!heldParent){
+  if(heldPanel)e->DeleteGlobalRef(heldPanel);if(heldParent)e->DeleteGlobalRef(heldParent);
+  e->DeleteLocalRef(options);queueOptionsDisposal(e,o);return;
+ }
+ jboolean shown=e->CallBooleanMethod(o,open,parent);
+ if(optionsException(e,"Open")||!shown){
+  jmethodID rollback=e->GetMethodID(options,"CloseToParent","()V");
+  bool rollbackFailed=optionsException(e,"rollback lookup")||!rollback;
+  if(!rollbackFailed){e->CallVoidMethod(o,rollback);rollbackFailed=optionsException(e,"rollback");}
+  e->DeleteLocalRef(options);
+  if(rollbackFailed){
+   modernOptions=heldPanel;previousOptions=heldParent;e->CallVoidMethod(o,showUI);optionsException(e,"Open recovery modal");
+   logf("OPTIONS open/restore failed; snapshot/modal retained for recovery");return;
+  }
+  e->DeleteGlobalRef(heldPanel);e->DeleteGlobalRef(heldParent);queueOptionsDisposal(e,o);return;
+ }
+ e->DeleteLocalRef(options);
+ modernOptions=heldPanel;previousOptions=heldParent;
+ logf("modern settings opened: complete controls/tree raised, parent input suspended");
 }
 extern "C" JNIEXPORT void JNICALL Java_CXSupport_CloseOptions(JNIEnv* e,jclass){
  if(!modernOptions)return;
- e->CallVoidMethod(modernOptions,hideUI);
- // Dispose on the next frame, after the current UI event dispatch returns.
- closedOptions.push_back(e->NewGlobalRef(modernOptions));
- e->DeleteGlobalRef(modernOptions);modernOptions=nullptr;
- if(previousOptions){e->CallVoidMethod(previousOptions,showUI);e->DeleteGlobalRef(previousOptions);previousOptions=nullptr;}
- error(e,"close settings");
+ jclass options=e->GetObjectClass(modernOptions);jmethodID close=e->GetMethodID(options,"CloseToParent","()V");
+ bool failed=optionsException(e,"Close lookup")||!close;
+ if(!failed){e->CallVoidMethod(modernOptions,close);failed=optionsException(e,"Close");}
+ e->DeleteLocalRef(options);
+ if(failed){
+  // Retain the Java snapshot and a usable modal; a root-only parent Show
+  // cannot safely reconstruct conditionally hidden children after a failure.
+  e->CallVoidMethod(modernOptions,showUI);optionsException(e,"Close retry modal");
+  logf("OPTIONS parent restore incomplete; modal retained for retry");return;
+ }
+ queueOptionsDisposal(e,modernOptions);e->DeleteGlobalRef(modernOptions);modernOptions=nullptr;
+ if(previousOptions){e->DeleteGlobalRef(previousOptions);previousOptions=nullptr;}
+ logf("modern settings closed: parent restored, disposal queued");
 }
 extern "C" JNIEXPORT jboolean JNICALL Java_CXSupport_HandleVideoKey(JNIEnv* e,jclass,jint code,jboolean down){
  if(code!=67||!down)return JNI_FALSE; // F9, independent of mouse position.
@@ -91,6 +156,7 @@ extern "C" JNIEXPORT jboolean JNICALL Java_CXSupport_HandleUI(JNIEnv* e,jclass,j
  else if(!strcmp(s,"CX_FPS")){const int values[]={0,30,60,120,144,165,240};int n=0;for(int i=0;i<7;i++)if(values[i]==fps)n=(i+1)%7;fps=values[n];writeInt("Graphics","FPSLimit",fps);}
  else if(!strcmp(s,"CX_HUD")){hudOn=!hudOn;writeInt("Interface","PlayerPanels",hudOn);}
  else if(!strcmp(s,"CX_VOICE")){voiceOn=!voiceOn;writeInt("Audio","GothicCommentary",voiceOn);}
+ else if(!strcmp(s,"CX_EXTRA_TEAMS")){writeInt("Content","ExtraTeams",readInt("Content","ExtraTeams",0)==0);}
  else if(!strcmp(s,"CX_SUBS")){subsOn=!subsOn;writeInt("Audio","Subtitles",subsOn);}
  else if(!strcmp(s,"CX_PAD")){enabled=!enabled;writeInt("Gamepad","Enabled",enabled);}
  else if(!strcmp(s,"CX_DEADZONE")){int pct=leftDZ*100/32767;pct=pct<14?15:pct<19?20:pct<24?25:pct<29?30:10;leftDZ=pct*32767/100;writeInt("Gamepad","LeftDeadzone",leftDZ);}

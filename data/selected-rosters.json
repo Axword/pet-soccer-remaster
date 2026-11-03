@@ -60,7 +60,12 @@
         "mesh": "data/meshes/animals/cx_mc_villager.3da",
         "texture": "data/textures/cx_mc_villager.png"
       }
-    ]
+    ],
+    "club_name": "Borussia Blockmund",
+    "abbr": "BBM",
+    "home_map_id": 41,
+    "additional_club": true,
+    "default_visible": false
   },
   {
     "team": "Gothic",
@@ -123,7 +128,12 @@
         "mesh": "data/meshes/animals/cx_thorus.3da",
         "texture": "data/textures/cx_thorus.png"
       }
-    ]
+    ],
+    "club_name": "Górnik Khorinis",
+    "abbr": "GKH",
+    "home_map_id": 38,
+    "additional_club": true,
+    "default_visible": false
   },
   {
     "team": "Wiedzmin",
@@ -230,6 +240,170 @@
         "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1434761807",
         "model": "models/konnie/witcher3/zoltan.mdl"
       }
+    ],
+    "club_name": "Wiedźminhampton",
+    "abbr": "WHP",
+    "home_map_id": 40,
+    "additional_club": true,
+    "default_visible": false
+  },
+  {
+    "team": "League of Legends",
+    "club_name": "Real Runeterra",
+    "abbr": "RRT",
+    "representative_species": 30,
+    "home_map_id": 39,
+    "additional_club": true,
+    "default_visible": false,
+    "source_note": "Riot Games character art adapted by the mod; original assets have separate rights, not MIT. No new-name dubbing is claimed.",
+    "players": [
+      {
+        "slot": 0,
+        "name": "Warwick",
+        "species": 30,
+        "stem": "cx_warwick",
+        "mesh": "Data/Meshes/Animals/cx_warwick.3da",
+        "texture": "Data/Textures/cx_warwick.png"
+      },
+      {
+        "slot": 1,
+        "name": "Nasus",
+        "species": 31,
+        "stem": "cx_nasus",
+        "mesh": "Data/Meshes/Animals/cx_nasus.3da",
+        "texture": "Data/Textures/cx_nasus.png"
+      },
+      {
+        "slot": 2,
+        "name": "Ahri",
+        "species": 32,
+        "stem": "cx_ahri",
+        "mesh": "Data/Meshes/Animals/cx_ahri.3da",
+        "texture": "Data/Textures/cx_ahri.png"
+      },
+      {
+        "slot": 3,
+        "name": "Garen",
+        "species": 33,
+        "stem": "cx_garen",
+        "mesh": "Data/Meshes/Animals/cx_garen.3da",
+        "texture": "Data/Textures/cx_garen.png"
+      },
+      {
+        "slot": 4,
+        "name": "Jinx",
+        "species": 34,
+        "stem": "cx_jinx",
+        "mesh": "Data/Meshes/Animals/cx_jinx.3da",
+        "texture": "Data/Textures/cx_jinx.png"
+      },
+      {
+        "slot": 5,
+        "name": "Teemo",
+        "species": 35,
+        "stem": "cx_teemo",
+        "mesh": "Data/Meshes/Animals/cx_teemo.3da",
+        "texture": "Data/Textures/cx_teemo.png"
+      },
+      {
+        "slot": 6,
+        "name": "Blitzcrank",
+        "species": 36,
+        "stem": "cx_blitzcrank",
+        "mesh": "Data/Meshes/Animals/cx_blitzcrank.3da",
+        "texture": "Data/Textures/cx_blitzcrank.png"
+      }
+    ]
+  },
+  {
+    "team": "Jagniellonia",
+    "club_name": "Jagniellonia Bialystok",
+    "abbr": "JAG",
+    "representative_species": 58,
+    "home_map_id": 42,
+    "home_map_name": "Podlaska Polana",
+    "animal": "Jagniaki",
+    "colors": [
+      "#e9b92e",
+      "#c52b29"
+    ],
+    "description": "Z podlaskich pastwisk prosto na boisko. Jagniellonia gra miekka welna i twarda noga. Jej napastnicy strzyga obrone, a bramkarz pilnuje, zeby pilka nie poszla w dluga.",
+    "additional_club": true,
+    "default_visible": false,
+    "source_note": "Owned stylized lamb adaptation of the local stock animal rig. Distributed asset changes require the original game; new-name voice calls are silent.",
+    "players": [
+      {
+        "name": "Slawomir Bramowicz",
+        "inspiration": "Slawomir Abramowicz",
+        "number": 50,
+        "role": "goalkeeper",
+        "slot": 0,
+        "species": 58,
+        "stem": "cx_jagniaki_0",
+        "mesh": "Data/Meshes/Animals/cx_jagniaki_0.3da"
+      },
+      {
+        "name": "Bartek Welnowik",
+        "inspiration": "Bartlomiej Wdowik",
+        "number": 27,
+        "slot": 1,
+        "species": 58,
+        "stem": "cx_jagniaki_1",
+        "mesh": "Data/Meshes/Animals/cx_jagniaki_1.3da"
+      },
+      {
+        "name": "Taras Baranczuk",
+        "inspiration": "Taras Romanczuk",
+        "number": 6,
+        "slot": 2,
+        "species": 58,
+        "stem": "cx_jagniaki_2",
+        "mesh": "Data/Meshes/Animals/cx_jagniaki_2.3da"
+      },
+      {
+        "name": "Jesus Imaaaz",
+        "inspiration": "Jesus Imaz",
+        "number": 11,
+        "slot": 3,
+        "species": 58,
+        "stem": "cx_jagniaki_3",
+        "mesh": "Data/Meshes/Animals/cx_jagniaki_3.3da"
+      },
+      {
+        "name": "Afimico Puchulu",
+        "inspiration": "Afimico Pululu",
+        "number": 10,
+        "slot": 4,
+        "species": 58,
+        "stem": "cx_jagniaki_4",
+        "mesh": "Data/Meshes/Animals/cx_jagniaki_4.3da"
+      },
+      {
+        "name": "Tomasz Franekowski",
+        "inspiration": "Tomasz Frankowski",
+        "number": 21,
+        "historical": true,
+        "slot": 5,
+        "species": 58,
+        "stem": "cx_jagniaki_5",
+        "mesh": "Data/Meshes/Animals/cx_jagniaki_5.3da"
+      },
+      {
+        "name": "Bernardo Welnital",
+        "inspiration": "Bernardo Vital",
+        "number": 5,
+        "current_squad_verified_on": "2026-11-03",
+        "source": "https://jagiellonia.pl/matchroom/225/",
+        "slot": 6,
+        "species": 58,
+        "stem": "cx_jagniaki_6",
+        "mesh": "Data/Meshes/Animals/cx_jagniaki_6.3da"
+      }
+    ],
+    "sources": [
+      "https://jagiellonia.pl/aktualnosci/kadra-jagiellonii-biaystok-na-zgrupowanie-w-tureckim-belek-1768044165491/",
+      "https://www.jagiellonia.pl/aktualnosci/z-lechem-po-raz-53-historia/",
+      "https://jagiellonia.pl/matchroom/225/"
     ]
   }
 ]

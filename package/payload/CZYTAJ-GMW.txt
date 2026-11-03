@@ -1,26 +1,10 @@
-﻿PET SOCCER REMASTER — GOTHIC / MINECRAFT / WIEDŹMIN
-Wersja beta 0.1.0-beta.3.
+﻿Pet Soccer Remaster + Fun Clubs — Online beta 0.2.0-beta.1
 
-Wymaga oryginalnej polskiej wersji Pet Soccer. Gra nie jest dołączona.
-Instalator tworzy osobną kopię; oryginalny folder i zapis pozostają bez zmian.
+Uruchom PetSoccer-Online.exe.
+Dodatkowe kluby: Opcje > Audio video > Wiecej opcji > Dodatkowe kluby: WL.
+Online przez LAN/wlasny serwer — instrukcja ONLINE.txt.
+Uruchom-Serwer-LAN.cmd: serwer na porcie27889.
+Escape: wspolna przerwa15s i automatyczne wznowienie.
 
-12 oryginalnych zespołów oraz 3 dodatkowe kluby:
-Borussia Blockmund — Minecraft
-Górnik Khorinis — Gothic
-Wiedźminhampton — Wiedźmin
-
-Beta3: poprawiona obsługa ludzkich postaci w podglądach oraz delikatnie
-wygładzone oświetlenie naturalnych dekoracji boisk Gothica i Wiedźmina.
-Geometria boisk, kolizje i zasady meczu pozostają bez zmian.
-Wcześniejsze poprawki multiplayer, barw, turnieju, sterowania padami,
-rozdzielczości, trybu okno/pełny ekran oraz dubbingu pozostają.
-
-Czysty zapis Gracz: wszystkie zespoły i poziomy trudności odblokowane.
-Pierwszy start: 1024x768 w oknie. Zmienisz to w Audio video.
-Uruchom PetSoccer.exe z nowego folderu lub skrót Pet Soccer - GMW.
-Multiplayer → TURNIEJ: drabinka ośmiu drużyn w bieżącej sesji.
-Czas 1 min oznacza 2x30 s. Remis w turnieju: złoty gol.
-
-To beta; część funkcji może wymagać dalszych poprawek.
-Kod i zgłoszenia: https://github.com/Axword/pet-soccer-remaster
-Status zasobów stron trzecich: THIRD_PARTY.md w repozytorium.
+To beta. Zgloszenia: https://github.com/Axword/pet-soccer-remaster/issues
+Kod i aktualizacje: https://github.com/Axword/pet-soccer-remaster

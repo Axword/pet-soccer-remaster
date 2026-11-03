@@ -1,0 +1,79 @@
+[
+  {
+    "source": "base-maps/native_tex.py",
+    "target": "authoring/features/base-maps/native_tex.py",
+    "source_sha256": "d3215a8ef0e7a3e27825a5aa78797fd43717903d598ccd32686ecdf1e5a0c00f",
+    "exported_sha256": "d3215a8ef0e7a3e27825a5aa78797fd43717903d598ccd32686ecdf1e5a0c00f",
+    "portable_cli": false
+  },
+  {
+    "source": "base-maps/build_stock_polish.py",
+    "target": "authoring/features/base-maps/build_stock_polish.py",
+    "source_sha256": "0f0e1e62dfd5b92f021efdda306c044f0d93ccc5bee2262e05edac467d8cd8a0",
+    "exported_sha256": "d82e84cc48af9aff5959b8b42ef31d4c8123eefca0c25e737d183328fc553483",
+    "portable_cli": true
+  },
+  {
+    "source": "animal-identity/native_variants.py",
+    "target": "authoring/features/animal-identity/native_variants.py",
+    "source_sha256": "b61503f5d6c70c6680f800768713a078bce8cafc736533d7da956129e80cb4ee",
+    "exported_sha256": "b61503f5d6c70c6680f800768713a078bce8cafc736533d7da956129e80cb4ee",
+    "portable_cli": false
+  },
+  {
+    "source": "animal-identity/build_variants.py",
+    "target": "authoring/features/animal-identity/build_variants.py",
+    "source_sha256": "f23a96fee79e3e8b9be44e8d3c1e4586e23f85a945ae172e7d3b31f2f291d662",
+    "exported_sha256": "58616108d2567d5ca4f3c8d3fad5838e5271cebf5b4ca21df3fce4348ee88b07",
+    "portable_cli": true
+  },
+  {
+    "source": "animal-identity/build_texture_variants.py",
+    "target": "authoring/features/animal-identity/build_texture_variants.py",
+    "source_sha256": "38e5f6248e728af14fe81578d011696ae22876fa8a074340ed5eb475080b871b",
+    "exported_sha256": "f1606f2d2d265a45075c78d01d784d6cebd4bc35a6cc4298eabc9ec5accf1f31",
+    "portable_cli": true
+  },
+  {
+    "source": "jagniellonia/build_lamb_one.py",
+    "target": "authoring/features/jagniellonia/build_lamb_one.py",
+    "source_sha256": "4669cf02f3ea687237fe2cf79107c61626ed3c60583718c41f0d1cf1a28affad",
+    "exported_sha256": "c50f447b6b1b6c6e7ae214bb26bff0492562466ea7b85a2ebf206b54d26fded3",
+    "portable_cli": true
+  },
+  {
+    "source": "jagniellonia/build_assets.py",
+    "target": "authoring/features/jagniellonia/build_assets.py",
+    "source_sha256": "05c6b1ad7f868c835bbd45db5d898e32c08a5b073ab9a42e7c226b2719d96c06",
+    "exported_sha256": "2dce29fd6cf8865a0e712e7ac17a82776165ade381b3f556fc828b26c302f24d",
+    "portable_cli": true
+  },
+  {
+    "source": "jagniellonia/build_map.py",
+    "target": "authoring/features/jagniellonia/build_map.py",
+    "source_sha256": "9f4e6031a61a6393d9364b86faa649bb5c2f60b61dd02f4c08c0114903d735c1",
+    "exported_sha256": "426b892eb1980e7f924a284ef0eebfbcc1559f295a8f7fc29d9a57be4e9f1400",
+    "portable_cli": true
+  },
+  {
+    "source": "jagniellonia/native_readback.py",
+    "target": "authoring/features/jagniellonia/native_readback.py",
+    "source_sha256": "0be9448b76fe1df376d0f473a40483c6c380642517ff7fa3baebbeafd1f68689",
+    "exported_sha256": "85d5a6149824f30129508cf84acdcdbe9d49441b0fd2257848351f8af129d58f",
+    "portable_cli": false
+  },
+  {
+    "source": "eyes-fix/producer/inspect_eyes.py",
+    "target": "authoring/features/eyes-fix/inspect_eyes.py",
+    "source_sha256": "32b39a6e9c3d149fefc1ca00c3f2d61f44eac1eef91cc58608a2dea440bf16c3",
+    "exported_sha256": "3fddc823ed3d70f36febd70c666902cd956298d7cbaa566b7a3b16eb6e542ef4",
+    "portable_cli": true
+  },
+  {
+    "source": "eyes-fix/producer/build_eye_delta.py",
+    "target": "authoring/features/eyes-fix/build_eye_delta.py",
+    "source_sha256": "d8d961c546c9f74148fbc7f80bfb65adfb99d1a50a2293dadb22451d8260ae93",
+    "exported_sha256": "7404ecc852c12d5f8009e1829a4d4479be79fae5cc0fcd535d962d53aeac3e6e",
+    "portable_cli": true
+  }
+]

@@ -1,0 +1,803 @@
+{
+  "description": "Accepted authored normal components for the exact hash-pinned first-lamb mesh and seven fixed morph profiles; no positions, UVs, source model bytes, animation or skin weights.",
+  "approved_base_sha256": "878dacc8826a852137cac38174593a8103ec9dbefe4c6a7dda89e14760c77914",
+  "slots": [
+    {
+      "slot": 0,
+      "expected_raw_sha256": "878dacc8826a852137cac38174593a8103ec9dbefe4c6a7dda89e14760c77914",
+      "components": []
+    },
+    {
+      "slot": 1,
+      "expected_raw_sha256": "faf2a89ec90d2f048eb508840ccaf21550da8244406ab7f318c982f25de0cf2c",
+      "components": [
+        {
+          "offset": 37840,
+          "packed_float32_hex": "cf0e4db2"
+        },
+        {
+          "offset": 38056,
+          "packed_float32_hex": "18ce6d31"
+        },
+        {
+          "offset": 39016,
+          "packed_float32_hex": "7a65a3b3"
+        },
+        {
+          "offset": 950456,
+          "packed_float32_hex": "7a77c43b"
+        },
+        {
+          "offset": 950460,
+          "packed_float32_hex": "d159bfbe"
+        },
+        {
+          "offset": 950464,
+          "packed_float32_hex": "c6716dbf"
+        },
+        {
+          "offset": 950468,
+          "packed_float32_hex": "7a77c43b"
+        },
+        {
+          "offset": 950472,
+          "packed_float32_hex": "d159bfbe"
+        },
+        {
+          "offset": 950476,
+          "packed_float32_hex": "c6716dbf"
+        },
+        {
+          "offset": 950480,
+          "packed_float32_hex": "7a77c43b"
+        },
+        {
+          "offset": 950484,
+          "packed_float32_hex": "d159bfbe"
+        },
+        {
+          "offset": 950488,
+          "packed_float32_hex": "c6716dbf"
+        },
+        {
+          "offset": 962132,
+          "packed_float32_hex": "ed1f0ab3"
+        },
+        {
+          "offset": 962156,
+          "packed_float32_hex": "b6ca0d33"
+        },
+        {
+          "offset": 967000,
+          "packed_float32_hex": "9f85adb0"
+        },
+        {
+          "offset": 967012,
+          "packed_float32_hex": "a085ad30"
+        },
+        {
+          "offset": 967020,
+          "packed_float32_hex": "b03275b1"
+        },
+        {
+          "offset": 967032,
+          "packed_float32_hex": "b0327531"
+        },
+        {
+          "offset": 967084,
+          "packed_float32_hex": "92e1a630"
+        },
+        {
+          "offset": 967092,
+          "packed_float32_hex": "947731b1"
+        },
+        {
+          "offset": 967104,
+          "packed_float32_hex": "94773131"
+        },
+        {
+          "offset": 967144,
+          "packed_float32_hex": "9f85adb0"
+        },
+        {
+          "offset": 967156,
+          "packed_float32_hex": "a085ad30"
+        },
+        {
+          "offset": 967164,
+          "packed_float32_hex": "acd75030"
+        },
+        {
+          "offset": 967176,
+          "packed_float32_hex": "acd750b0"
+        },
+        {
+          "offset": 970616,
+          "packed_float32_hex": "9f85adb0"
+        },
+        {
+          "offset": 970628,
+          "packed_float32_hex": "a085ad30"
+        },
+        {
+          "offset": 970636,
+          "packed_float32_hex": "b03275b1"
+        },
+        {
+          "offset": 970648,
+          "packed_float32_hex": "b0327531"
+        },
+        {
+          "offset": 970700,
+          "packed_float32_hex": "92e1a630"
+        },
+        {
+          "offset": 970708,
+          "packed_float32_hex": "947731b1"
+        },
+        {
+          "offset": 970720,
+          "packed_float32_hex": "94773131"
+        },
+        {
+          "offset": 970760,
+          "packed_float32_hex": "9f85adb0"
+        },
+        {
+          "offset": 970772,
+          "packed_float32_hex": "a085ad30"
+        },
+        {
+          "offset": 970780,
+          "packed_float32_hex": "acd75030"
+        },
+        {
+          "offset": 970792,
+          "packed_float32_hex": "acd750b0"
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "expected_raw_sha256": "6edb0d0b4bf406bcd7645e98ab0d4a2dfdbe76732b503970da8fea4829185d6d",
+      "components": [
+        {
+          "offset": 37840,
+          "packed_float32_hex": "004c58b2"
+        },
+        {
+          "offset": 38056,
+          "packed_float32_hex": "a2795db1"
+        },
+        {
+          "offset": 950456,
+          "packed_float32_hex": "a239efbe"
+        },
+        {
+          "offset": 950460,
+          "packed_float32_hex": "e80c7dbe"
+        },
+        {
+          "offset": 950464,
+          "packed_float32_hex": "275159bf"
+        },
+        {
+          "offset": 950468,
+          "packed_float32_hex": "a239efbe"
+        },
+        {
+          "offset": 950472,
+          "packed_float32_hex": "e80c7dbe"
+        },
+        {
+          "offset": 950476,
+          "packed_float32_hex": "275159bf"
+        },
+        {
+          "offset": 950480,
+          "packed_float32_hex": "a239efbe"
+        },
+        {
+          "offset": 950484,
+          "packed_float32_hex": "e80c7dbe"
+        },
+        {
+          "offset": 950488,
+          "packed_float32_hex": "275159bf"
+        },
+        {
+          "offset": 962000,
+          "packed_float32_hex": "c4e163b2"
+        },
+        {
+          "offset": 962144,
+          "packed_float32_hex": "40e05cb2"
+        },
+        {
+          "offset": 962168,
+          "packed_float32_hex": "af42a032"
+        },
+        {
+          "offset": 962276,
+          "packed_float32_hex": "26dd99b2"
+        },
+        {
+          "offset": 962288,
+          "packed_float32_hex": "bbe67cb2"
+        },
+        {
+          "offset": 962312,
+          "packed_float32_hex": "3adaa632"
+        },
+        {
+          "offset": 967020,
+          "packed_float32_hex": "e8bfa831"
+        },
+        {
+          "offset": 967032,
+          "packed_float32_hex": "e8bfa8b1"
+        },
+        {
+          "offset": 967092,
+          "packed_float32_hex": "70bc9431"
+        },
+        {
+          "offset": 967104,
+          "packed_float32_hex": "70bc94b1"
+        },
+        {
+          "offset": 967156,
+          "packed_float32_hex": "685678b1"
+        },
+        {
+          "offset": 967164,
+          "packed_float32_hex": "d1a22131"
+        },
+        {
+          "offset": 967176,
+          "packed_float32_hex": "d1a221b1"
+        },
+        {
+          "offset": 970636,
+          "packed_float32_hex": "e8bfa831"
+        },
+        {
+          "offset": 970648,
+          "packed_float32_hex": "e8bfa8b1"
+        },
+        {
+          "offset": 970708,
+          "packed_float32_hex": "70bc9431"
+        },
+        {
+          "offset": 970720,
+          "packed_float32_hex": "70bc94b1"
+        },
+        {
+          "offset": 970772,
+          "packed_float32_hex": "685678b1"
+        },
+        {
+          "offset": 970780,
+          "packed_float32_hex": "d1a22131"
+        },
+        {
+          "offset": 970792,
+          "packed_float32_hex": "d1a221b1"
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "expected_raw_sha256": "1fddf37f0ed252f6c648615774556f0e73451ee531f625e3f77803a37eb26ad8",
+      "components": [
+        {
+          "offset": 37840,
+          "packed_float32_hex": "ea08bbb2"
+        },
+        {
+          "offset": 38056,
+          "packed_float32_hex": "28e15231"
+        },
+        {
+          "offset": 934116,
+          "packed_float32_hex": "2ef49632"
+        },
+        {
+          "offset": 950456,
+          "packed_float32_hex": "641a40bf"
+        },
+        {
+          "offset": 950460,
+          "packed_float32_hex": "8234cbbe"
+        },
+        {
+          "offset": 950464,
+          "packed_float32_hex": "dc4f073f"
+        },
+        {
+          "offset": 950468,
+          "packed_float32_hex": "641a40bf"
+        },
+        {
+          "offset": 950472,
+          "packed_float32_hex": "8234cbbe"
+        },
+        {
+          "offset": 950476,
+          "packed_float32_hex": "dc4f073f"
+        },
+        {
+          "offset": 950480,
+          "packed_float32_hex": "641a40bf"
+        },
+        {
+          "offset": 950484,
+          "packed_float32_hex": "8234cbbe"
+        },
+        {
+          "offset": 950488,
+          "packed_float32_hex": "dc4f073f"
+        },
+        {
+          "offset": 962000,
+          "packed_float32_hex": "c337e932"
+        },
+        {
+          "offset": 962156,
+          "packed_float32_hex": "81adfdb2"
+        },
+        {
+          "offset": 967000,
+          "packed_float32_hex": "967e40b1"
+        },
+        {
+          "offset": 967012,
+          "packed_float32_hex": "967e4031"
+        },
+        {
+          "offset": 967020,
+          "packed_float32_hex": "df4acab1"
+        },
+        {
+          "offset": 967032,
+          "packed_float32_hex": "df4aca31"
+        },
+        {
+          "offset": 967092,
+          "packed_float32_hex": "64ee9fb1"
+        },
+        {
+          "offset": 967104,
+          "packed_float32_hex": "64ee9f31"
+        },
+        {
+          "offset": 970616,
+          "packed_float32_hex": "967e40b1"
+        },
+        {
+          "offset": 970628,
+          "packed_float32_hex": "967e4031"
+        },
+        {
+          "offset": 970636,
+          "packed_float32_hex": "df4acab1"
+        },
+        {
+          "offset": 970648,
+          "packed_float32_hex": "df4aca31"
+        },
+        {
+          "offset": 970708,
+          "packed_float32_hex": "64ee9fb1"
+        },
+        {
+          "offset": 970720,
+          "packed_float32_hex": "64ee9f31"
+        }
+      ]
+    },
+    {
+      "slot": 4,
+      "expected_raw_sha256": "5ab548cf6e8970186bd2ac713d0c34e1b981bc110e4ab11916d4b95ff87d141b",
+      "components": [
+        {
+          "offset": 37840,
+          "packed_float32_hex": "d91d23b2"
+        },
+        {
+          "offset": 38056,
+          "packed_float32_hex": "3be98c31"
+        },
+        {
+          "offset": 934116,
+          "packed_float32_hex": "c5bd8032"
+        },
+        {
+          "offset": 950456,
+          "packed_float32_hex": "94a55bbf"
+        },
+        {
+          "offset": 950460,
+          "packed_float32_hex": "677c033f"
+        },
+        {
+          "offset": 950464,
+          "packed_float32_hex": "6494d33b"
+        },
+        {
+          "offset": 950468,
+          "packed_float32_hex": "94a55bbf"
+        },
+        {
+          "offset": 950472,
+          "packed_float32_hex": "677c033f"
+        },
+        {
+          "offset": 950476,
+          "packed_float32_hex": "6494d33b"
+        },
+        {
+          "offset": 950480,
+          "packed_float32_hex": "94a55bbf"
+        },
+        {
+          "offset": 950484,
+          "packed_float32_hex": "677c033f"
+        },
+        {
+          "offset": 950488,
+          "packed_float32_hex": "6494d33b"
+        },
+        {
+          "offset": 962024,
+          "packed_float32_hex": "59d63e33"
+        },
+        {
+          "offset": 962156,
+          "packed_float32_hex": "cbff2f33"
+        },
+        {
+          "offset": 962168,
+          "packed_float32_hex": "caa83233"
+        },
+        {
+          "offset": 962276,
+          "packed_float32_hex": "dffc38b3"
+        },
+        {
+          "offset": 967000,
+          "packed_float32_hex": "84f7a2af"
+        },
+        {
+          "offset": 967012,
+          "packed_float32_hex": "82f7a22f"
+        },
+        {
+          "offset": 967020,
+          "packed_float32_hex": "039ae0b0"
+        },
+        {
+          "offset": 967032,
+          "packed_float32_hex": "049ae030"
+        },
+        {
+          "offset": 967072,
+          "packed_float32_hex": "5d6f81af"
+        },
+        {
+          "offset": 967084,
+          "packed_float32_hex": "586f812f"
+        },
+        {
+          "offset": 967092,
+          "packed_float32_hex": "030a90b0"
+        },
+        {
+          "offset": 967104,
+          "packed_float32_hex": "030a9030"
+        },
+        {
+          "offset": 967144,
+          "packed_float32_hex": "7bf7a2af"
+        },
+        {
+          "offset": 967156,
+          "packed_float32_hex": "7bf7a22f"
+        },
+        {
+          "offset": 967164,
+          "packed_float32_hex": "598c8230"
+        },
+        {
+          "offset": 967176,
+          "packed_float32_hex": "598c82b0"
+        },
+        {
+          "offset": 970616,
+          "packed_float32_hex": "84f7a2af"
+        },
+        {
+          "offset": 970628,
+          "packed_float32_hex": "82f7a22f"
+        },
+        {
+          "offset": 970636,
+          "packed_float32_hex": "039ae0b0"
+        },
+        {
+          "offset": 970648,
+          "packed_float32_hex": "049ae030"
+        },
+        {
+          "offset": 970688,
+          "packed_float32_hex": "5d6f81af"
+        },
+        {
+          "offset": 970700,
+          "packed_float32_hex": "586f812f"
+        },
+        {
+          "offset": 970708,
+          "packed_float32_hex": "030a90b0"
+        },
+        {
+          "offset": 970720,
+          "packed_float32_hex": "030a9030"
+        },
+        {
+          "offset": 970760,
+          "packed_float32_hex": "7bf7a2af"
+        },
+        {
+          "offset": 970772,
+          "packed_float32_hex": "7bf7a22f"
+        },
+        {
+          "offset": 970780,
+          "packed_float32_hex": "598c8230"
+        },
+        {
+          "offset": 970792,
+          "packed_float32_hex": "598c82b0"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "expected_raw_sha256": "8aa3ac695efab28c4e94ad507a4228cfbf4083b386d1debaf478bcb809616edb",
+      "components": [
+        {
+          "offset": 38056,
+          "packed_float32_hex": "c624a331"
+        },
+        {
+          "offset": 41200,
+          "packed_float32_hex": "3bae5731"
+        },
+        {
+          "offset": 950456,
+          "packed_float32_hex": "19caecbe"
+        },
+        {
+          "offset": 950460,
+          "packed_float32_hex": "10b752bf"
+        },
+        {
+          "offset": 950464,
+          "packed_float32_hex": "11bca8be"
+        },
+        {
+          "offset": 950468,
+          "packed_float32_hex": "19caecbe"
+        },
+        {
+          "offset": 950472,
+          "packed_float32_hex": "10b752bf"
+        },
+        {
+          "offset": 950476,
+          "packed_float32_hex": "11bca8be"
+        },
+        {
+          "offset": 950480,
+          "packed_float32_hex": "19caecbe"
+        },
+        {
+          "offset": 950484,
+          "packed_float32_hex": "10b752bf"
+        },
+        {
+          "offset": 950488,
+          "packed_float32_hex": "11bca8be"
+        },
+        {
+          "offset": 961988,
+          "packed_float32_hex": "6c382233"
+        },
+        {
+          "offset": 962000,
+          "packed_float32_hex": "64d43d33"
+        },
+        {
+          "offset": 962144,
+          "packed_float32_hex": "570e3c33"
+        },
+        {
+          "offset": 962288,
+          "packed_float32_hex": "aaf23433"
+        },
+        {
+          "offset": 962312,
+          "packed_float32_hex": "a1f32cb3"
+        },
+        {
+          "offset": 967020,
+          "packed_float32_hex": "13266431"
+        },
+        {
+          "offset": 967032,
+          "packed_float32_hex": "132664b1"
+        },
+        {
+          "offset": 967072,
+          "packed_float32_hex": "ed10be30"
+        },
+        {
+          "offset": 967092,
+          "packed_float32_hex": "153d2c31"
+        },
+        {
+          "offset": 967104,
+          "packed_float32_hex": "153d2cb1"
+        },
+        {
+          "offset": 967144,
+          "packed_float32_hex": "e546c330"
+        },
+        {
+          "offset": 967156,
+          "packed_float32_hex": "e646c3b0"
+        },
+        {
+          "offset": 967164,
+          "packed_float32_hex": "70eb91af"
+        },
+        {
+          "offset": 970636,
+          "packed_float32_hex": "13266431"
+        },
+        {
+          "offset": 970648,
+          "packed_float32_hex": "132664b1"
+        },
+        {
+          "offset": 970688,
+          "packed_float32_hex": "ed10be30"
+        },
+        {
+          "offset": 970708,
+          "packed_float32_hex": "153d2c31"
+        },
+        {
+          "offset": 970720,
+          "packed_float32_hex": "153d2cb1"
+        },
+        {
+          "offset": 970760,
+          "packed_float32_hex": "e546c330"
+        },
+        {
+          "offset": 970772,
+          "packed_float32_hex": "e646c3b0"
+        },
+        {
+          "offset": 970780,
+          "packed_float32_hex": "70eb91af"
+        }
+      ]
+    },
+    {
+      "slot": 6,
+      "expected_raw_sha256": "a18c9199a39f4b95dd4feb02164bb59c4f5a17253a79497738fc188f4e1165d4",
+      "components": [
+        {
+          "offset": 37840,
+          "packed_float32_hex": "9bc765b2"
+        },
+        {
+          "offset": 38056,
+          "packed_float32_hex": "026084b1"
+        },
+        {
+          "offset": 950456,
+          "packed_float32_hex": "4c04e5be"
+        },
+        {
+          "offset": 950460,
+          "packed_float32_hex": "70ac3dbf"
+        },
+        {
+          "offset": 950464,
+          "packed_float32_hex": "b23f00bf"
+        },
+        {
+          "offset": 950468,
+          "packed_float32_hex": "4c04e5be"
+        },
+        {
+          "offset": 950472,
+          "packed_float32_hex": "70ac3dbf"
+        },
+        {
+          "offset": 950476,
+          "packed_float32_hex": "b23f00bf"
+        },
+        {
+          "offset": 950480,
+          "packed_float32_hex": "4c04e5be"
+        },
+        {
+          "offset": 950484,
+          "packed_float32_hex": "70ac3dbf"
+        },
+        {
+          "offset": 950488,
+          "packed_float32_hex": "b23f00bf"
+        },
+        {
+          "offset": 962144,
+          "packed_float32_hex": "c4a90ab3"
+        },
+        {
+          "offset": 967000,
+          "packed_float32_hex": "6693cd30"
+        },
+        {
+          "offset": 967020,
+          "packed_float32_hex": "40222c30"
+        },
+        {
+          "offset": 967032,
+          "packed_float32_hex": "41222cb0"
+        },
+        {
+          "offset": 967092,
+          "packed_float32_hex": "a1678b30"
+        },
+        {
+          "offset": 967104,
+          "packed_float32_hex": "a1678bb0"
+        },
+        {
+          "offset": 967156,
+          "packed_float32_hex": "6693cdb0"
+        },
+        {
+          "offset": 970616,
+          "packed_float32_hex": "6693cd30"
+        },
+        {
+          "offset": 970636,
+          "packed_float32_hex": "40222c30"
+        },
+        {
+          "offset": 970648,
+          "packed_float32_hex": "41222cb0"
+        },
+        {
+          "offset": 970708,
+          "packed_float32_hex": "a1678b30"
+        },
+        {
+          "offset": 970720,
+          "packed_float32_hex": "a1678bb0"
+        },
+        {
+          "offset": 970772,
+          "packed_float32_hex": "6693cdb0"
+        }
+      ]
+    }
+  ]
+}

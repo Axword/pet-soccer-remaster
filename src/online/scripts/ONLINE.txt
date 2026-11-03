@@ -1,0 +1,51 @@
+Pet Soccer Remaster + Fun Clubs 0.2.0-beta.1 - Online 1vs1
+
+Uruchom PetSoccer-Online.exe obok PetSoccer.exe. W glownym menu wybierz Online.
+Wpisz pseudonim. Lokalne lobby: serwer 127.0.0.1, port 27888.
+Nie musisz instalowac Blendera, Pythona ani dodatkowych bibliotek.
+
+DWA KOMPUTERY / LAN
+1. Na komputerze gospodarza uruchom Uruchom-Serwer-LAN.cmd i pozostaw okno
+   otwarte. Ctrl+C w tym oknie zamyka serwer.
+2. Na obu komputerach uruchom „Online - polacz ze swoim serwerem.cmd”.
+3. W grze Online wpisz adres LAN gospodarza (np.192.168.1.10), port 27889.
+   127.0.0.1 na drugim komputerze oznacza ten drugi komputer, nie gospodarza.
+4. Wybierz Polacz. Gospodarz tworzy pokoj, drugi gracz odswieza liste i dolacza.
+   Obaj wybieraja druzyne i Gotowy. Kazdy uzywa sterowania gracza1 u siebie.
+
+Serwer LAN 27889 i lokalne lobby 27888 moga dzialac rownoczesnie. Ich rankingi sa
+osobne. Zapora Windows nie jest zmieniana automatycznie. W razie potrzeby
+zezwol na serwer w swojej zaufanej sieci prywatnej. Publicznego serwera lobby
+nie dostarczamy; polaczenie przez Internet wymaga wlasnego osiagalnego serwera.
+Gra i mod na obu komputerach musza miec te sama wersje online5.
+Lokalne lobby moze pozostac w tle po zamknieciu gry. Przed aktualizacja lub
+odinstalowaniem uruchom Zatrzymaj-Lobby.cmd. Zamyka serwery i biezace polaczenia
+wylacznie tej instalacji moda; nie dotyka systemowego Pythona ani innych gier.
+
+DODATKOWE KLUBY
+Ustawienia -> Audio/video -> Wiecej opcji -> Dodatkowe kluby: WL.
+Po wlaczeniu jest 17 klubow (12 oryginalnych +Jagniellonia +4 druzyny crossover).
+Przy wylaczeniu jest 12 oryginalnych. Escape podczas meczu Online daje obu
+graczom 15 sekund pauzy, nastepnie gra wznawia sie automatycznie.
+
+RANKING
+Ranking pokazuje W/R/P i procent zwyciestw. Wynik jest liczony dopiero po
+zakonczeniu meczu i zgodnym wyniku obu graczy. Przerwane mecze nie licza sie.
+Lokalne dane: online/data/leaderboard.sqlite3.
+Dane serweraLAN: online/data/leaderboard-lan.sqlite3.
+Dziennik launchera: online/logs/broker-local.log.
+Nie kasuj tych baz, jesli chcesz zachowac ranking.
+
+To wersja beta. Pseudonim nie jest kontem ani haslem; polaczenia nie sa
+szyfrowane, a ranking nie ma zabezpieczen profesjonalnej ligi. Graj na wlasnym
+serwerze w zaufanej sieci. Nie obiecujemy testu na dwoch fizycznych komputerach
+ani pelnej zgodnosci wszystkich animacji/dzwiekow. Problemy zglaszaj w projekcie:
+https://github.com/Axword/pet-soccer-remaster/issues
+
+Jesli port 27888 zajmuje stary serwer, zamknij poprzednie lobby albo uzyj pliku
+„Online - polacz ze swoim serwerem.cmd” i wpisz adres/port wlasnego serwera.
+Nie uruchamiaj kilku kopii gry z tego samego folderu. Launcher chroni przed
+przypadkowym podwojnym uruchomieniem; nie trzeba klikac go wielokrotnie.
+Instaluj w folderze uzytkownika z prawem zapisu do online/data i online/logs.
+Dolaczony prywatny runtime: oficjalny CPython 3.14.10 win32; licencja i informacje
+o skladnikach znajduja sie w online/runtime/LICENSE.txt. Nie jest to runtime gry.

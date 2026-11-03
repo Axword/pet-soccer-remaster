@@ -42,15 +42,24 @@ static void ordinary_path(const fs::path& path) {
     }
 }
 static fs::path relative_path(const std::string& value) {
-    require(!value.empty() && value.find_first_of("\t\r\n:*") == std::string::npos, "Invalid relative file path");
+    require(!value.empty() && value.find('\0') == std::string::npos &&
+        value.find_first_of("\t\r\n:*?\"<>|") == std::string::npos, "Invalid relative file path");
+    std::string portable = value;
+    std::replace(portable.begin(), portable.end(), '\\', '/');
+    require(portable.find("//") == std::string::npos && portable.back() != '/', "Empty relative path component");
     fs::path result = fs::u8path(value);
     require(!result.is_absolute() && !result.has_root_name(), "Rooted payload path refused");
     for (const auto& part : result) {
         std::wstring text = part.wstring();
         require(text != L"." && text != L".." && !text.empty(), "Traversal path refused");
         require(text.back() != L'.' && text.back() != L' ', "Ambiguous Windows file name");
+        auto stem = lower(text.substr(0, text.find(L'.')));
+        bool numbered_device = stem.size() == 4 && (stem.substr(0, 3) == L"com" || stem.substr(0, 3) == L"lpt") &&
+            stem[3] >= L'1' && stem[3] <= L'9';
+        require(stem != L"con" && stem != L"prn" && stem != L"aux" && stem != L"nul" &&
+            stem != L"conin$" && stem != L"conout$" && !numbered_device, "Windows device file name refused");
     }
-    return result;
+    return result.make_preferred();
 }
 static std::string sha256(const fs::path& file) {
     std::ifstream input(file, std::ios::binary);
@@ -163,8 +172,8 @@ static int install(const fs::path& source_arg, const fs::path& target_arg, const
     for (const auto& row : base) original_hashes[lower(row.relative.wstring())] = row.hash;
     for (const auto& row : mod) mod_paths.insert(lower(row.relative.wstring()));
     for (const auto& row : patches) {
-        auto key = lower(row.relative.wstring());
-        require(original_hashes.count(key) && original_hashes.at(key) == row.base_hash, "Delta destination is not an original allowlisted file");
+        auto key = lower(row.relative.wstring()), base_key = lower(row.base_relative.wstring());
+        require(original_hashes.count(base_key) && original_hashes.at(base_key) == row.base_hash, "Delta source is not an original allowlisted file");
         require(!mod_paths.count(key), "Delta destination duplicates a standalone mod file");
         ordinary_path(payload / row.delta_relative);
         require(fs::is_regular_file(payload / row.delta_relative), "Delta file is missing");
@@ -198,7 +207,7 @@ static int install(const fs::path& source_arg, const fs::path& target_arg, const
             installed[lower(row.relative.wstring())] = row;
         }
         for (const auto& row : patches) {
-            apply_delta(row, payload, stage, files);
+            apply_delta(row, source, payload, stage, files, dirs);
             installed[lower(row.relative.wstring())] = {row.target_hash, row.relative};
         }
         std::string ledger;

@@ -20,8 +20,10 @@ def main():
     for path in [java, boot, args.classpath, args.ecj]:
         if not path.is_file(): parser.error('Missing required external file: '+str(path))
     output.mkdir(parents=True, exist_ok=True)
-    command = [str(java), '-cp', str(args.ecj.resolve()),
-               'org.eclipse.jdt.internal.compiler.batch.Main', '-proc:none', '-encoding', 'UTF-8',
+    # Keep the legacy compiler's warning formatter out of this build path; its
+    # String constructor can fail on this game's modified Java runtime.
+    command = [str(java), '-Xint', '-cp', str(args.ecj.resolve()),
+               'org.eclipse.jdt.internal.compiler.batch.Main', '-proc:none', '-warn:none', '-encoding', 'UTF-8',
                '-source', '1.3', '-target', '1.3', '-bootclasspath', str(boot),
                '-classpath', str(args.classpath.resolve()), '-d', str(output)]
     command += [str(p) for p in sorted((ROOT/'src/java').glob('*.java'))]

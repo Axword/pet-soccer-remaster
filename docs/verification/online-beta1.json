@@ -1,0 +1,101 @@
+{
+  "version": "0.2.0-beta.1",
+  "verified_date": "2026-11-03",
+  "assets": [
+    {
+      "name": "PetSoccer-Remaster-Online-Setup.exe",
+      "bytes": 198544844,
+      "sha256": "a791cbb5281825c011d50e5602c071de170d28b12491d2369ba30fdb85d11bd7"
+    },
+    {
+      "name": "PetSoccer-Remaster-Online-ModFiles.zip",
+      "bytes": 286283145,
+      "sha256": "8843378d63d41dea88aff3ae9e6621887a310989209343140eac4d0d380dd947"
+    }
+  ],
+  "package": {
+    "standalone_files": 333,
+    "delta_files": 2193,
+    "alias_delta_files": 2146,
+    "no_complete_stock_files_bundled": true,
+    "no_game_engine_or_JRE_bundled": true,
+    "payload_manifest_sha256": "10695de9533e27e74d54186454f1d49ce5f4baba07217cf206f587a8c8cc985c",
+    "patch_manifest_sha256": "3eafcbf7fb1b89ca605b62a44589f64441c7f97797ecf6868edb87c3d12e703e",
+    "native_installer_helper_sha256": "040d93121a657c163b0fbf163d0499177d256364a61320d91c90ac98b91933ff"
+  },
+  "silent_NSIS_install_exit": 0,
+  "install_verification": {
+    "version": "0.2.0-beta.1",
+    "installed_expected_files": 6305,
+    "all_installed_hashes_exact": true,
+    "original_source_files_checked": 3826,
+    "original_unchanged": true,
+    "standalone_count": 333,
+    "delta_count": 2193,
+    "installed_code_sha256": "f2abd14e074d179a39fafc02acd122fc36e9e0afe34055cac1d193d66e364795",
+    "normal_code_sha256": "b119c4f5d3181bcf1e8ad8f8c52306bc874ba8345db0178fe585d8c0c38859c4",
+    "all_code_entries_byte_identical": true,
+    "code_entries": 453,
+    "classes": 451,
+    "major_versions": {
+      "45": 421,
+      "47": 30
+    },
+    "no_QA_classes": true,
+    "clean_unlocked_Gracz_fixture_exact": true,
+    "default_extra_teams": false,
+    "default_windowed_resolution": "1024x768",
+    "official_runtime_files_exact": 36,
+    "portable_launcher_and_broker_exact": true,
+    "no_private_rankings_or_logs": true,
+    "seven_eye_models_exact": true,
+    "modern_gui_and_all_SCR_line_comments_CRLF": true,
+    "legacy_uncommented_LF_byte_exact": [
+      "Data/Menu/scr/Multiplayer.scr",
+      "Data/Menu/scr/Multiplayer1024.scr",
+      "Data/Menu/scr/Multiplayer640.scr",
+      "Data/Menu/scr/CXKnockoutSetup.scr",
+      "Data/Menu/scr/CXKnockoutSetup1024.scr",
+      "Data/Menu/scr/CXKnockoutSetup640.scr"
+    ],
+    "textures_older_than_png": [],
+    "renderer_or_desktop_interaction": false
+  },
+  "public_source_checks": {
+    "source_unit_and_legacy_preview_tests": 15,
+    "changed_or_added_classes_real_JVM_verify": 42,
+    "all_453_rebuilt_entries_identical": true,
+    "own_Java_classes_compiled": 32,
+    "authoring_checks": 27,
+    "seven_eye_models_rebuilt_exact": true,
+    "portable_protocol_tests": 48,
+    "portable_inert_guard_checks": 15,
+    "alias_test_methods": 16,
+    "native_alias_scenarios": 37,
+    "legacy_codec_native_cases": 14,
+    "deterministic_codec_roundtrips": 100
+  },
+  "installed_Online_smoke": {
+    "passed": true,
+    "runtime_sha256": "c30f1d17d482d571c256105621dcd0f395c46c56386d7df5b84b7a64b6ae119b",
+    "broker_sha256": "fda1ff9df22bf674acc390d2d9e84037bc2779090888c4514c28693c733582f5",
+    "python_version": "3.14.10 (tags/v3.14.10:b703b2c, Oct 25 2026, 17:24:58) [MSC v.1944 32 bit (Intel)]",
+    "sqlite_version": "3.50.4",
+    "actual_production_CPP_probe": true,
+    "capabilities": 7,
+    "fresh_leaderboard_empty": true,
+    "two_headless_clients": true,
+    "species58_lobby": true,
+    "species58_START": true,
+    "owned_broker_reaped": true,
+    "game_or_GUI_launched": false,
+    "writes_inside_install": false
+  },
+  "scope": {
+    "fresh_install_test_no_desktop_control": true,
+    "prior_native_pause_auto_resume_verified": true,
+    "final_eye_native_visual_retest": false,
+    "two_physical_PC_Internet_verified": false,
+    "full_all_maps_gameplay_or_FPS_guarantee": false
+  }
+}

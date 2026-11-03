@@ -8,7 +8,9 @@ public final class CXHumanPreview {
         "cx_bezimienny.3da", "cx_diego.3da", "cx_gorn.3da", "cx_milten.3da",
         "cx_lester.3da", "cx_xardas.3da", "cx_thorus.3da",
         "cx_w3_geralt.3da", "cx_w3_ciri.3da", "cx_w3_yennefer.3da",
-        "cx_w3_triss.3da", "cx_w3_keira.3da", "cx_w3_avallach.3da", "cx_w3_zoltan.3da"
+        "cx_w3_triss.3da", "cx_w3_keira.3da", "cx_w3_avallach.3da", "cx_w3_zoltan.3da",
+        "cx_warwick.3da", "cx_nasus.3da", "cx_ahri.3da", "cx_garen.3da",
+        "cx_jinx.3da", "cx_teemo.3da", "cx_blitzcrank.3da"
     };
 
     private CXHumanPreview() {}
@@ -53,17 +55,49 @@ public final class CXHumanPreview {
         if (position==null || camera==null) return;
         // Native captures measured local +Z == GetForwardVector for both
         // families, but their authored visible fronts differ: Gothic is -Z,
-        // Witcher is +Z. The exact IsHuman guard above limits this prefix to
-        // the seven accepted Witcher filenames. Never rotate model tracks.
+        // Witcher and LoL are +Z. LoL was measured offline from the staged
+        // native meshes; final engine-facing validation is still required. Never rotate model tracks.
         float x=position.fX-camera.fX,z=position.fZ-camera.fZ;
         float length2=x*x+z*z;
         if (!(length2>0.0001f) || Float.isInfinite(length2)) return;
         String mesh=actor.MeshName.replace('\\','/');
         mesh=mesh.substring(mesh.lastIndexOf('/')+1);
-        if (mesh.toLowerCase().startsWith("cx_w3_")) { x=-x;z=-z; }
+        if (mesh.toLowerCase().startsWith("cx_w3_") || IsLoLName(mesh)) { x=-x;z=-z; }
         Vector direction=new Vector(x,0.0f,z);
         direction.Normalize();
         actor.SetDir(direction);
+        FitBlitz(actor);
+    }
+
+
+    private static boolean IsLoLActor(MenuAnimal actor) {
+        if(actor==null||actor.MeshName==null)return false;
+        String name=actor.MeshName.replace('\\','/');
+        return IsLoLName(name.substring(name.lastIndexOf('/')+1));
+    }
+
+    private static boolean PlaceLoL(MenuAnimal actor,Vector destination) {
+        if(!IsLoLActor(actor))return false;
+        // Native SetDestination(radius10) can be skipped by a large frame step.
+        // Use the existing instant path only for these menu actors, then run
+        // the original arrival callback for idle, physics, facing and happiness.
+        actor.GotoPointInstant(destination);
+        actor.ClearDestinationPos();
+        actor.OnDestinationPos();
+        return true;
+    }
+
+
+    private static void FitBlitz(MenuAnimal actor) {
+        String name=actor.MeshName.replace('\\','/');
+        name=name.substring(name.lastIndexOf('/')+1);
+        if(name.equalsIgnoreCase("cx_blitzcrank.3da"))
+            actor.SetScale(new Vector(0.56f,0.56f,0.56f));
+    }
+
+    private static boolean IsLoLName(String name) {
+        for (int i=14;i<humans.length;i++) if (name.equalsIgnoreCase(humans[i])) return true;
+        return false;
     }
 
     static MenuAnimal Current(SoccerMenuShowObjectModule module) {
@@ -84,7 +118,7 @@ public final class CXHumanPreview {
         // replacement and leave that human at its unstarted pose. A cache entry
         // replaced by reload can also disagree with m_cObject; never call into
         // that stale native actor while repairing the binding.
-        if (species >= 44 && species <= 57 && module.m_nCurFB == species
+        if ((species >= 30 && species <= 36 || species >= 44 && species <= 57) && module.m_nCurFB == species
             && module.tAnimals != null && species < module.tAnimals.length
             && (module.tAnimals[species] == null || module.tAnimals[species] != module.m_cObject)) {
             Cancel(module);
@@ -158,7 +192,7 @@ public final class CXHumanPreview {
         actor.ActivateOnModule();
         actor.Reset();
         actor.SetHappiness(false);
-        actor.GotoPoint(actor.m_vDestinationPos);
+        if (!PlaceLoL(actor,actor.m_vDestinationPos)) actor.GotoPoint(actor.m_vDestinationPos);
     }
 
     public static void FinishCup(SoccerMenuShowObjectModule module) {
@@ -167,6 +201,7 @@ public final class CXHumanPreview {
         Cancel(module);
         actor.ActivateOnModule();
         // SetFootballerCup already set happiness and the cup destination.
+        PlaceLoL(actor,actor.m_vDestinationPosCup);
     }
 
     public static void FinishInstant(SoccerMenuShowObjectModule module) {
@@ -176,6 +211,7 @@ public final class CXHumanPreview {
         actor.ActivateOnModule();
         // GotoPointInstant stops movement directly. Complete the matching idle
         // transition now instead of leaving the running animation in place.
+        if (IsLoLActor(actor)) actor.ClearDestinationPos();
         actor.OnDestinationPos();
     }
 }

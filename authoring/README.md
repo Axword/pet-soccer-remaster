@@ -1,5 +1,10 @@
 # Modele, animacje i mapy
 
+Przenośne źródła nowych wariantów zwierząt, map bazowych, Jagniellonii i końcowej
+naprawy oczu dla wersji Online beta 1: [features/README.md](features/README.md).
+Te przepisy przyjmują jawne ścieżki wejściowe i wyjściowe; nie wymagają historycznego
+układu lokalnych katalogów. Wszystkie źródłowe assety trzeba dostarczyć osobno.
+
 Aktualna naprawa ubrań Wiedźmina: [WITCHER_CLOTHING_REPAIR.md](../docs/WITCHER_CLOTHING_REPAIR.md).
 Odtwarza brakujące powierzchnie z lokalnych autentycznych modeli i zachowuje
 bieżący szkielet, animacje oraz atlasy. Historyczny przepis upraszczania rozłączonych

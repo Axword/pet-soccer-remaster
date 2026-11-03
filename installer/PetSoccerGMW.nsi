@@ -4,17 +4,17 @@ Unicode true
 !include "LogicLib.nsh"
 !include "FileFunc.nsh"
 
-Name "Pet Soccer Remaster — Gothic, Minecraft, Wiedźmin"
-OutFile "..\release\PetSoccer-Remaster-GMW-Setup.exe"
-InstallDir "$LOCALAPPDATA\Programs\PetSoccerGMW"
+Name "Pet Soccer Remaster Online"
+OutFile "..\release\PetSoccer-Remaster-Online-Setup.exe"
+InstallDir "$LOCALAPPDATA\Programs\Pet Soccer Remaster Online"
 RequestExecutionLevel user
 SetCompressor /SOLID lzma
 SetCompressorDictSize 32
-BrandingText "Pet Soccer Remaster GMW"
-VIProductVersion "0.1.0.3"
-VIAddVersionKey "ProductName" "Pet Soccer Remaster GMW"
-VIAddVersionKey "FileDescription" "Instalator moda Gothic / Minecraft / Wiedźmin"
-VIAddVersionKey "FileVersion" "0.1.0-beta.3"
+BrandingText "Pet Soccer Remaster Online"
+VIProductVersion "0.2.0.1"
+VIAddVersionKey "ProductName" "Pet Soccer Remaster Online"
+VIAddVersionKey "FileDescription" "Instalator Pet Soccer Remaster Online — beta 1"
+VIAddVersionKey "FileVersion" "0.2.0-beta.1"
 VIAddVersionKey "LegalCopyright" "Axword — kod moda; zasoby gier należą do ich autorów"
 ShowInstDetails show
 ShowUninstDetails show
@@ -29,8 +29,8 @@ Var NoIntegration
 Var Parameters
 
 !define MUI_ABORTWARNING
-!define MUI_WELCOMEPAGE_TITLE "Pet Soccer Remaster GMW — beta"
-!define MUI_WELCOMEPAGE_TEXT "Zainstalujesz osobną kopię Pet Soccer z dodatkowymi drużynami Gothic, Minecraft i Wiedźmin.$\r$\n$\r$\nPaczka zawiera obecne poprawki grafiki, sterowanie padami, dubbing, tryb turniejowy i czysty zapis z odblokowanymi zespołami.$\r$\n$\r$\nPotrzebujesz zainstalowanej polskiej wersji Pet Soccer. Oryginalny folder gry i jego zapisy pozostaną nietknięte."
+!define MUI_WELCOMEPAGE_TITLE "Pet Soccer Remaster Online — beta"
+!define MUI_WELCOMEPAGE_TEXT "Zainstalujesz osobną kopię Pet Soccer z testowym Online 1vs1 i lobby oraz dodatkowymi klubami Gothic, Minecraft, Wiedźmin, League of Legends i Jagniellonia.$\r$\n$\r$\nPaczka zawiera poprawki grafiki i sterowania, lokalny turniej oraz czysty zapis z odblokowanymi zespołami. Dodatkowe kluby włączysz w Więcej opcji.$\r$\n$\r$\nPotrzebujesz zainstalowanej polskiej wersji Pet Soccer. Oryginalny folder gry i jego zapisy pozostaną nietknięte."
 !insertmacro MUI_PAGE_WELCOME
 Page custom SourcePage SourceLeave
 !define MUI_DIRECTORYPAGE_TEXT_TOP "Wybierz nowy folder dla kopii z modem. Folder nie może jeszcze istnieć. Oryginalna instalacja zostanie tylko odczytana."
@@ -38,7 +38,7 @@ Page custom SourcePage SourceLeave
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
 !define MUI_FINISHPAGE_TITLE "Mod został zainstalowany"
-!define MUI_FINISHPAGE_TEXT "Gotowe. Uruchom PetSoccer.exe z nowego folderu lub użyj utworzonego skrótu.$\r$\n$\r$\nMultiplayer → TURNIEJ otwiera drabinkę ośmiu drużyn.$\r$\nUstawienia meczu → Czas meczu zawierają opcję 1 min (2x30 s).$\r$\n$\r$\nOryginalna gra i jej zapis pozostają bez zmian."
+!define MUI_FINISHPAGE_TEXT "Gotowe. Uruchom PetSoccer-Online.exe z nowego folderu lub użyj utworzonego skrótu.$\r$\n$\r$\nPrzycisk Online otwiera testowe lobby 1vs1. Multiplayer → TURNIEJ otwiera drabinkę ośmiu drużyn.$\r$\nSamo PetSoccer.exe nadal pozwala uruchomić grę offline.$\r$\n$\r$\nOryginalna gra i jej zapis pozostają bez zmian."
 !insertmacro MUI_PAGE_FINISH
 !insertmacro MUI_UNPAGE_CONFIRM
 !insertmacro MUI_UNPAGE_INSTFILES
@@ -111,7 +111,7 @@ Function VerifyDestination
     ${EndIf}
 FunctionEnd
 
-Section "Pet Soccer GMW" SEC_MAIN
+Section "Pet Soccer Remaster Online" SEC_MAIN
     AddSize 700000
     SetDetailsPrint textonly
     DetailPrint "Przygotowywanie paczki…"
@@ -145,18 +145,18 @@ Section "Pet Soccer GMW" SEC_MAIN
     ${If} $NoIntegration == 0
         ${If} $DesktopWanted != 0
             ClearErrors
-            CreateShortcut "$DESKTOP\Pet Soccer - GMW.lnk" "$INSTDIR\PetSoccer.exe" "" "$INSTDIR\PetSoccer.exe" 0
+            CreateShortcut "$DESKTOP\Pet Soccer Remaster Online.lnk" "$INSTDIR\PetSoccer-Online.exe" "" "$INSTDIR\PetSoccer-Online.exe" 0
             ${If} ${Errors}
                 DetailPrint "Nie utworzono skrótu. Grę można uruchomić z wybranego folderu."
             ${EndIf}
         ${EndIf}
-        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "DisplayName" "Pet Soccer Remaster GMW"
-        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "DisplayVersion" "0.1.0-beta.3"
-        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "InstallLocation" "$INSTDIR"
-        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "UninstallString" '$\"$INSTDIR\Odinstaluj.exe$\"'
-        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "DisplayIcon" "$INSTDIR\PetSoccer.exe"
-        WriteRegDWORD HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "NoModify" 1
-        WriteRegDWORD HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "NoRepair" 1
+        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "DisplayName" "Pet Soccer Remaster Online"
+        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "DisplayVersion" "0.2.0-beta.1"
+        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "InstallLocation" "$INSTDIR"
+        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "UninstallString" '$\"$INSTDIR\Odinstaluj.exe$\"'
+        WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "DisplayIcon" "$INSTDIR\PetSoccer-Online.exe"
+        WriteRegDWORD HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "NoModify" 1
+        WriteRegDWORD HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "NoRepair" 1
     ${EndIf}
     Goto metadata_done
 metadata_failed:
@@ -185,10 +185,10 @@ Section "Uninstall"
         MessageBox MB_OK|MB_ICONSTOP "Nie usunięto plików spoza potwierdzonej instalacji. Zamknij tę kopię gry i uruchom ponownie jej deinstalator." /SD IDOK
         Abort
     ${EndIf}
-    ReadRegStr $0 HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW" "InstallLocation"
+    ReadRegStr $0 HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline" "InstallLocation"
     ${If} $0 == $INSTDIR
-        Delete "$DESKTOP\Pet Soccer - GMW.lnk"
-        DeleteRegKey HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerGMW"
+        Delete "$DESKTOP\Pet Soccer Remaster Online.lnk"
+        DeleteRegKey HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\PetSoccerRemasterOnline"
     ${EndIf}
     Delete "$INSTDIR\GMWInstallerHelper.exe"
     Delete "$INSTDIR\Odinstaluj.exe"

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0-beta.1",
+  "tag": "v0.2.0-beta.1",
+  "status": "prerelease",
+  "online_protocol": "GMWL-6fbcaedb-online5",
+  "broker_capabilities": 7,
+  "default_original_clubs": 12,
+  "optional_clubs": [37, 44, 51, 30, 58],
+  "default_extra_clubs_enabled": false,
+  "online_mode": "prototype LAN/self-hosted 1vs1",
+  "installer": "PetSoccer-Remaster-Online-Setup.exe",
+  "mod_files": "PetSoccer-Remaster-Online-ModFiles.zip"
+}

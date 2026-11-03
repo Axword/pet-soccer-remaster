@@ -5,7 +5,7 @@
 
 struct PatchEntry {
     std::string base_hash, target_hash, delta_hash;
-    fs::path relative, delta_relative;
+    fs::path relative, delta_relative, base_relative;
 };
 static bool valid_digest(const std::string& value) {
     return value.size() == 64 && value.find_first_not_of("0123456789abcdef") == std::string::npos;
@@ -14,6 +14,8 @@ static void safe_patch_name(const fs::path& path) {
     auto leaf = lower(path.filename().wstring());
     require(leaf != L".gmw-files.tsv" && leaf != L".gmw-owner.txt" &&
         leaf != L"gmwinstallerhelper.exe" && leaf != L"odinstaluj.exe", "Reserved patch destination");
+    auto first = lower(path.begin()->wstring());
+    require(first != L".gmw-deltas" && first != L".gmw-tools", "Reserved patch directory");
 }
 static std::vector<PatchEntry> patch_manifest(const fs::path& file) {
     std::ifstream input(file, std::ios::binary);
@@ -24,17 +26,19 @@ static std::vector<PatchEntry> patch_manifest(const fs::path& file) {
     while (std::getline(input, line)) {
         if (!line.empty() && line.back() == '\r') line.pop_back();
         if (line.empty()) continue;
+        require(line.back() != '\t', "Empty delta manifest column");
         std::istringstream row(line);
         std::vector<std::string> columns;
         std::string field;
         while (std::getline(row, field, '\t')) columns.push_back(field);
-        require(columns.size() == 5, "Invalid delta manifest row");
+        require(columns.size() == 5 || columns.size() == 6, "Invalid delta manifest row");
         require(valid_digest(columns[0]) && valid_digest(columns[1]) && valid_digest(columns[2]), "Invalid delta digest");
         fs::path relative = relative_path(columns[3]), delta = relative_path(columns[4]);
+        fs::path base_relative = columns.size() == 6 ? relative_path(columns[5]) : relative;
         safe_patch_name(relative);
         require(seen.insert(lower(relative.wstring())).second, "Duplicate delta destination");
         require(lower(delta.begin()->wstring()) == L".gmw-deltas", "Delta must be inside the package delta directory");
-        result.push_back({columns[0], columns[1], columns[2], relative, delta});
+        result.push_back({columns[0], columns[1], columns[2], relative, delta, base_relative});
     }
     return result;
 }
@@ -81,22 +85,26 @@ static void normalize_code_zip(const fs::path& input, const fs::path& output,
     CloseHandle(process.hThread); CloseHandle(process.hProcess);
     require(wait == WAIT_OBJECT_0 && exit_code == 0 && fs::is_regular_file(output), "Original ZIP normalization failed");
 }
-static void apply_delta(const PatchEntry& row, const fs::path& payload, const fs::path& stage,
-                        std::vector<fs::path>& files) {
+static void apply_delta(const PatchEntry& row, const fs::path& source, const fs::path& payload,
+                        const fs::path& stage, std::vector<fs::path>& files, std::vector<fs::path>& dirs) {
     const std::uint64_t maximum_size = 1024ULL * 1024 * 1024;
     fs::path destination = stage / row.relative, delta_path = payload / row.delta_relative;
-    require(within(destination, stage) && within(delta_path, payload), "Delta path outside owned roots");
-    ordinary_path(destination); ordinary_path(delta_path);
-    require(fs::is_regular_file(destination) && fs::is_regular_file(delta_path), "Delta input is missing");
+    fs::path original = source / row.base_relative;
+    require(within(destination, stage) && within(delta_path, payload) && within(original, source), "Delta path outside owned roots");
+    ordinary_path(destination); ordinary_path(delta_path); ordinary_path(original);
+    require(fs::is_regular_file(original) && fs::is_regular_file(delta_path), "Delta input is missing");
+    require(!fs::exists(destination) || fs::is_regular_file(destination), "Delta destination is not a file");
     require(fs::file_size(delta_path) <= maximum_size, "Delta stream exceeds supported size");
-    require(sha256(destination) == row.base_hash, "Delta requires the supported original game file");
+    require(sha256(original) == row.base_hash, "Delta requires the supported original game file");
     require(sha256(delta_path) == row.delta_hash, "Delta stream verification failed");
-    fs::path base_path = destination;
-    if (lower(row.relative.wstring()) == L"code.pak") {
-        base_path += L".gmwbase.tmp";
-        require(!fs::exists(base_path), "ZIP base temporary path is occupied");
-        files.push_back(base_path);
-        normalize_code_zip(destination, base_path, payload, stage);
+    create_inside(destination.parent_path(), stage, dirs);
+    fs::path base_path = original, normalized_temporary;
+    if (lower(row.relative.wstring()) == L"code.pak" || lower(row.base_relative.wstring()) == L"code.pak") {
+        normalized_temporary = destination; normalized_temporary += L".gmwbase.tmp";
+        require(within(normalized_temporary, stage) && !fs::exists(normalized_temporary), "ZIP base temporary path is occupied");
+        files.push_back(normalized_temporary);
+        normalize_code_zip(original, normalized_temporary, payload, stage);
+        base_path = normalized_temporary;
     }
     std::ifstream input(delta_path, std::ios::binary);
     char magic[8]; delta_read(input, magic, 8);
@@ -137,7 +145,10 @@ static void apply_delta(const PatchEntry& row, const fs::path& payload, const fs
     require(produced == target_size && input.peek() == std::char_traits<char>::eof(), "Delta stream length mismatch");
     output.close(); base.close();
     require(output.good() && sha256(temporary) == row.target_hash, "Patched game file verification failed");
+    // New alias destinations must enter the rollback journal before commit.
+    if (!fs::exists(destination)) files.push_back(destination);
     require(MoveFileExW(temporary.c_str(), destination.c_str(), MOVEFILE_REPLACE_EXISTING | MOVEFILE_WRITE_THROUGH) != 0,
             "Cannot commit patched game file");
-    if (base_path != destination) fs::remove(base_path);
+    // The original source path is read-only and is never cleanup scope.
+    if (!normalized_temporary.empty()) fs::remove(normalized_temporary);
 }
